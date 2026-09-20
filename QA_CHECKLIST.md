@@ -1,220 +1,220 @@
-# Manuel QA Checklist — Faz 1 / Faz 1.5 / Faz 2 / Faz 3 / Faz 3.5 / Faz 4 / Faz 5 / Faz 6
+# Manual QA Checklist — Phase 1 / Phase 1.5 / Phase 2 / Phase 3 / Phase 3.5 / Phase 4 / Phase 5 / Phase 6
 
-Kullanım: backend (`cd backend && npm start`, :3001) ve frontend (`cd frontend && npm run dev`, :5173) ayrı terminallerde çalışırken, tarayıcıda `http://localhost:5173` açılarak sırayla kontrol edilir.
+Usage: with the backend (`cd backend && npm start`, :3001) and frontend (`cd frontend && npm run dev`, :5173) running in separate terminals, open `http://localhost:5173` in a browser and check items in order.
 
-Durum: Faz 1.5, Faz 2 ve Faz 3 (A, C, D, E) tamamlandı ve regresyonla doğrulandı (son: 2026-08-22). Geçmiş bug numaraları (TASKS.md > "Bulunan Buglar") referans olarak bırakıldı. **Faz 3 ile karakter oluşturma akışı ve envanterdeki fırlatma UX'i kökten değişti — bu bölümdeki "Karakter oluşturma" ve alttaki fırlatma maddeleri güncel (Faz 3 sonrası) akışı yansıtıyor.**
+Status: Phase 1.5, Phase 2, and Phase 3 (A, C, D, E) are complete and verified by regression (last: 2026-08-22). Past bug numbers (TASKS.md > "Bugs Found") are kept for reference. **With Phase 3, the character creation flow and the throw UX in the inventory changed fundamentally — the "Character creation" section and the throw items below it reflect the current (post-Phase 3) flow.**
 
-## Karakter oluşturma (Faz 3-A: D20 zar + dış görünüş + AI açılış hikayesi)
-- [x] Sayfa ilk açıldığında, aktif karakter yoksa karakter oluşturma formu görünüyor (isim, ırk, sınıf, dış görünüş)
-- [x] Isim boş bırakılıp gönderilirse "İsim gerekli." hatası gösteriliyor, istek atılmıyor
-- [x] "Zar At (D20)" butonuna basmadan "Maceraya Başla" butonu disabled kalır
-- [x] Zar atılınca kısa bir animasyon (rastgele değerler hızlıca değişiyor) ardından gerçek D20+ırk bonusu sonucu attribute kutucuklarında görünüyor
-- [x] Irk değiştirilince önceki zar sonucu sıfırlanıyor (submit tekrar disabled oluyor) — ırk bonusu değiştiği için mantıklı
-- [x] Geçerli isim + zar sonrası "Maceraya Başla" ile karakter oluşuyor, hemen ardından AI (veya mock) açılış hikayesi ekranı ("Macera Başlıyor") gösteriliyor
-- [x] Açılış hikayesi mock kaynaklıysa "(mock anlatım)" etiketi görünüyor
-- [x] "Devam Et" ile oyun ekranına geçiliyor
-- [x] Farklı ırk/sınıf kombinasyonlarında HP/Mana/attribute başlangıç değerleri ırk bonusu + sınıf temel değerine göre doğru
-- [x] Karakter kartındaki ırk/sınıf satırı Türkçe isimle gösteriliyor ("Elf · Büyücü" vb., eski bug #3 düzeltildi)
+## Character creation (Phase 3-A: D20 roll + appearance + AI opening story)
+- [x] When the page first loads, if there's no active character, the character creation form is shown (name, race, class, appearance)
+- [x] Submitting with an empty name shows a "Name required." error, no request is sent
+- [x] The "Start Adventure" button stays disabled until the "Roll (D20)" button has been pressed
+- [x] After rolling, a brief animation (random values changing quickly) plays, then the real D20+race-bonus result appears in the attribute boxes
+- [x] Changing race resets the previous roll result (submit becomes disabled again) — makes sense since the race bonus changed
+- [x] With a valid name and a roll, "Start Adventure" creates the character, immediately followed by the AI (or mock) opening story screen ("Adventure Begins")
+- [x] If the opening story is mock-sourced, a "(mock narration)" label is shown
+- [x] "Continue" proceeds to the game screen
+- [x] Starting HP/Mana/attribute values are correct across different race/class combinations, based on race bonus + class base values
+- [x] The race/class line on the character card is shown with the localized name ("Elf · Wizard" etc., old bug #3 fixed)
 
-## Sohbet (GM)
-- [x] Mesaj gönderilince hem oyuncu mesajı hem GM cevabı sohbet akışında görünüyor
-- [x] Boş mesaj gönderilemiyor
-- [x] "saldır" / "bak" / "konuş" gibi anahtar kelimeler farklı flavor-text kategorisi tetikliyor
-- [x] Sayfa yenilenince önceki sohbet geçmişi geri geliyor (Bug #4 düzeltildi, artık karakter ekranına ulaşılıyor)
-- [x] **(Faz 3-D)** Her GM mesajının altında zar sonucu özeti görünüyor (örn. "Güç kontrolü: 14+2=16 (DC 12) — Başarılı")
+## Chat (GM)
+- [x] When a message is sent, both the player message and the GM response appear in the chat stream
+- [x] Empty messages can't be sent
+- [x] Keywords like "attack" / "look" / "talk" trigger different flavor-text categories
+- [x] Previous chat history comes back after a page refresh (Bug #4 fixed, the character screen is now reached)
+- [x] **(Phase 3-D)** A dice roll summary appears under every GM message (e.g. "Strength check: 14+2=16 (DC 12) — Success")
 
-## Taktik grid
-- [x] Harita, engeller, loot ve iki token (oyuncu + goblin) doğru render ediliyor
-- [x] **(Faz 3-C)** Hareket hakkı 5 kareye çıkarıldı — menzil kontrolleri buna göre çalışıyor
-- [x] Menzil dışı bir hücreye tıklayınca hata mesajı gösteriliyor, token hareket etmiyor
-- [x] Engelli bir hücreye tıklayınca hata mesajı gösteriliyor
-- [x] Menzil içi boş bir hücreye tıklayınca token o hücreye taşınıyor
-- [x] Loot olan bir hücreye hareket edince loot toplanıyor (haritadan kayboluyor)
-- [x] "Turu Bitir" sıradaki token'a geçiyor, tüm tokenlar turunu tamamlayınca tur sayacı artıyor
-- [x] Düşman sırasındayken grid'e tıklamak engelleniyor: "Sıra sende değil." hatası gösteriliyor, grid görsel olarak pasifleşiyor (`grid-disabled`), backend'e istek gitmiyor (Bug #5 düzeltildi — PM kararı: engelle)
-- [x] Sıra tekrar oyuncuya geçince engel kalkıyor, hareket normal çalışıyor
-- [x] **(Faz 3-C)** Sahne başlığında "Aksiyon: ✓/✗ · Bonus: ✓/✗" göstergesi var
-- [x] **(Faz 3.5 Bug A, düzeltildi — commit eb04d66)** Kullan/Fırlat ile Aksiyon harcandığında gösterge artık ANINDA ✗'e dönüyor (App.tsx'teki `sceneRefreshTick` sayesinde TacticalGrid yeniden sahne çekiyor) — canlı tarayıcıda tekrar doğrulandı.
-- [x] End-turn ile sıra tekrar oyuncuya gelince Aksiyon/Bonus Aksiyon ✓'a sıfırlanıyor
+## Tactical grid
+- [x] The map, obstacles, loot, and two tokens (player + goblin) render correctly
+- [x] **(Phase 3-C)** Movement allowance increased to 5 tiles — range checks work accordingly
+- [x] Clicking a cell out of range shows an error message, the token doesn't move
+- [x] Clicking a blocked cell shows an error message
+- [x] Clicking an empty in-range cell moves the token there
+- [x] Moving onto a cell with loot picks up the loot (disappears from the map)
+- [x] "End Turn" moves to the next token; once all tokens complete their turn, the round counter increments
+- [x] Clicking the grid during the enemy's turn is blocked: an "It's not your turn." error is shown, the grid visually becomes inactive (`grid-disabled`), no request goes to the backend (Bug #5 fixed — PM decision: block)
+- [x] Once it's the player's turn again, the block is lifted, movement works normally
+- [x] **(Phase 3-C)** The scene header has an "Action: ✓/✗ · Bonus: ✓/✗" indicator
+- [x] **(Phase 3.5 Bug A, fixed — commit eb04d66)** When an Action is spent via Use/Throw, the indicator now switches to ✗ INSTANTLY (thanks to `sceneRefreshTick` in App.tsx, TacticalGrid re-fetches the scene) — re-verified live in the browser.
+- [x] When the turn returns to the player via end-turn, Action/Bonus Action reset to ✓
 
-## Envanter
-- [x] Her eşya satırında Kullan / Kuşan(-Çıkar) / At / Fırlat butonları var (Bug #2 düzeltildi)
-- [x] İksir kullanınca HP artıyor (max'a kadar), eşya envanterden düşüyor (Bug #1 düzeltildi — Türkçe "İ" regex sorunu)
-- [x] Kuşanma toggle'ı "kuşanıldı" etiketini doğru gösterip kaldırıyor, buton metni Kuşan↔Çıkar arası değişiyor, Aksiyon TÜKETMİYOR
-- [x] Eşya atınca (drop) envanterden düşüp sahnenin loot listesine ekleniyor, Aksiyon TÜKETMİYOR
-- [x] **(Faz 3-E, yeniden tasarlandı)** Fırlat artık X/Y formu değil — "Fırlat" tıklanınca grid hedef-seçim moduna geçiyor ("Fırlatma hedefi seç"), bir kareye tıklayınca fırlatılıyor, tekrar "Fırlat"a (artık "Hedef Seçiliyor...") basılınca iptal ediliyor
-- [x] **(Faz 3-C)** Kullan ve Fırlat, oyuncunun sırası VE Aksiyon hakkı gerektiriyor — Aksiyon tükenmişken ikinci kullanım/fırlatma "Bu tur için Aksiyon hakkın kalmadı." ile reddediliyor
+## Inventory
+- [x] Every item row has Use / Equip(-Unequip) / Drop / Throw buttons (Bug #2 fixed)
+- [x] Using a potion increases HP (up to max), the item is removed from inventory (Bug #1 fixed — Turkish "İ" regex issue)
+- [x] The equip toggle correctly shows/removes the "equipped" label, the button text switches between Equip↔Unequip, does NOT consume an Action
+- [x] Dropping an item removes it from inventory and adds it to the scene's loot list, does NOT consume an Action
+- [x] **(Phase 3-E, redesigned)** Throw is no longer an X/Y form — clicking "Throw" switches the grid to target-selection mode ("Select throw target"), clicking a cell throws it, clicking "Throw" again (now "Selecting Target...") cancels it
+- [x] **(Phase 3-C)** Use and Throw require the player's turn AND an available Action — when the Action is used up, a second use/throw is rejected with "You have no Action left this turn."
 
-## Genel / hata durumları
-- [ ] Backend kapalıyken frontend açılırsa kullanıcıya anlamlı bir hata gösteriliyor mu (şu an: `getCharacterOptions` reddedilirse form boş kalıyor, hata mesajı görünüyor ama ırk/sınıf seçenekleri hiç yüklenmiyor) — **Faz 1.5 kapsamına alınmadı, gelecekte gözden geçirilebilir**
-- [x] Tarayıcı konsolunda beklenmedik hata/uyarı yok (DevTools > Console) — regresyon QA'sında doğrulandı
-- [x] Sayfa yenileme (F5 / yeni sekme) sonrası karakter ve envanter durumu korunuyor (Bug #4 düzeltildi)
+## General / error conditions
+- [ ] If the frontend loads while the backend is down, is a meaningful error shown to the user (currently: if `getCharacterOptions` is rejected, the form stays empty, an error message is shown but race/class options never load) — **not included in Phase 1.5 scope, may be revisited later**
+- [x] No unexpected errors/warnings in the browser console (DevTools > Console) — verified during regression QA
+- [x] Character and inventory state is preserved after a page refresh (F5 / new tab) (Bug #4 fixed)
 
-## Faz 2 — AI Game Master (Gemini)
+## Phase 2 — AI Game Master (Gemini)
 
-Otomatik testlerle doğrulanan davranış (`backend/tests/aiGmFallback.test.js`, `rateLimiter.test.js`), gerçek key gerektirmedi:
-- [x] `GEMINI_API_KEY` tanımsızken sohbet endpoint'i hatasız çalışıyor, `gmMessage.source` `"mock"` dönüyor
-- [x] Gemini çağrısı hata/timeout verirse istek yine de 201 ile başarılı dönüyor, kullanıcı hata görmüyor, `source: "mock"`
-- [x] Rate limit (saatlik sayaç) aşılınca Gemini'ye hiç istek gitmiyor, `source: "mock"`
-- [x] Gemini başarılı cevap verdiğinde `source: "ai"` ve gerçek anlatım metni kullanıcıya dönüyor
-- [x] Rate limiter: limit dahilinde kabul/sayaç artışı, limit aşımında red, pencere dolunca sıfırlanma, varsayılan limit (30) — hepsi birim testle doğrulandı
+Behavior verified by automated tests (`backend/tests/aiGmFallback.test.js`, `rateLimiter.test.js`), no real key required:
+- [x] With `GEMINI_API_KEY` unset, the chat endpoint works without error, `gmMessage.source` returns `"mock"`
+- [x] If the Gemini call errors/times out, the request still returns 201 successfully, the user sees no error, `source: "mock"`
+- [x] When the rate limit (hourly counter) is exceeded, no request goes to Gemini at all, `source: "mock"`
+- [x] When Gemini returns a successful response, `source: "ai"` and the real narration text is returned to the user
+- [x] Rate limiter: accept/increment within limit, reject over limit, reset when the window fills, default limit (30) — all verified by unit tests
 
-**Gerçek key ile QA — TAMAMLANDI (2026-08-22).** Kullanıcının önceki key'i Google Cloud proje tarafında bir faturalandırma/kota bloke'una takılmıştı (`429 "Your prepayment credits are depleted"`); bu kod tarafında düzeltilebilecek bir şey değildi (tester ve coder tarafından ayrı ayrı canlı doğrulandı — fallback her ikisinde de kusursuz çalıştı). Kullanıcı farklı bir Google Cloud projesinden yeni bir key sağladıktan sonra tüm maddeler doğrulandı:
-- [x] Geçersiz/hatalı/kota aşmış bir key ile backend çökmüyor, sessizce mock'a düşüyor — gerçek 429 hatasıyla canlı doğrulandı (backend log: "AI GM çağrısı başarısız, mock'a düşülüyor: ... 429 Too Many Requests ...")
-- [x] Frontend'de mock mesajlarda "GM (mock)" etiketi görünüyor — tarayıcıda canlı doğrulandı, konsol/sayfa hatası yok
-- [x] `backend/.env` içine geçerli key girilip ilk sohbet mesajında `source: "ai"` dönüyor — curl ile 3 turluk sohbette de doğrulandı
-- [x] AI'ın anlatımı Türkçe, atmosferik ve birkaç cümle — 3 turluk gerçek bir sohbette gözlemlendi (mahzen/sandık teması), üslup tutarlı ve atmosferik
-- [x] AI, karakter adı/ırk/sınıf'a uygun referanslar veriyor — Elf/Büyücü karakterle test edildi, cevaplarda "keskin elf gözleriniz" ve "asanızın gölgesi" gibi ırk/sınıfa özgü ayrıntılar geçti (genel şablon değil, gerçekten bağlama duyarlı)
-- [x] Çok turlu sohbette önceki mesajlara tutarlı referans veriliyor — 2. ve 3. turdaki cevaplar 1. ve 2. turda tanıtılan sandığa doğrudan atıfta bulundu (AI'ın `recentMessages` bağlamını gerçekten kullandığının kanıtı)
-- [x] AI, oyun durumunu (HP, envanter, konum) DEĞİŞTİRMİYOR — 3 turluk sohbet öncesi/sonrası karakter (HP/mana/envanter) ve sahne (token pozisyonları/loot/round) state'i birebir karşılaştırıldı, hiçbir alan değişmedi
-- [x] Saatlik limit aşılınca gerçek AI akışının ortasında otomatik `source: "mock"`'a düşülüyor — `AI_HOURLY_LIMIT=2` ile canlı test edildi: 1. ve 2. istek `source: "ai"`, 3. ve 4. istek tam beklendiği gibi `source: "mock"`; tarayıcıda "(mock)" etiketi doğru göründü, konsol hatası yok
+**QA with a real key — COMPLETE (2026-08-22).** The user's previous key had hit a billing/quota block on the Google Cloud project side (`429 "Your prepayment credits are depleted"`); this wasn't something fixable on the code side (verified live independently by both tester and coder — the fallback worked flawlessly in both cases). After the user provided a new key from a different Google Cloud project, all items were verified:
+- [x] With an invalid/erroring/quota-exceeded key, the backend doesn't crash, silently falls back to mock — verified live with a real 429 error (backend log: "AI GM call failed, falling back to mock: ... 429 Too Many Requests ...")
+- [x] A "GM (mock)" label appears on mock messages in the frontend — verified live in the browser, no console/page errors
+- [x] Entering a valid key into `backend/.env` returns `source: "ai"` on the first chat message — also verified with a 3-turn chat via curl
+- [x] The AI's narration is atmospheric and a few sentences long — observed in a real 3-turn chat (dungeon/chest theme), tone consistent and atmospheric
+- [x] The AI gives references appropriate to the character name/race/class — tested with an Elf/Wizard character, responses included race/class-specific details like "your sharp elven eyes" and "the shadow of your staff" (not a generic template, genuinely context-aware)
+- [x] Consistent references to previous messages across multi-turn chats — responses in turns 2 and 3 directly referenced the chest introduced in turns 1 and 2 (proof the AI genuinely uses the `recentMessages` context)
+- [x] The AI does NOT change game state (HP, inventory, position) — character (HP/mana/inventory) and scene (token positions/loot/round) state were compared before/after a 3-turn chat, no field changed
+- [x] When the hourly limit is exceeded mid real-AI-flow, it automatically falls back to `source: "mock"` — tested live with `AI_HOURLY_LIMIT=2`: 1st and 2nd requests `source: "ai"`, 3rd and 4th requests exactly as expected `source: "mock"`; the "(mock)" label appeared correctly in the browser, no console errors
 
-**Faz 2 tamamen kapandı — bilinen açık madde yok.**
+**Phase 2 fully closed — no known open items.**
 
-## Faz 3 — Karakter yaratımı, BG3-esinli savaş sistemi, zengin AI anlatımı
+## Phase 3 — Character creation, BG3-inspired combat system, rich AI narration
 
-Otomatik testlerle doğrulanan davranış (`backend/tests/dice.test.js`, `actionResolver.test.js`, `characterIntro.test.js`, `scene.test.js`'teki Faz 3-C testleri; `frontend/src/components/TacticalGrid.test.tsx`, `ChatPanel.test.tsx`, `CharacterCreation.test.tsx`):
-- [x] D20 zar atma (`rollD20`) her zaman 1-20 aralığında, uç değerler (Math.random 0 ve ~1) doğru çalışıyor
-- [x] `/character/roll-stats` ırk bonusunu doğru uyguluyor, geçersiz ırk için 400
-- [x] `/character/create`'e geçerli attributes gönderilirse sunucu zar atmıyor (aynen kullanılıyor); eksik/geçersizse sunucu kendi zarını atıyor
-- [x] `/character/intro`: var olmayan karakter 404; AI başarılı → `source:"ai"`; AI hata/key yok → sessizce mock açılışa düşüyor; üretilen mesaj sohbet geçmişine ilk GM mesajı olarak ekleniyor
-- [x] `actionResolver`: nat20 her zaman critical-success, nat1 her zaman critical-failure (toplam DC'yi geçse/geçmese bile), DC 12 karşılaştırması doğru
-- [x] Aksiyon ekonomisi: Kullan/Fırlat Aksiyon tüketiyor ve tükenmişken 400 dönüyor; Kuşan/Çıkar/At bedava kalıyor (PM onaylı kapsam); end-turn ile yeni aktif token'ın Aksiyon/Bonus Aksiyon hakları sıfırlanıyor
-- [x] `gmMessage.roll` alanı her sohbet cevabında dolduruluyor, ChatPanel'de gösteriliyor
+Behavior verified by automated tests (`backend/tests/dice.test.js`, `actionResolver.test.js`, `characterIntro.test.js`, the Phase 3-C tests in `scene.test.js`; `frontend/src/components/TacticalGrid.test.tsx`, `ChatPanel.test.tsx`, `CharacterCreation.test.tsx`):
+- [x] D20 dice roll (`rollD20`) is always in the 1-20 range, edge values (Math.random 0 and ~1) work correctly
+- [x] `/character/roll-stats` applies the race bonus correctly, returns 400 for an invalid race
+- [x] If valid attributes are sent to `/character/create`, the server doesn't roll its own dice (uses them as-is); if missing/invalid, the server rolls its own
+- [x] `/character/intro`: nonexistent character returns 404; on AI success → `source:"ai"`; on AI error/no key → silently falls back to mock opening; the generated message is added to chat history as the first GM message
+- [x] `actionResolver`: nat20 is always a critical success, nat1 is always a critical failure (even if the total beats/misses the DC), DC 12 comparison is correct
+- [x] Action economy: Use/Throw consume an Action and return 400 when exhausted; Equip/Unequip/Drop remain free (PM-approved scope); on end-turn, the new active token's Action/Bonus Action are reset
+- [x] The `gmMessage.roll` field is populated in every chat response, shown in ChatPanel
 
-**Tarayıcıda uçtan uca regresyon (Playwright, 2026-08-22) — TAMAMLANDI:** Karakter oluştur (isim → zar animasyonu → D20 sonucu → dış görünüş) → AI/mock açılış hikayesi ekranı → "Devam Et" ile oyun ekranı → saldırı mesajı gönder (zar sonucu chat'te göründü) → eşya kullan (Aksiyon tüketti, backend doğru reddetti ikinci kullanımda) → iki kez "Turu Bitir" (Aksiyon sıfırlandı) → grid'de tıklayarak fırlat (çalıştı, Aksiyon tekrar tüketildi ve gösterge bu sefer doğru güncellendi). Konsol/sayfa hatası yok.
+**End-to-end browser regression (Playwright, 2026-08-22) — COMPLETE:** Create character (name → roll animation → D20 result → appearance) → AI/mock opening story screen → "Continue" to the game screen → send an attack message (roll result appeared in chat) → use item (consumed Action, backend correctly rejected the second use) → "End Turn" twice (Action reset) → throw by clicking on the grid (worked, Action consumed again and the indicator updated correctly this time). No console/page errors.
 
-2 bulgu tespit edildi ve **Faz 3.5'te ikisi de düzeltilip doğrulandı** (commit eb04d66, detaylar TASKS.md'de):
-1. ~~Aksiyon göstergesi CharacterCard-tetiklemeli eylemlerden sonra anında güncellenmiyordu~~ → düzeltildi, canlı doğrulandı (bkz. yukarıdaki "Taktik grid" bölümü)
-2. ~~`actionResolver`'daki `ara` anahtar kelimesi çapasız regex yüzünden "duvara", "kaçarak" gibi kelimelerde yanlış stat'a düşüyordu~~ → düzeltildi, `WORD_START` kelime sınırıyla + testle doğrulandı
+2 findings identified, and **both were fixed and verified in Phase 3.5** (commit eb04d66, details in TASKS.md):
+1. ~~The Action indicator didn't update instantly after CharacterCard-triggered actions~~ → fixed, verified live (see the "Tactical grid" section above)
+2. ~~The `ara` ("search"/"between") keyword in `actionResolver` was matching the wrong stat in words like "duvara" (to the wall), "kaçarak" (fleeing) due to an unanchored regex~~ → fixed, verified via the `WORD_START` word boundary + a test
 
-Gerçek Gemini AI içeriği bu turda yeniden doğrulanamadı (kota tükenmişti, 429) — fallback yolu sorunsuz çalıştı ama Faz 3'ün "5 duyu" + zar-bağlamlı anlatım kalitesi henüz gerçek bir AI cevabıyla görsel olarak teyit edilmedi; dolu kotalı bir key ile tekrar denenmeli.
+Real Gemini AI content couldn't be re-verified this round (quota was exhausted, 429) — the fallback path worked flawlessly, but Phase 3's "5 senses" + roll-contextual narration quality hasn't yet been visually confirmed with a real AI response; should be retried with a key that has quota available.
 
-**Faz 3 + Faz 3.5 kapandı — bilinen açık bug yok** (mock+outcome ton notu kayıtlı, düşük öncelikli, blocker değil).
+**Phase 3 + Phase 3.5 closed — no known open bugs** (the mock+outcome tone note is on record, low priority, not a blocker).
 
-## Faz 4 — Hareket bugları, ekipman slotları, basit düşman AI, BG3 görsel stili
+## Phase 4 — Movement bugs, equipment slots, simple enemy AI, BG3 visual style
 
-Otomatik testlerle doğrulanan davranış: backend **138/138**, frontend **38/38**, tsc+vite build temiz.
+Behavior verified by automated tests: backend **138/138**, frontend **38/38**, tsc+vite build clean.
 
-- [x] Hedef kare boş olsa bile yol arada bir engelden geçiyorsa hareket reddediliyor ("Yol bir engelle kesiliyor.") — Bresenham yol kontrolü
-- [x] Aynı turda ardışık hareketlerin toplam mesafesi (`movementLeft`) budget'i aşınca reddediliyor, dahilindeyse kabul ediliyor, end-turn'de `speed`'e sıfırlanıyor
-- [x] Sahne başlığında "Hareket: kalan/max" göstergesi doğru çalışıyor
-- [x] Ekipman: envanterdeki her eşyaya doğru slot atanıyor (Kısa Kılıç→El, Deri Zırh→Göğüs, İksir→yok); slotu olmayan eşya kuşanılamaz (400); aynı slotta yeni eşya kuşanılınca eskisi otomatik çıkarılıyor (paper-doll swap)
-- [x] CharacterCard'da "Ekipman" başlığı altında 6 slotluk (Baş/Göğüs/Kollar/El/Bacaklar/Ayaklar) paper-doll görünümü — kuşanılmış eşya doğru slotta ve altın çerçeveyle, boş slotlar "(boş)"
-- [x] Basit düşman AI: düşman sırası geldiğinde `Turu Bitir` çağrısı İÇİNDE otomatik olarak çözülüyor — bitişik değilse oyuncuya doğru hareket edip "X sana doğru yaklaşıyor." mesajı, bitişikse D20+2 vs DC12 ile saldırı deniyor (isabette d6 hasar + HP düşüyor, ıskada mesaj), sıra hemen oyuncuya geri dönüyor. Ek AI/LLM çağrısı YOK, tamamen deterministik.
-- [x] Düşman mesajları sohbet geçmişine `source:"mock"` ile ekleniyor, ChatPanel'de görünüyor
-- [x] BG3 görsel teması: Cinzel/Spectral fontları doğru yükleniyor, bronz/altın vurgulu paneller, iyi kontrast, okunabilirlik sorunu yok, bozuk layout yok — tarayıcıda (Playwright) görsel olarak doğrulandı
+- [x] Even if the target cell is empty, movement is rejected if the path crosses an obstacle in between ("The path is blocked by an obstacle.") — Bresenham path check
+- [x] When the total distance of consecutive moves in the same turn (`movementLeft`) exceeds the budget it's rejected, accepted if within it, reset to `speed` on end-turn
+- [x] The "Movement: remaining/max" indicator in the scene header works correctly
+- [x] Equipment: every item in inventory is assigned the correct slot (Short Sword→Hand, Leather Armor→Chest, Potion→none); an item without a slot can't be equipped (400); equipping a new item in the same slot automatically unequips the old one (paper-doll swap)
+- [x] CharacterCard shows a 6-slot (Head/Chest/Arms/Hand/Legs/Feet) paper-doll view under the "Equipment" heading — equipped items shown in the correct slot with a gold frame, empty slots show "(empty)"
+- [x] Simple enemy AI: when the enemy's turn comes, it resolves automatically INSIDE the `End Turn` call — if not adjacent, it moves toward the player with a "X is approaching you." message; if adjacent, it attempts an attack with D20+2 vs DC12 (on hit, d6 damage + HP decreases, a message on miss), the turn immediately returns to the player. NO additional AI/LLM call, fully deterministic.
+- [x] Enemy messages are added to chat history with `source:"mock"`, shown in ChatPanel
+- [x] BG3 visual theme: Cinzel/Spectral fonts load correctly, bronze/gold-accented panels, good contrast, no readability issues, no broken layout — verified visually in the browser (Playwright)
 
-- [x] **Panel yerleşimi düzeltildi (commit 673f7f0) ve doğrulandı:** Sol=karakter, orta=Macera Günlüğü (sohbet, geniş sütun), sağ=taktik harita (380px) — Faz 3-B/4-B'de onaylanan yerleşim artık tarayıcıda (Playwright DOM sırası + ekran görüntüsü) doğrulandı.
+- [x] **Panel layout fixed (commit 673f7f0) and verified:** Left=character, center=Adventure Log (chat, wide column), right=tactical map (380px) — the layout approved in Phase 3-B/4-B is now verified in the browser (Playwright DOM order + screenshot).
 
-**Faz 4 TAMAMEN KAPANDI** — bilinen açık madde yok (mock+outcome ton çelişkisi notu düşük öncelikli, blocker değil).
+**Phase 4 FULLY CLOSED** — no known open items (the mock+outcome tone contradiction note is low priority, not a blocker).
 
-## Faz 5 (madde 1-2) — Vurma mekaniği + hareket sonrası otomatik anlatıcı
+## Phase 5 (items 1-2) — Melee mechanics + auto-narrator after movement
 
-Otomatik testlerle doğrulanan davranış: backend **159/159**, frontend **44/44**, tsc+vite build temiz.
+Behavior verified by automated tests: backend **159/159**, frontend **44/44**, tsc+vite build clean.
 
-- [x] Bitişik bir düşman token'ına tıklamak saldırıyor (BG3 tarzı, ayrı buton yok); menzil dışıysa (bitişik değilse) 400
-- [x] Saldırı sırası/Aksiyon hakkı kontrolü: sıra oyuncuda değilken veya Aksiyon tükenmişken 400
-- [x] D20 + karakterin sınıfına göre primary attribute modifier'i (fighter→GÜÇ, wizard→ZEKA vb.) vs DC 12; nat1 her zaman ıska, nat20 kritik (iki d6 zarının toplamı hasar veriyor)
-- [x] İsabetli saldırı hedefin HP'sini düşürüyor, Aksiyon hakkını tüketiyor; HP 0'a inince hedef sahneden kalkıyor, "yenildi" anlatımı ekleniyor, ölü hedefe tekrar saldırı reddediliyor
-- [x] Saldırı sonucu (AI/mock) sohbete ekleniyor; karakter/sahne state'i frontend'de güncelleniyor
-- [x] Grid'de token tooltip'i artık HP bilgisi gösteriyor; sıra oyuncudayken "Bitişik bir düşmana tıklayarak saldırabilirsin." ipucu görünüyor (fırlatma modunda gizli)
-- [x] Başarılı her hareket sonrası otomatik olarak kısa bir AI/mock anlatım üretilip sohbete ekleniyor; başarısız hareket (menzil dışı/engelli) anlatım ÜRETMİYOR
-- [x] Fallback ilkesi korunuyor (`services/narrationService.js` — chat/attack/move üçü paylaşıyor): key yok/hata/rate-limit → sessizce mock'a düşüyor
+- [x] Clicking an adjacent enemy token attacks (BG3-style, no separate button); out of range (not adjacent) returns 400
+- [x] Attack turn/Action-availability check: 400 when it's not the player's turn or the Action is used up
+- [x] D20 + the character's class-based primary attribute modifier (fighter→STR, wizard→INT, etc.) vs DC 12; nat1 is always a miss, nat20 is a crit (the sum of two d6 dice deals damage)
+- [x] A successful hit reduces the target's HP, consumes the Action; when HP hits 0 the target is removed from the scene, a "defeated" narration is added, attacking a dead target again is rejected
+- [x] The attack outcome (AI/mock) is added to chat; character/scene state is updated in the frontend
+- [x] The token tooltip in the grid now shows HP info; while it's the player's turn, a "You can attack by clicking an adjacent enemy." hint is shown (hidden in throw mode)
+- [x] After every successful move, a short AI/mock narration is automatically generated and added to chat; a failed move (out of range/blocked) does NOT generate narration
+- [x] The fallback principle is preserved (`services/narrationService.js` — shared by chat/attack/move): no key/error/rate-limit → silently falls back to mock
 
-**Tarayıcıda uçtan uca canlı doğrulama (Playwright, 2026-08-22):** Karakter oluştur → hareket et (anlatım sohbete düştü: "Bir an için sessizlik çöküyor, sonra uzaktan boğuk bir kükreme duyuluyor.") → birkaç "Turu Bitir" ile düşmanın yaklaşmasını bekle → bitişik olunca düşman otomatik saldırdı (4 hasar, HP 12→8, "Goblin sana vuruyor! 4 hasar aldın. (18+2=20 vs 12, HP: 8/12)") → bitişik düşmana tıklayıp karşı saldırdım (Aksiyon ✗'e döndü, sonuç sohbete düştü). Konsol/sayfa hatası yok.
+**End-to-end live browser verification (Playwright, 2026-08-22):** Create character → move (narration dropped into chat: "For a moment there's silence, then a muffled roar is heard in the distance.") → wait for the enemy to approach with a few "End Turn"s → once adjacent, the enemy auto-attacked (4 damage, HP 12→8, "The Goblin hits you! You took 4 damage. (18+2=20 vs 12, HP: 8/12)") → clicked the adjacent enemy to counter-attack (Action switched to ✗, result dropped into chat). No console/page errors.
 
-**Faz 5 madde 1-2 KAPANDI** — bilinen açık bug yok.
+**Phase 5 items 1-2 CLOSED** — no known open bugs.
 
-## Faz 5 madde 3 — SS13 tarzı ikonlu envanter/ekipman
+## Phase 5 item 3 — SS13-style iconized inventory/equipment
 
-Otomatik testlerle doğrulanan davranış: backend **165/165**, frontend **49/49**, tsc+vite build temiz.
+Behavior verified by automated tests: backend **165/165**, frontend **49/49**, tsc+vite build clean.
 
-- [x] 13 SS13 slotu (baş/maske/gözlük/kulak/boyun/sırt/zırh/üst giysi/eldiven/kemer/ayakkabı/aksesuar/el) doğru etiketleriyle render ediliyor
-- [x] Her eşyaya karakter oluşturulurken slotuna göre doğru `icon` alanı atanıyor (`/icons/<slot>.png`); "el" slotundaki silahlar için asset setinde ikon yok, `icon: null` dönüyor (frontend emoji fallback ⚔ kullanıyor)
-- [x] Dolu slot ikonuyla + altın "filled" çerçeveyle gösteriliyor, boş slot "·" yer tutucusu gösteriyor
-- [x] Dolu bir slota tıklamak eşyayı çıkarıyor (aynı `equipItem`/toggle mantığı — swap, aynı slotta yeni eşya kuşanılınca eskisinin otomatik çıkması sayesinde zaten sağlanıyor), boş slot tıklanamıyor (disabled)
-- [x] Envanter listesindeki her eşya (ikonu varsa) küçük bir thumbnail gösteriyor
+- [x] The 13 SS13 slots (head/mask/glasses/ears/neck/back/armor/outer clothing/gloves/belt/shoes/accessory/hand) render with correct labels
+- [x] Every item is assigned the correct `icon` field based on its slot when the character is created (`/icons/<slot>.png`); weapons in the "hand" slot have no icon in the asset set, `icon: null` is returned (frontend uses the ⚔ emoji fallback)
+- [x] A filled slot is shown with its icon + a gold "filled" border, an empty slot shows a "·" placeholder
+- [x] Clicking a filled slot unequips the item (same `equipItem`/toggle logic — swap is already handled by the old item auto-unequipping when a new one is equipped in the same slot), an empty slot can't be clicked (disabled)
+- [x] Every item (if it has an icon) shows a small thumbnail in the inventory list
 
-**Tarayıcıda (Playwright) görsel QA — TAMAMLANDI (2026-08-22), kritik çünkü coder hiç canlı render görmemişti:** 13 slotlu paper-doll 3 sütunlu düzende doğru render edildi, tüm ikonlar gerçekten yüklendi (DOM'da `naturalWidth: 32`, `complete: true` — kırık/placeholder img yok), "Zırh" slotundaki ikon yakın çekim ekran görüntüsünde net bir zırh/yelek sprite'ı olarak tanındı (ERROR/bozuk görüntü YOK), "El" slotu ⚔ emoji fallback'i doğru gösterdi, dolu slota tıklayınca eşya başarıyla çıkarıldı. **CC BY-SA 3.0 atıf notu sayfa altında gerçekten görünüyor**: "İkonlar /tg/station projesinden, CC BY-SA 3.0 lisansı altında alınmıştır (github.com/tgstation/tgstation)." Konsol/sayfa hatası yok.
+**Visual QA in the browser (Playwright) — COMPLETE (2026-08-22), critical because the coder had never seen a live render:** the 13-slot paper-doll rendered correctly in a 3-column layout, all icons actually loaded (in the DOM, `naturalWidth: 32`, `complete: true` — no broken/placeholder img), the icon in the "Armor" slot was recognizable as a clear armor/vest sprite in a close-up screenshot (NO error/broken image), the "Hand" slot correctly showed the ⚔ emoji fallback, clicking a filled slot successfully unequipped the item. **The CC BY-SA 3.0 attribution note genuinely appears at the bottom of the page**: "Icons from the /tg/station project, licensed under CC BY-SA 3.0 (github.com/tgstation/tgstation)." No console/page errors.
 
-**Faz 5 (madde 1, 2, 3) TAMAMEN KAPANDI** — bilinen açık bug yok.
+**Phase 5 (items 1, 2, 3) FULLY CLOSED** — no known open bugs.
 
-## Faz 6-A — Oturum izolasyonu (çoklu kullanıcı)
+## Phase 6-A — Session isolation (multi-user)
 
-Otomatik testlerle doğrulanan davranış: backend **175/175**, frontend **57/57**, tsc+vite build temiz.
+Behavior verified by automated tests: backend **175/175**, frontend **57/57**, tsc+vite build clean.
 
-- [x] Her tarayıcı ilk ziyarette kendi `X-Session-Id`'sini üretip `localStorage`'a kaydediyor, sonraki tüm isteklerde aynı id gönderiliyor
-- [x] İki farklı session tamamen bağımsız karakter/sahne/sohbete sahip — biri diğerini hiç görmüyor/etkilemiyor
-- [x] `X-Session-Id` header'ı olmayan eski istekler (curl vb.) `"default"` oturumuna düşüyor, geriye dönük uyumluluk korunuyor
-- [x] Rate limiter kasıtlı olarak GLOBAL (session-başına değil, uygulama-geneli tek kota — PM kararı)
+- [x] On first visit, every browser generates its own `X-Session-Id` and saves it to `localStorage`; the same id is sent on all subsequent requests
+- [x] Two different sessions have completely independent character/scene/chat — neither sees/affects the other at all
+- [x] Old requests without an `X-Session-Id` header (curl etc.) fall back to the `"default"` session, backward compatibility is preserved
+- [x] The rate limiter is deliberately GLOBAL (not per-session, a single app-wide quota — PM decision)
 
-**Tarayıcıda gerçek çoklu-kullanıcı testi (Playwright, iki ayrı browser context, 2026-08-22) — TAMAMLANDI:** İki bağımsız "kullanıcı" (izole localStorage) aynı anda karakter oluşturdu, sohbet etti, grid'de hareket etti — hiçbiri diğerinin ismini, sohbetini veya sahne durumunu görmedi/etkilemedi. Farklı session id'ler doğrulandı. Konsol hatası yok.
+**Real multi-user browser test (Playwright, two separate browser contexts, 2026-08-22) — COMPLETE:** Two independent "users" (isolated localStorage) created characters, chatted, and moved on the grid at the same time — neither saw/affected the other's name, chat, or scene state. Different session ids were verified. No console errors.
 
-**Bilinen mimari not (bug değil, kayıt altında):** `item/use|equip|drop|throw` ve `/attack` endpoint'leri, gönderilen `characterId`'nin gerçekten o session'a ait olduğunu doğrulamıyor — sadece `characters` Map'inde var mı diye bakıyor. nanoid'ler tahmin edilemez olduğu için pratik risk düşük, testle belgelendi (`sessionIsolation.test.js`).
+**Known architecture note (not a bug, on record):** The `item/use|equip|drop|throw` and `/attack` endpoints don't verify that the given `characterId` actually belongs to that session — they only check whether it exists in the `characters` Map. Since nanoids are unpredictable, the practical risk is low; documented with a test (`sessionIsolation.test.js`).
 
-**Faz 6-A TAMAMEN KAPANDI** — bilinen açık bug yok.
+**Phase 6-A FULLY CLOSED** — no known open bugs.
 
-## Faz 6-B — SQLite kalıcılık
+## Phase 6-B — SQLite persistence
 
-Otomatik testlerle doğrulanan davranış: backend **184/184** (test koşumları otomatik `:memory:` DB kullanıyor, gerçek `game.db`'ye dokunmuyor), tsc/build backend-only olduğu için gerekmiyor.
+Behavior verified by automated tests: backend **184/184** (test runs automatically use the `:memory:` DB, never touch the real `game.db`), tsc/build not needed since this is backend-only.
 
-- [x] Karakter/sahne/sohbet her mutasyon noktasında (create/move/end-turn/attack/item aksiyonları/chat/intro) SQLite'a da yazılıyor
-- [x] Sunucu açılışında (`loadAll()`) DB'deki her şey in-memory Map'lere geri yükleniyor
-- [x] DB boşken veya bir session'ın aktif karakteri yokken (`active_character_id` NULL) hata vermeden çalışıyor
+- [x] Character/scene/chat are also written to SQLite at every mutation point (create/move/end-turn/attack/item actions/chat/intro)
+- [x] At server startup (`loadAll()`), everything in the DB is restored into the in-memory Maps
+- [x] Works without error when the DB is empty or a session has no active character (`active_character_id` NULL)
 
-**Gerçek dosya DB'siyle canlı restart testi (2026-08-22) — TAMAMLANDI, test suite'inin kullandığı `:memory:` değil, gerçek `game.db`:** Backend'i başlattım → karakter oluşturdum → grid'de hareket ettim → sohbet ettim → backend process'ini `taskkill` ile GERÇEKTEN sonlandırıp yeniden başlattım. Restart sonrası: karakter (isim/HP/envanter) birebir aynı, oyuncu token'ı tam hareket ettiğim konumda (movementLeft doğru düşürülmüş halde), sohbet geçmişindeki tüm mesajlar eksiksiz geri geldi.
+**Live restart test with a real file DB (2026-08-22) — COMPLETE, not the `:memory:` used by the test suite, the real `game.db`:** Started the backend → created a character → moved on the grid → chatted → genuinely terminated the backend process with `taskkill` and restarted it. After restart: character (name/HP/inventory) identical, the player token at exactly the position I'd moved to (movementLeft correctly reduced), all messages in chat history came back intact.
 
-**Faz 6-B TAMAMEN KAPANDI** — bilinen açık bug yok.
+**Phase 6-B FULLY CLOSED** — no known open bugs.
 
-## Bilinen kısıtlar (bug değil, kayıt altında)
-- SS13 slot listesinde ayrı bir "kalkan" slotu yok — Kalkan eşyası en yakın karşılık olan "back" (sırt) slotuna atanmış, PM/coder kararı, tutarlı davranıyor.
-- Silahlar (hand slotu) için tgstation asset setinde ikon yok — frontend metin/emoji fallback (⚔) kullanıyor, kapsam dışı değil ama görsel olarak diğer slotlardan farklı.
-- `frontend/src/data/dndNames.ts`, backend `data/dnd.js` ile elle senkron tutulması gereken statik bir kopya — ırk/sınıf listesi değişirse ikisi de güncellenmeli.
-- Aksiyon ekonomisi kontrolü backend'de `/scene/item/use` ve `/scene/item/throw`'da uygulanıyor; grid hareketi (`/scene/move`) ayrı bir kaynaktan (movementLeft) yönetiliyor — PM onaylı kapsam, bug değil.
-- Düşman AI tamamen scriptli/deterministik (greedy hareket + basit D20 saldırı) — karmaşık strateji, kapak/yükseklik mekaniği ve AI görsel üretimi Faz 4 kapsamı dışında bırakıldı (kullanıcı kararı).
+## Known limitations (not bugs, on record)
+- There's no separate "shield" slot in the SS13 slot list — the Shield item is assigned to the closest equivalent, the "back" slot, a PM/coder decision, behaves consistently.
+- Weapons (hand slot) have no icon in the tgstation asset set — the frontend uses a text/emoji fallback (⚔), not out of scope but visually different from other slots.
+- `frontend/src/data/dndNames.ts` is a static copy that must be kept manually in sync with the backend's `data/dnd.js` — if the race/class list changes, both must be updated.
+- The Action economy check is applied in the backend at `/scene/item/use` and `/scene/item/throw`; grid movement (`/scene/move`) is managed from a separate source (movementLeft) — PM-approved scope, not a bug.
+- Enemy AI is entirely scripted/deterministic (greedy movement + simple D20 attack) — complex strategy, cover/elevation mechanics, and AI visual generation were left out of Phase 4's scope (user decision).
 
-## Faz 6-C — Oyun döngüsü (ölüm/seviye/büyü), backend+frontend
+## Phase 6-C — Game loop (death/leveling/spells), backend+frontend
 
-Otomatik testlerle doğrulanan davranış: backend **216/216**, frontend **73/73**, tsc+vite build temiz.
+Behavior verified by automated tests: backend **216/216**, frontend **73/73**, tsc+vite build clean.
 
-- [x] Öldürme başına 20 XP, eşik level×50, seviye atlayınca HP.max/mana.max +2 (tam dolum) + primary attribute +1
-- [x] "İyileştir" (hedefsiz, kendine) ve "Ateş Topu" (menzilli, hedef-seç modu) büyüleri doğru mana/menzil/hasar mantığıyla çalışıyor
-- [x] Mana yetersizken büyü butonları disabled; `mana.max===0` sınıflarda "Büyüler" bölümü hiç görünmüyor
-- [x] `hp.current<=0` olunca GameOverScreen gösteriliyor, savaş fiilen duruyor (attack/cast/item 400 ile reddediliyor)
-- [x] "Yeniden Başla" → `/character/reset` → karakter oluşturma ekranına dönülüyor, eski karakter kaydı DB'de kalıyor (sadece session bağı kopuyor)
+- [x] 20 XP per kill, threshold level×50, on level-up HP.max/mana.max +2 (fully restored) + primary attribute +1
+- [x] "Heal" (self-targeted) and "Fireball" (ranged, target-select mode) spells work correctly with mana/range/damage logic
+- [x] Spell buttons are disabled when mana is insufficient; the "Spells" section doesn't appear at all for classes with `mana.max===0`
+- [x] When `hp.current<=0`, GameOverScreen is shown, combat effectively stops (attack/cast/item rejected with 400)
+- [x] "Restart" → `/character/reset` → returns to the character creation screen, the old character record stays in the DB (only the session link is severed)
 
-**Bulunan bug (coder tarafından anında düzeltildi, commit `a2d6bab`):** Büyü hedef-seç modundayken düşman olmayan bir hücreye tıklamak sessizce oyuncuyu hareket ettiriyordu (`castSpell` yerine `moveToken` çağrılıyordu). Regresyon testiyle yakalandı, aynı oturumda düzeltildi ve doğrulandı.
+**Bug found (fixed immediately by the coder, commit `a2d6bab`):** While in spell target-select mode, clicking a non-enemy cell silently moved the player (`moveToken` was being called instead of `castSpell`). Caught by a regression test, fixed and verified in the same session.
 
-**Kritik süreç bulgusu (kod bug'ı değil):** QA'ya başlarken çalışan backend dev server'ı (`node server.js`, watch'sız) coder'ın Faz 6-C route'larını (`/scene/cast`, `/character/reset`) hiç yüklememişti — eski bir process'ti, restart edilmemişti. `/scene/cast` ve `/character/reset` 404 "Cannot POST" dönüyordu, halbuki backend test suite'i (kendi Express app instance'ını kuran) 216/216 yeşildi. `taskkill`+`npm run dev` ile restart edince düzeldi. **Büyük bir faz kapanışından önce dev server'ın gerçekten yeniden başlatıldığını doğrulamak gerekiyor — "testler yeşil" tek başına yeterli değil.**
+**Critical process finding (not a code bug):** At the start of QA, the running backend dev server (`node server.js`, without watch) had never loaded the coder's Phase 6-C routes (`/scene/cast`, `/character/reset`) — it was an old process that hadn't been restarted. `/scene/cast` and `/character/reset` returned 404 "Cannot POST", even though the backend test suite (which sets up its own Express app instance) was green at 216/216. Restarting with `taskkill`+`npm run dev` fixed it. **Before closing out a major phase, it's necessary to verify the dev server has genuinely been restarted — "tests are green" alone isn't enough.**
 
-**Tarayıcıda uçtan uca canlı QA (Playwright, restart edilmiş backend'e karşı, 2026-08-22) — TAMAMLANDI:** Büyücü oluştur → İyileştir'i cast et (mana 12→8, HP güncellendi, sohbete anlatım düştü) → Ateş Topu hedef-seç moduna gir (grid'de "Büyü hedefi seç" göstergesi doğru) → tur döngüsüyle HP'yi 0'a düşür → **GameOverScreen doğru render edildi** → "Yeniden Başla" ile **Karakter Oluştur formuna başarıyla dönüldü**. Konsol hatalarının hepsi beklenen (400 = menzil-dışı/HP-0 sonrası reddedilen istekler, birkaç başlangıç 404'ü) — gerçek hata yok.
+**End-to-end live browser QA (Playwright, against a restarted backend, 2026-08-22) — COMPLETE:** Create a wizard → cast Heal (mana 12→8, HP updated, narration dropped into chat) → enter Fireball target-select mode (the "Select spell target" indicator on the grid is correct) → reduce HP to 0 via the turn cycle → **GameOverScreen rendered correctly** → **successfully returned to the Character Creation form** via "Restart". All console errors are expected ones (400 = out-of-range/rejected requests after HP-0, a few startup 404s) — no real errors.
 
-**İki ayrı session ile Faz 6-A rejeksiyon testi (restart edilmiş backend'e karşı) — TAMAMLANDI:** iki bağımsız browser context tamamen izole kaldı, farklı `X-Session-Id`'ler doğrulandı.
+**Phase 6-A rejection test with two separate sessions (against a restarted backend) — COMPLETE:** two independent browser contexts stayed completely isolated, different `X-Session-Id`s verified.
 
-**"Biri ölüp reset atarken diğeri etkilenmemeli" senaryosu (curl, gerçek `game.db`) — TAMAMLANDI:** A `/character/reset` ile sıfırlandı, B'nin karakteri (isim/HP/envanter) hiç etkilenmeden erişilebilir kaldı.
+**"When one dies and resets, the other shouldn't be affected" scenario (curl, real `game.db`) — COMPLETE:** A was reset via `/character/reset`, B's character (name/HP/inventory) remained accessible completely unaffected.
 
-**Gerçek dosya DB'siyle son restart doğrulaması (`:memory:` değil, gerçek `game.db`) — TAMAMLANDI:** Karakter oluşturuldu, backend `taskkill` ile gerçekten sonlandırılıp yeniden başlatıldı, karakter (isim/HP/envanter) birebir geri geldi.
+**Final restart verification with a real file DB (not `:memory:`, real `game.db`) — COMPLETE:** A character was created, the backend was genuinely terminated with `taskkill` and restarted, the character (name/HP/inventory) came back identically.
 
-**Faz 6 (A+B+C) TAMAMEN KAPANDI** — bilinen açık bug yok. QA sırasında oluşturulan test verileri gerçek `game.db`'den temizlendi.
+**Phase 6 (A+B+C) FULLY CLOSED** — no known open bugs. Test data created during QA was cleaned up from the real `game.db`.
 
-## Faz 7 — İçerik çeşitliliği + Postgres soyutlaması + Render deploy hazırlığı
+## Phase 7 — Content variety + Postgres abstraction + Render deploy prep
 
-Otomatik testlerle doğrulanan davranış: backend **237/237**, frontend **75/75**, tsc+vite build (varsayılan + `VITE_API_BASE` override'lı) temiz.
+Behavior verified by automated tests: backend **237/237**, frontend **75/75**, tsc+vite build (default + with `VITE_API_BASE` override) clean.
 
-- [x] Karşılaşma temizlenince (`/attack` veya `/cast`) sıradaki alana otomatik geçiliyor, ilerleme (`encounterIndex/totalEncounters`) DB'ye yazılıp restart sonrası korunuyor, frontend'de "Karşılaşma: N/M" doğru gösteriliyor
-- [x] Çok düşmanlı bir karşılaşmada sadece SON düşman ölünce geçiş tetikleniyor (ilk düşman ölümünde henüz değil)
-- [x] `DATABASE_URL` yokken davranış hiç değişmedi (SQLite, testler dahil); `DATABASE_URL`+`VITEST` iken de yine SQLite (test izolasyonu korunuyor); `DATABASE_URL` tek başına iken Postgres motoru seçiliyor ve modül import anında çökmüyor
-- [x] Erişilemez bir Postgres URL'iyle gerçek sunucu başlatma denemesi net bir hatayla (ECONNREFUSED) temiz exit ediyor (asılı kalmıyor) — bağımsız olarak tekrar doğrulandı
-- [x] `VITE_API_BASE` build-time env'i verilince bundle'a tam backend URL'i gömülüyor, verilmeyince varsayılan `/api` proxy davranışı bozulmuyor — iki gerçek `vite build` ile doğrulandı
-- [x] `render.yaml`'daki `healthCheckPath` (`/api/health`) gerçekten var ve çalışıyor, hiçbir secret dosyada yok
+- [x] When an encounter is cleared (`/attack` or `/cast`), it automatically advances to the next area, progress (`encounterIndex/totalEncounters`) is written to the DB and preserved after a restart, the frontend correctly shows "Encounter: N/M"
+- [x] In a multi-enemy encounter, the transition only triggers once the LAST enemy dies (not yet on the first enemy's death)
+- [x] Behavior never changed while `DATABASE_URL` is absent (SQLite, including tests); with `DATABASE_URL`+`VITEST` it's still SQLite too (test isolation preserved); with `DATABASE_URL` alone, the Postgres engine is selected and doesn't crash at module import time
+- [x] A real server-start attempt with an unreachable Postgres URL exits cleanly with a clear error (ECONNREFUSED), doesn't hang — independently re-verified
+- [x] When the `VITE_API_BASE` build-time env is provided, the full backend URL is embedded into the bundle; when not provided, the default `/api` proxy behavior isn't broken — verified with two real `vite build` runs
+- [x] The `healthCheckPath` (`/api/health`) in `render.yaml` genuinely exists and works, no secrets are in any file
 
-**Not:** Gerçek bir Postgres/Render ortamı yok — Postgres bağlantısı ve Render'daki `fromService` şema uyumu dry-run/mock ile doğrulandı, gerçek deploy denemesi PM+kullanıcı ile ayrıca yapılacak (bu tester'ın/coder'ın yetkisinde değil).
+**Note:** There's no real Postgres/Render environment — the Postgres connection and the `fromService` schema match in Render were verified via dry-run/mock; the actual deploy attempt will be done separately with the PM+user (not within this tester's/coder's authority).
 
-**Faz 7 (A+B+C) TAMAMEN KAPANDI** — bilinen açık bug yok.
+**Phase 7 (A+B+C) FULLY CLOSED** — no known open bugs.
 
-## Kapsam dışı (bilerek yok, "bug" olarak raporlamayın)
-- Gerçek LLM tabanlı GM (Gemini varsa kullanılıyor, yoksa kural tabanlı/şablon metin — bkz. Faz 2)
-- Login/hesap sistemi (oturum izolasyonu var — Faz 6-A — ve kalıcılık var — Faz 6-B, SQLite — ama kullanıcı hesabı/parola/login akışı yok, sessionId localStorage tabanlı anonim kimlik)
-- Sahne görselleri (statik placeholder yok, sadece grid) ve AI ile görsel/portre üretimi
-- Savaş mekaniği derinliği (kapak, yükseklik, fırlatma menzili vb.)
+## Out of scope (intentionally absent, do not report as a "bug")
+- A real LLM-based GM (Gemini is used if available, otherwise rule-based/template text — see Phase 2)
+- Login/account system (session isolation exists — Phase 6-A — and persistence exists — Phase 6-B, SQLite — but there's no user account/password/login flow, sessionId is an anonymous localStorage-based identity)
+- Scene visuals (no static placeholders, grid only) and AI-generated visuals/portraits
+- Combat mechanic depth (cover, elevation, throw range, etc.)

@@ -1,138 +1,140 @@
 # Backend — D&D AI Game Master
 
-Node.js + Express API. Faz 12 (2026-08) ile eski taktik-grid (x/y hareket, ayrı sahne state'i)
-tamamen kaldırıldı — oyun artık tek bir **serbest-form sohbet** arayüzü: oyuncu doğal Türkçe ile
-ne yapmak istediğini yazar (`POST /api/chat`), sunucu bu metinden niyeti algılayıp (saldır/kuşan/
-bırak/al/iç/büyü) GERÇEK mekanik sonuçlar (HP/mana/XP/envanter) üretir (bkz. "Sohbet" bölümü).
-Runtime durum `data/store.js` içindeki `Map`'lerde tutulur; bu `Map`'ler başlangıçta kalıcı
-depodan (`data/db.js` — SQLite ya da Postgres) yüklenir ve her değişiklikte oraya geri yazılır
-(bkz. "Kalıcılık" bölümü).
+Node.js + Express API. As of Phase 12 (2026-08), the old tactical grid (x/y movement, separate scene state)
+was completely removed — the game is now a single **freeform chat** interface: the player types
+what they want to do in natural language (`POST /api/chat`), and the server infers intent from that text (attack/equip/
+drop/pick up/drink/cast) and produces REAL mechanical outcomes (HP/mana/XP/inventory) (see the "Chat" section).
+Runtime state is kept in `Map`s inside `data/store.js`; these `Map`s are loaded from persistent
+storage at startup (`data/db.js` — SQLite or Postgres) and written back on every change
+(see the "Persistence" section).
 
-## Kurulum
+## Setup
 
 ```bash
 cd backend
 npm install
 ```
 
-## Çalıştırma
+## Running
 
 ```bash
 npm start       # node server.js
-npm run dev     # node --watch server.js (dosya değişince otomatik yeniden başlar)
+npm run dev     # node --watch server.js (auto-restarts on file changes)
 ```
 
-Varsayılan port: `3001` (`PORT` env değişkeniyle değiştirilebilir). Sağlık kontrolü: `GET /api/health`.
+Default port: `3001` (overridable via the `PORT` env var). Health check: `GET /api/health`.
 
-## Ortam değişkenleri
+## Environment variables
 
-Hepsi sadece ortam değişkeninden okunur, hiçbiri kodda/`.env`'de commit edilmez (`.env` `.gitignore`'da).
+All are read only from environment variables; none are committed in code/`.env` (`.env` is in `.gitignore`).
 
-| Değişken | Zorunlu mu | Açıklama |
+| Variable | Required | Description |
 |---|---|---|
-| `PORT` | Hayır | Varsayılan `3001`, Render gibi platformlar otomatik ayarlar |
-| `GEMINI_API_KEY` | Hayır | Yoksa/hata verirse/timeout olursa sistem sessizce mock GM'e düşer |
-| `GEMINI_MODEL` | Hayır | Varsayılan `gemini-3.6-flash` |
-| `AI_HOURLY_LIMIT` | Hayır | Saatlik AI çağrı limiti (tüm session'lar paylaşır), varsayılan `30` |
-| `DATABASE_URL` | Hayır | Varsa Postgres kullanılır (`pg`), yoksa yerel `game.db` (SQLite) — bkz. `data/db.js`. Testlerde (`VITEST=true`) bu değişken olsa bile her zaman SQLite (`:memory:`) kullanılır |
-| `DATABASE_SSL` | Hayır | `false` verilirse Postgres bağlantısında SSL kapatılır (varsayılan açık) |
-| `DB_PATH` | Hayır | SQLite dosya yolu override (test/geliştirme amaçlı) |
-| `FRONTEND_ORIGIN` | Hayır | CORS için izinli origin listesi (virgülle ayrılmış) — yerel dev origin'lerine EK olarak |
-| `PUBLIC_RATE_LIMIT_MAX` | Hayır | Kimliksiz-erişilebilir uçlarda IP başına dakikalık istek sınırı, varsayılan `20` |
+| `PORT` | No | Default `3001`, platforms like Render set it automatically |
+| `GEMINI_API_KEY` | No | If missing/errors/times out, the system silently falls back to the mock GM |
+| `GEMINI_MODEL` | No | Default `gemini-3.6-flash` |
+| `AI_HOURLY_LIMIT` | No | Hourly AI call limit (shared across all sessions), default `30` |
+| `DATABASE_URL` | No | If present, Postgres is used (`pg`); otherwise local `game.db` (SQLite) — see `data/db.js`. In tests (`VITEST=true`), SQLite (`:memory:`) is always used even if this variable is set |
+| `DATABASE_SSL` | No | If set to `false`, SSL is disabled on the Postgres connection (enabled by default) |
+| `DB_PATH` | No | SQLite file path override (for test/development purposes) |
+| `FRONTEND_ORIGIN` | No | Comma-separated list of allowed origins for CORS — IN ADDITION to the local dev origins |
+| `PUBLIC_RATE_LIMIT_MAX` | No | Per-IP requests-per-minute limit on unauthenticated-accessible endpoints, default `20` |
 
-## Session izolasyonu
+## Session isolation
 
-Her istemci `X-Session-Id` header'ıyla kendini tanıtır (bkz. `services/sessionId.js`). Bu header
-eksikse sunucu süreç ömrü boyunca sabit kalan bir `DEFAULT_SESSION_ID`'ye düşer (yalnızca eski
-istemciler/araçlar için geriye dönük uyumluluk amaçlı). Karakter, sohbet geçmişi ve "aktif karakter"
-ilişkisi tamamen session bazlı tutulur — farklı session'lar birbirinin verisini göremez.
-`GET /api/character` aktif karakteri sessionId üzerinden döner (parametre olarak `characterId`
-almaz); `POST /api/character/intro` ise `characterId`'nin çağıran session'ın aktif karakteriyle
-eşleştiğini doğrular, aksi halde 403 döner. (Faz 12-C öncesi ayrı bir `requireOwnedCharacter()`
-helper'ı vardı — grid'in `scene.js`'i kalkınca bu tek kontrol noktası kalmadığından helper da
-kaldırıldı, kontrol doğrudan route içine taşındı.)
+Each client identifies itself via the `X-Session-Id` header (see `services/sessionId.js`). If this header
+is missing, the server falls back to a `DEFAULT_SESSION_ID` that stays fixed for the process lifetime
+(for backward compatibility with old clients/tools only). Character, chat history, and the "active character"
+relationship are kept entirely on a per-session basis — different sessions can't see each other's data.
+`GET /api/character` returns the active character via sessionId (does not take `characterId`
+as a parameter); `POST /api/character/intro` verifies that the given `characterId` matches
+the calling session's active character, otherwise returns 403. (Before Phase 12-C there was a separate
+`requireOwnedCharacter()` helper — once the grid's `scene.js` was removed, this was no longer the only
+check point, so the helper was also removed and the check moved directly into the route.)
 
-## Kalıcılık
+## Persistence
 
-`data/db.js`, `DATABASE_URL` varlığına göre SQLite (`data/dbSqlite.js`) veya Postgres
-(`data/dbPostgres.js`) seçer. Sunucu açılışında `loadAll()` ile tüm karakterler/sohbet
-geçmişleri/session kayıtları bellek-içi `Map`'lere yüklenir; bu `Map`'ler çalışma zamanının tek
-gerçek kaynağıdır, DB ise arka planda (fire-and-forget `save*()` çağrılarıyla) güncellenen bir
-gölge kopyadır. Süresi dolmuş (stale) session'lar periyodik olarak temizlenir.
+`data/db.js` chooses SQLite (`data/dbSqlite.js`) or Postgres (`data/dbPostgres.js`) depending on
+whether `DATABASE_URL` is present. At server startup, `loadAll()` loads all characters/chat
+histories/session records into in-memory `Map`s; these `Map`s are the single source of truth
+at runtime, while the DB is a shadow copy updated in the background (via fire-and-forget `save*()`
+calls). Stale sessions are cleaned up periodically.
 
-Serbest-form düşman/loot durumu (`services/freeformEncounter.js`) bilinçli olarak DB'ye PERSIST
-EDİLMEZ — sadece bellekte tutulur, sunucu restart'ında sıfırlanır (kabul edilebilir bir kısıtlama,
-karakter/envanter/XP gibi kalıcı veri etkilenmez).
+Freeform enemy/loot state (`services/freeformEncounter.js`) is deliberately NOT PERSISTED
+to the DB — it is kept only in memory and resets on server restart (an acceptable limitation;
+persistent data like character/inventory/XP is not affected).
 
-## AI entegrasyonu
+## AI integration
 
-GM anlatımı `services/aiGm.js` üzerinden Google Gemini ile üretilir (`services/narrationService.js`
-tek giriş noktasıdır). Aşağıdaki durumlardan HERHANGİ biri gerçekleşirse sistem sessizce
-`data/gmFlavor.js` / `data/openingFlavor.js` içindeki şablon metinlere (mock) düşer, kullanıcıya
-hata göstermez:
+GM narration is generated via Google Gemini through `services/aiGm.js` (`services/narrationService.js`
+is the single entry point). If ANY of the following conditions occur, the system silently
+falls back to the template text (mock) in `data/gmFlavor.js` / `data/openingFlavor.js`, without
+showing the user an error:
 
-- `GEMINI_API_KEY` tanımlı değil,
-- saatlik AI çağrı bütçesi (`AI_HOURLY_LIMIT`) dolmuş,
-- Gemini isteği 15 saniye içinde cevap vermemiş (timeout),
-- Gemini isteği hata/boş cevap döndürmüş.
+- `GEMINI_API_KEY` is not set,
+- the hourly AI call budget (`AI_HOURLY_LIMIT`) is exhausted,
+- the Gemini request didn't respond within 15 seconds (timeout),
+- the Gemini request returned an error/empty response.
 
-Yanıtlar `POST /api/chat` ve `POST /api/character/intro` gibi uçlarda `source: "ai" | "mock"`
-alanıyla döner, hangi yolun kullanıldığı istemciye açıkça bildirilir.
+Responses from endpoints like `POST /api/chat` and `POST /api/character/intro` include a
+`source: "ai" | "mock"` field, explicitly telling the client which path was used.
 
-## Endpoint'ler
+## Endpoints
 
-### Karakter (`/api/character`)
+### Character (`/api/character`)
 
-| Method | Path | Açıklama |
+| Method | Path | Description |
 |---|---|---|
-| GET | `/api/character/options` | Seçilebilir ırk/sınıf/görünüş listesi |
-| POST | `/api/character/roll-stats` | `{ raceId }` — zar atıp ırk bonuslu attribute seti üretir (kaydetmez) |
-| POST | `/api/character/create` | `{ name, raceId, classId, appearanceId, attributes? }` — yeni karakter oluşturur, session'ın aktif karakteri yapar |
-| POST | `/api/character/intro` | `{ characterId }` — AI (veya mock) açılış anlatımını üretir, sohbet geçmişine ekler |
-| GET | `/api/character` | Session'ın aktif karakterini döner (yoksa 404) |
-| POST | `/api/character/reset` | Session'ın karakter/sohbet/serbest-form karşılaşma bağlarını temizler ve karakteri kalıcı olarak siler |
+| GET | `/api/character/options` | List of selectable races/classes/appearances |
+| POST | `/api/character/roll-stats` | `{ raceId }` — rolls dice and generates a race-bonused attribute set (does not save) |
+| POST | `/api/character/create` | `{ name, raceId, classId, appearanceId, attributes? }` — creates a new character, makes it the session's active character |
+| POST | `/api/character/intro` | `{ characterId }` — generates the AI (or mock) opening narration, adds it to chat history |
+| GET | `/api/character` | Returns the session's active character (404 if none) |
+| POST | `/api/character/reset` | Clears the session's character/chat/freeform encounter links and permanently deletes the character |
 
-### Sohbet (`/api/chat`)
+### Chat (`/api/chat`)
 
-| Method | Path | Açıklama |
+| Method | Path | Description |
 |---|---|---|
-| GET | `/api/chat` | Session'ın sohbet geçmişi |
-| POST | `/api/chat` | `{ message }` (max 500 karakter) — oyuncu mesajı ekler, mekanik sonucu çözer, AI/mock GM cevabı üretir |
+| GET | `/api/chat` | The session's chat history |
+| POST | `/api/chat` | `{ message }` (max 500 characters) — adds the player message, resolves the mechanical outcome, generates the AI/mock GM response |
 
-Tüm `/api/character/*` POST uçları (`create`, `roll-stats`, `intro`, `reset`) ile `/api/chat` POST,
-IP bazlı `PUBLIC_RATE_LIMIT_MAX`'e tabidir; `POST /api/chat` ve `/character/intro` ayrıca paylaşılan
-saatlik `AI_HOURLY_LIMIT` bütçesini de tüketir (AI anlatımı tetikledikleri için).
+All `/api/character/*` POST endpoints (`create`, `roll-stats`, `intro`, `reset`) and `/api/chat` POST
+are subject to the IP-based `PUBLIC_RATE_LIMIT_MAX`; `POST /api/chat` and `/character/intro` also
+consume the shared hourly `AI_HOURLY_LIMIT` budget (since they trigger AI narration).
 
-## Serbest-form mekanik çözümleme
+## Freeform mechanical resolution
 
-`POST /api/chat`'e gelen her oyuncu mesajı `services/actionResolver.js`'deki niyet kalıplarıyla
-(regex tabanlı, Türkçe çekim-farkında — bkz. dosyanın başındaki `WORD_START` notu) taranır, eşleşen
-ilk niyet `services/freeformCombat.js`'teki `resolveFreeformAction()` içinde GERÇEK bir mekanik
-sonuca (HP/mana/XP/envanter mutasyonu) dönüştürülür. Öncelik sırası (bir mesaj birden fazla kalıba
-uysa bile TEK bir sonuç üretilir): **büyü > saldırı > eşya kullan (iç) > eşya kuşan/çıkar > eşya
-bırak > eşya al**. Hiçbir niyet eşleşmezse (ya da mekanik ön koşul sağlanmazsa — ör. hedef/eşya
-bulunamadı) `resolveFreeformAction` `null` döner, sistem saf roleplay/flavor anlatımına düşer
-(`services/actionResolver.js`'in `resolveAction()`'ı, sadece anlatım rengi için tahmini bir D20).
+Every player message sent to `POST /api/chat` is scanned against the intent patterns in
+`services/actionResolver.js` (regex-based, aware of inflection — see the `WORD_START` note at the
+top of the file), and the first matching intent is converted into a REAL mechanical outcome
+(HP/mana/XP/inventory mutation) inside `resolveFreeformAction()` in `services/freeformCombat.js`.
+Priority order (even if a message matches multiple patterns, only ONE outcome is produced):
+**spell > attack > use item (drink) > equip/unequip item > drop item > pick up item**. If no intent
+matches (or the mechanical precondition isn't met — e.g. target/item not found), `resolveFreeformAction`
+returns `null` and the system falls back to pure roleplay/flavor narration (`resolveAction()` in
+`services/actionResolver.js`, using an estimated D20 only for narrative color).
 
-- **Saldırı**: aktif karşılaşmadaki düşmana (birden fazla düşman varsa isim eşleşmesi gerekir)
-  primary attribute + D20 ile vurur; kendi saldırısından SONRA hâlâ canlı düşman varsa TEK bir
-  düşman karşılık verir (`resolveEnemyRetaliation`).
-- **Büyü**: `data/spells.js`'teki isim ya da eşanlamlısı (`SPELL_ALIASES`) metinde geçince tetiklenir;
-  saldırı büyüsü (Ateş Topu) karşılaşmadaki TÜM canlı düşmanlara isabet eder (AoE).
-- **Eşya kuşan/çıkar/bırak**: `nameMatchesText()` ortak isim eşleştirme fonksiyonunu kullanır — tam
-  eşya adını, onun Türkçe ünsüz-yumuşamış çekimli halini (ör. "Kılıç"→"Kılıcı") VE (çok kelimeli
-  isimlerde) SADECE son kelimeyi de dener (ör. "Kısa Kılıç" → "Kılıcımı"). İsim eşleşmezse hiç
-  mekanik sonuç üretilmez (sahip olunmayan/var olmayan bir eşyaya sessizce düşülmez).
-- **Eşya al/bırak**: sahnenin loot havuzuyla (`services/freeformEncounter.js`) karşılıklı çalışır —
-  bırakılan eşya loot havuzuna eklenir, tekrar alınabilir. Envanter üst sınırı (`MAX_INVENTORY=30`)
-  doluyken alma isteği `inventoryFull` ile reddedilir.
-- Ölü bir karakter (`hp.current<=0`) `POST /api/chat` üzerinden hiçbir mekanik aksiyon
-  gerçekleştiremez — `routes/chat.js` en başta erken döner, AI çağrısı/mekanik çözümleme hiç
-  tetiklenmez.
+- **Attack**: hits the enemy in the active encounter (if there are multiple enemies, a name match is
+  required) using primary attribute + D20; if an enemy is still alive AFTER the player's own attack,
+  a single enemy retaliates (`resolveEnemyRetaliation`).
+- **Spell**: triggered when the name in `data/spells.js` or a synonym (`SPELL_ALIASES`) appears in the text;
+  an attack spell (Fireball) hits ALL living enemies in the encounter (AoE).
+- **Equip/unequip/drop item**: uses the common name-matching function `nameMatchesText()` — it tries
+  the exact item name, its Turkish consonant-softened inflected form (e.g. "Kılıç"→"Kılıcı"), AND
+  (for multi-word names) just the last word (e.g. "Kısa Kılıç" → "Kılıcımı"). If the name doesn't match,
+  no mechanical outcome is produced at all (silently falling back for an item that isn't owned/doesn't
+  exist is avoided).
+- **Pick up/drop item**: works reciprocally with the scene's loot pool (`services/freeformEncounter.js`) —
+  a dropped item is added to the loot pool and can be picked up again. When the inventory cap
+  (`MAX_INVENTORY=30`) is full, a pickup request is rejected with `inventoryFull`.
+- A dead character (`hp.current<=0`) cannot perform any mechanical action via `POST /api/chat` —
+  `routes/chat.js` returns early at the very start; the AI call/mechanical resolution is never
+  triggered.
 
-## Notlar
+## Notes
 
-- Ayrı bir "Action/Bonus Action" tur ekonomisi YOK (grid dönemine özgüydü, Faz 12 ile kalktı) —
-  oyuncu istediği kadar mesaj yazabilir, her mesaj kendi başına çözülür.
-- Sahiplik/yetki kontrolleri (`/character/intro`'daki aktif-karakter kontrolü) her istekte session
-  ile `characterId` eşleşmesini doğrular.
+- There is NO separate "Action/Bonus Action" turn economy (that was specific to the grid era, removed
+  in Phase 12) — the player can type as many messages as they want, each message is resolved on its own.
+- Ownership/authorization checks (the active-character check in `/character/intro`) verify that the
+  session matches the `characterId` on every request.
