@@ -46,3 +46,7 @@ You'll need to add your own Gemini API key to a `.env` file. Without a key, the 
 ## Contributing
 
 This is a personal experimental project and isn't open to external contributions right now, but feel free to open an issue with feedback or suggestions.
+
+## License
+
+Code in this repository is released under the [MIT License](LICENSE). The icons under `assets/tgstation-icons/` come from [/tg/station](https://github.com/tgstation/tgstation) and remain under CC BY-SA 3.0; see [CREDITS.md](assets/tgstation-icons/CREDITS.md).
