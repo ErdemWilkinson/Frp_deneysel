@@ -54,7 +54,7 @@ npm run preview  # previews the build output locally
   - "No menu/buttons" design decision (PM-approved): this used to have Use/Equip/Drop/Throw/Select-spell
     buttons and drag-and-drop equipping; all of it was removed in Phase 12-C-prep 2 — a freeform
     equivalent for throwing items (`throw`) was deliberately not added (an acceptable
-    loss), while dropping (`drop`) was later added to chat (see backend TASKS.md idea #96).
+    loss), while dropping (`drop`) was later added to chat.
 - After each message, `ChatPanel` passes the updated `character` object returned by the backend up to
   `App.tsx` via the `onCharacterChange` callback — `App.tsx` keeps it in state and passes it as a prop
   to `HeaderHud`/`CharacterCard` (no separate polling/refetch — the chat response already contains the updated character).
