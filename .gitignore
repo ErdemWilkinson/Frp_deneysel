@@ -4,3 +4,12 @@ FRP/
 # tgstation kaynak zip'i (193MB) - sadece assets/tgstation-icons/ altina cikarilan
 # ikonlari kullaniyoruz, tam repo git'e girmesin
 tgstation-master.zip
+
+# Ajan is akisi dosyalari - yerelde kalir, GitHub'a gitmez
+CLAUDE.md
+AGENTS.md
+INDEX.md
+TASKS.md
+PROJECT.md
+QA_CHECKLIST.md
+.claude/
