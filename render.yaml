@@ -1,94 +1,21 @@
-# Faz 7-C: Render Infrastructure-as-Code tanımı.
-# Kullanım: Render dashboard'unda "New +" -> "Blueprint" -> bu repo'yu seçin,
-# Render bu dosyayı okuyup aşağıdaki servisleri otomatik oluşturur.
-# GEMINI_API_KEY (sync: false) Render dashboard'undan elle girilmeli - bu
-# dosyada veya repoda hiçbir secret YOK.
-
-databases:
-  - name: dnd-game-db
-    plan: free
-    databaseName: dnd_game
-    user: dnd_game
-
 services:
-  # Backend - Node.js Web Service
   - type: web
-    name: dnd-game-backend
+    name: acik-masa
     runtime: node
     plan: free
-    rootDir: backend
-    buildCommand: npm install
+    buildCommand: npm ci --include=dev && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
     envVars:
-      - key: PORT
-        value: 3001
-      # Yaratıcı cron fikir #56: savunma amaçlı ek katman - Express ve bazı
-      # kütüphaneler NODE_ENV=production'da daha az ayrıntılı/daha güvenli
-      # varsayılan davranışlara geçiyor (ör. stack trace'lerin loglanma
-      # şekli). Asıl koruma zaten server.js'teki genel hata middleware'i.
       - key: NODE_ENV
         value: production
-      - key: DATABASE_URL
-        fromDatabase:
-          name: dnd-game-db
-          property: connectionString
-      - key: GEMINI_API_KEY
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: DM_PASSWORD
         sync: false
-      - key: GEMINI_MODEL
-        value: gemini-3.6-flash
-      - key: AI_HOURLY_LIMIT
-        value: "30"
-      # Yaratıcı cron fikir #34: cors() artık allowlist bazlı - backend'e
-      # sadece bu origin'den (+ yerel dev) gelen tarayıcı istekleri kabul
-      # ediliyor. Sabit değer, VITE_API_BASE'deki aynı desenle tutarlı.
-      - key: FRONTEND_ORIGIN
-        value: https://dnd-game-frontend-t9hr.onrender.com
-
-  # Frontend - statik site (Vite build çıktısı)
-  - type: web
-    name: dnd-game-frontend
-    runtime: static
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    staticPublishPath: dist
-    envVars:
-      # ONEMLI: "fromService: hostport" KULLANMA - Render'in hostport ozelligi
-      # sadece "host:port" (semasiz, yanlis port) donduruyor, tarayicidan
-      # erisilebilir bir https URL degil. Bu deger Blueprint sync'inde her
-      # deploy'da dashboard'daki manuel duzeltmeyi EZIYORDU (2026-08-24'te
-      # PM tarafindan canli olarak tespit edildi - karakter olusturma
-      # prod'da sessizce calismiyordu). Backend'in gercek public URL'i
-      # sabit deger olarak yazildi, boylece her deploy'da ayni kaliyor.
-      - key: VITE_API_BASE
-        value: https://dnd-game-backend-sz9e.onrender.com/api
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
-    # Yaratıcı cron fikir #24: backend'e helmet (#23) eklendi ama statik
-    # frontend site hiç güvenlik header'ı kullanmıyordu. Google Fonts
-    # (index.html'de fonts.googleapis.com/fonts.gstatic.com) ve React'in
-    # inline style prop'ları (CharacterCard'daki HP/XP/mana barları) CSP'yi
-    # kırmasın diye style-src'te 'unsafe-inline' + fonts.googleapis.com,
-    # font-src'te fonts.gstatic.com açıkça izinli. (Not: TacticalGrid.tsx ve
-    # grid-template-columns'a referans Faz 12-C'de grid kalkınca eskidi,
-    # bu turda güncellendi - CSP kuralının kendisi hâlâ doğru/gerekli.)
-    # connect-src'e prod backend origin'i eklendi (VITE_API_BASE - yukarıdaki
-    # sabit değer - bu URL'e gidiyor); ilk denemede (2026-08-24) VITE_API_BASE
-    # henüz bozukken (fikir #25) bu CSP gerçek bir prod sorununu ortaya
-    # çıkarmıştı, VITE_API_BASE düzeltildikten sonra tekrar eklendi.
-    headers:
-      - path: /*
-        name: X-Frame-Options
-        value: SAMEORIGIN
-      - path: /*
-        name: Content-Security-Policy
-        value: >-
-          default-src 'self';
-          style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
-          font-src 'self' https://fonts.gstatic.com;
-          img-src 'self' data:;
-          script-src 'self';
-          connect-src 'self' https://dnd-game-backend-sz9e.onrender.com;
-          frame-ancestors 'none'
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_CA
+        sync: false
+      - key: DEEPSEEK_API_KEY
+        sync: false

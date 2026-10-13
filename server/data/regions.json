@@ -1,0 +1,1316 @@
+{
+ "aboleth": [
+  "underground",
+  "underwater"
+ ],
+ "acolyte": [
+  "urban"
+ ],
+ "adult-black-dragon": [
+  "swamp",
+  "ruins",
+  "underwater",
+  "underground"
+ ],
+ "adult-blue-dragon": [
+  "desert",
+  "coast",
+  "underground"
+ ],
+ "adult-brass-dragon": [
+  "mountain",
+  "desert",
+  "underground"
+ ],
+ "adult-bronze-dragon": [
+  "coast",
+  "underwater",
+  "underground"
+ ],
+ "adult-copper-dragon": [
+  "mountain",
+  "desert",
+  "underground"
+ ],
+ "adult-gold-dragon": [
+  "mountain",
+  "desert",
+  "underwater",
+  "underground"
+ ],
+ "adult-green-dragon": [
+  "forest",
+  "underwater",
+  "underground"
+ ],
+ "adult-red-dragon": [
+  "mountain",
+  "desert",
+  "underground"
+ ],
+ "adult-silver-dragon": [
+  "arctic",
+  "mountain",
+  "underground"
+ ],
+ "adult-white-dragon": [
+  "arctic",
+  "mountain",
+  "underwater",
+  "underground"
+ ],
+ "air-elemental": [
+  "forest",
+  "planar"
+ ],
+ "ancient-black-dragon": [
+  "swamp",
+  "ruins",
+  "forest",
+  "underwater"
+ ],
+ "ancient-blue-dragon": [
+  "desert",
+  "coast",
+  "forest",
+  "underground"
+ ],
+ "ancient-brass-dragon": [
+  "mountain",
+  "desert",
+  "forest",
+  "underground"
+ ],
+ "ancient-bronze-dragon": [
+  "coast",
+  "forest",
+  "underwater",
+  "underground"
+ ],
+ "ancient-copper-dragon": [
+  "mountain",
+  "desert",
+  "forest",
+  "underground"
+ ],
+ "ancient-gold-dragon": [
+  "mountain",
+  "desert",
+  "forest",
+  "underwater"
+ ],
+ "ancient-green-dragon": [
+  "forest",
+  "underwater",
+  "underground"
+ ],
+ "ancient-red-dragon": [
+  "mountain",
+  "desert",
+  "underground",
+  "forest"
+ ],
+ "ancient-silver-dragon": [
+  "arctic",
+  "mountain",
+  "forest",
+  "underground"
+ ],
+ "ancient-white-dragon": [
+  "arctic",
+  "mountain",
+  "forest",
+  "underwater"
+ ],
+ "androsphinx": [
+  "desert"
+ ],
+ "animated-armor": [
+  "ruins"
+ ],
+ "ankheg": [
+  "forest",
+  "underground"
+ ],
+ "ape": [
+  "forest"
+ ],
+ "archmage": [
+  "urban"
+ ],
+ "assassin": [
+  "urban"
+ ],
+ "awakened-shrub": [
+  "forest",
+  "swamp"
+ ],
+ "awakened-tree": [
+  "forest",
+  "swamp"
+ ],
+ "axe-beak": [
+  "urban"
+ ],
+ "azer": [
+  "mountain",
+  "underground",
+  "planar",
+  "desert"
+ ],
+ "baboon": [
+  "grassland",
+  "forest"
+ ],
+ "badger": [
+  "forest",
+  "underground"
+ ],
+ "balor": [
+  "planar",
+  "arctic"
+ ],
+ "bandit": [
+  "urban"
+ ],
+ "bandit-captain": [
+  "urban"
+ ],
+ "barbed-devil": [
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "basilisk": [
+  "forest",
+  "underground"
+ ],
+ "bat": [
+  "underground",
+  "urban"
+ ],
+ "bearded-devil": [
+  "forest",
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "behir": [
+  "forest",
+  "underground"
+ ],
+ "berserker": [
+  "urban"
+ ],
+ "black-bear": [
+  "forest"
+ ],
+ "black-dragon-wyrmling": [
+  "swamp",
+  "ruins",
+  "underwater"
+ ],
+ "black-pudding": [
+  "underground",
+  "ruins",
+  "arctic"
+ ],
+ "blink-dog": [
+  "forest"
+ ],
+ "blood-hawk": [
+  "forest"
+ ],
+ "blue-dragon-wyrmling": [
+  "desert",
+  "coast",
+  "underground"
+ ],
+ "boar": [
+  "forest"
+ ],
+ "bone-devil": [
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "brass-dragon-wyrmling": [
+  "mountain",
+  "desert",
+  "underground"
+ ],
+ "bronze-dragon-wyrmling": [
+  "coast",
+  "underwater"
+ ],
+ "brown-bear": [
+  "forest"
+ ],
+ "bugbear": [
+  "forest"
+ ],
+ "bulette": [
+  "forest",
+  "underground"
+ ],
+ "camel": [
+  "desert"
+ ],
+ "cat": [
+  "urban"
+ ],
+ "centaur": [
+  "forest"
+ ],
+ "chain-devil": [
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "chimera": [
+  "mountain"
+ ],
+ "chuul": [
+  "underground",
+  "underwater"
+ ],
+ "clay-golem": [
+  "ruins"
+ ],
+ "cloaker": [
+  "underground"
+ ],
+ "cloud-giant": [
+  "mountain"
+ ],
+ "cockatrice": [
+  "desert"
+ ],
+ "commoner": [
+  "urban"
+ ],
+ "constrictor-snake": [
+  "swamp",
+  "underwater"
+ ],
+ "copper-dragon-wyrmling": [
+  "mountain",
+  "desert"
+ ],
+ "couatl": [
+  "desert",
+  "planar"
+ ],
+ "crab": [
+  "coast",
+  "underwater"
+ ],
+ "crocodile": [
+  "mountain",
+  "swamp",
+  "underwater"
+ ],
+ "cult-fanatic": [
+  "urban",
+  "grassland"
+ ],
+ "cultist": [
+  "urban"
+ ],
+ "darkmantle": [
+  "underground"
+ ],
+ "death-dog": [
+  "forest",
+  "underground"
+ ],
+ "deep-gnome-svirfneblin": [
+  "underground"
+ ],
+ "deer": [
+  "forest"
+ ],
+ "deva": [
+  "planar",
+  "underground"
+ ],
+ "dire-wolf": [
+  "forest"
+ ],
+ "djinni": [
+  "desert",
+  "planar",
+  "underground"
+ ],
+ "doppelganger": [
+  "forest",
+  "underground"
+ ],
+ "draft-horse": [
+  "urban"
+ ],
+ "dragon-turtle": [
+  "mountain",
+  "underwater",
+  "underground"
+ ],
+ "dretch": [
+  "planar",
+  "arctic"
+ ],
+ "drider": [
+  "forest",
+  "underground"
+ ],
+ "drow": [
+  "underground"
+ ],
+ "druid": [
+  "urban"
+ ],
+ "dryad": [
+  "forest"
+ ],
+ "duergar": [
+  "underground"
+ ],
+ "dust-mephit": [
+  "desert",
+  "planar"
+ ],
+ "eagle": [
+  "forest"
+ ],
+ "earth-elemental": [
+  "underground",
+  "forest",
+  "planar"
+ ],
+ "efreeti": [
+  "mountain",
+  "underground",
+  "planar",
+  "desert"
+ ],
+ "elephant": [
+  "urban"
+ ],
+ "elk": [
+  "forest"
+ ],
+ "erinyes": [
+  "planar",
+  "arctic"
+ ],
+ "ettercap": [
+  "forest",
+  "underground"
+ ],
+ "ettin": [
+  "grassland",
+  "mountain"
+ ],
+ "fire-elemental": [
+  "forest",
+  "planar",
+  "desert"
+ ],
+ "fire-giant": [
+  "mountain",
+  "underground",
+  "desert"
+ ],
+ "flesh-golem": [
+  "ruins"
+ ],
+ "flying-snake": [
+  "grassland",
+  "forest",
+  "underwater"
+ ],
+ "flying-sword": [
+  "ruins"
+ ],
+ "frog": [
+  "swamp",
+  "underwater"
+ ],
+ "frost-giant": [
+  "arctic"
+ ],
+ "gargoyle": [
+  "underground",
+  "planar",
+  "ruins"
+ ],
+ "gelatinous-cube": [
+  "underground",
+  "ruins"
+ ],
+ "ghast": [
+  "urban",
+  "ruins"
+ ],
+ "ghost": [
+  "urban",
+  "ruins",
+  "arctic"
+ ],
+ "ghoul": [
+  "urban",
+  "ruins"
+ ],
+ "giant-ape": [
+  "forest"
+ ],
+ "giant-badger": [
+  "forest",
+  "underground"
+ ],
+ "giant-bat": [
+  "underground",
+  "urban"
+ ],
+ "giant-boar": [
+  "forest"
+ ],
+ "giant-centipede": [
+  "forest"
+ ],
+ "giant-constrictor-snake": [
+  "swamp",
+  "underwater"
+ ],
+ "giant-crab": [
+  "coast",
+  "underwater"
+ ],
+ "giant-crocodile": [
+  "mountain",
+  "swamp",
+  "underwater"
+ ],
+ "giant-eagle": [
+  "forest"
+ ],
+ "giant-elk": [
+  "forest",
+  "urban"
+ ],
+ "giant-fire-beetle": [
+  "grassland",
+  "forest"
+ ],
+ "giant-frog": [
+  "swamp",
+  "underwater"
+ ],
+ "giant-goat": [
+  "urban"
+ ],
+ "giant-hyena": [
+  "desert"
+ ],
+ "giant-lizard": [
+  "swamp",
+  "urban"
+ ],
+ "giant-octopus": [
+  "coast",
+  "underwater"
+ ],
+ "giant-owl": [
+  "forest",
+  "underground"
+ ],
+ "giant-poisonous-snake": [
+  "swamp",
+  "underwater"
+ ],
+ "giant-rat": [
+  "urban"
+ ],
+ "giant-rat-diseased": [
+  "urban"
+ ],
+ "giant-scorpion": [
+  "desert"
+ ],
+ "giant-sea-horse": [
+  "coast",
+  "underwater",
+  "urban"
+ ],
+ "giant-shark": [
+  "coast",
+  "underwater"
+ ],
+ "giant-spider": [
+  "underground"
+ ],
+ "giant-toad": [
+  "swamp",
+  "underwater"
+ ],
+ "giant-vulture": [
+  "desert"
+ ],
+ "giant-wasp": [
+  "forest",
+  "underwater"
+ ],
+ "giant-weasel": [
+  "grassland",
+  "forest"
+ ],
+ "giant-wolf-spider": [
+  "underground",
+  "forest"
+ ],
+ "gibbering-mouther": [
+  "underground",
+  "underwater"
+ ],
+ "glabrezu": [
+  "planar",
+  "arctic"
+ ],
+ "gladiator": [
+  "urban"
+ ],
+ "gnoll": [
+  "desert"
+ ],
+ "goat": [
+  "urban"
+ ],
+ "goblin": [
+  "forest"
+ ],
+ "gold-dragon-wyrmling": [
+  "mountain",
+  "desert",
+  "underwater"
+ ],
+ "gorgon": [
+  "forest",
+  "underground"
+ ],
+ "gray-ooze": [
+  "underground",
+  "ruins",
+  "arctic"
+ ],
+ "green-dragon-wyrmling": [
+  "forest",
+  "underwater"
+ ],
+ "green-hag": [
+  "forest"
+ ],
+ "grick": [
+  "underground"
+ ],
+ "griffon": [
+  "mountain"
+ ],
+ "grimlock": [
+  "urban",
+  "grassland"
+ ],
+ "guard": [
+  "urban"
+ ],
+ "guardian-naga": [
+  "urban"
+ ],
+ "gynosphinx": [
+  "desert"
+ ],
+ "half-red-dragon-veteran": [
+  "mountain",
+  "desert",
+  "underground",
+  "urban"
+ ],
+ "harpy": [
+  "mountain"
+ ],
+ "hawk": [
+  "forest"
+ ],
+ "hell-hound": [
+  "mountain",
+  "underground",
+  "planar"
+ ],
+ "hezrou": [
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "hill-giant": [
+  "grassland",
+  "mountain"
+ ],
+ "hippogriff": [
+  "mountain"
+ ],
+ "hobgoblin": [
+  "forest"
+ ],
+ "homunculus": [
+  "ruins"
+ ],
+ "horned-devil": [
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "hunter-shark": [
+  "coast",
+  "underwater"
+ ],
+ "hydra": [
+  "swamp",
+  "underwater"
+ ],
+ "hyena": [
+  "desert"
+ ],
+ "ice-devil": [
+  "planar",
+  "underground"
+ ],
+ "ice-mephit": [
+  "planar",
+  "arctic"
+ ],
+ "imp": [
+  "urban",
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "invisible-stalker": [
+  "planar"
+ ],
+ "iron-golem": [
+  "ruins",
+  "underground",
+  "desert"
+ ],
+ "jackal": [
+  "desert"
+ ],
+ "killer-whale": [
+  "coast",
+  "underwater"
+ ],
+ "knight": [
+  "urban"
+ ],
+ "kobold": [
+  "forest"
+ ],
+ "kraken": [
+  "coast",
+  "underwater"
+ ],
+ "lamia": [
+  "desert"
+ ],
+ "lemure": [
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "lich": [
+  "ruins",
+  "arctic"
+ ],
+ "lion": [
+  "forest"
+ ],
+ "lizard": [
+  "grassland",
+  "forest"
+ ],
+ "lizardfolk": [
+  "swamp",
+  "underwater"
+ ],
+ "mage": [
+  "urban"
+ ],
+ "magma-mephit": [
+  "planar",
+  "desert"
+ ],
+ "magmin": [
+  "mountain",
+  "underground",
+  "planar",
+  "desert"
+ ],
+ "mammoth": [
+  "arctic"
+ ],
+ "manticore": [
+  "mountain"
+ ],
+ "marilith": [
+  "planar",
+  "arctic"
+ ],
+ "mastiff": [
+  "urban"
+ ],
+ "medusa": [
+  "forest",
+  "underground"
+ ],
+ "merfolk": [
+  "coast",
+  "underwater"
+ ],
+ "merrow": [
+  "forest",
+  "underground",
+  "underwater"
+ ],
+ "mimic": [
+  "urban",
+  "ruins"
+ ],
+ "minotaur": [
+  "forest",
+  "underground"
+ ],
+ "minotaur-skeleton": [
+  "urban",
+  "ruins"
+ ],
+ "mule": [
+  "urban"
+ ],
+ "mummy": [
+  "desert",
+  "ruins",
+  "urban"
+ ],
+ "mummy-lord": [
+  "desert",
+  "ruins",
+  "urban"
+ ],
+ "nalfeshnee": [
+  "planar",
+  "arctic"
+ ],
+ "night-hag": [
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "nightmare": [
+  "planar"
+ ],
+ "noble": [
+  "urban"
+ ],
+ "ochre-jelly": [
+  "underground",
+  "ruins"
+ ],
+ "octopus": [
+  "coast",
+  "underwater"
+ ],
+ "ogre": [
+  "grassland",
+  "mountain"
+ ],
+ "ogre-zombie": [
+  "grassland",
+  "mountain",
+  "urban",
+  "ruins"
+ ],
+ "oni": [
+  "mountain"
+ ],
+ "orc": [
+  "forest"
+ ],
+ "otyugh": [
+  "swamp",
+  "underground"
+ ],
+ "owl": [
+  "forest",
+  "underground"
+ ],
+ "owlbear": [
+  "underground",
+  "forest"
+ ],
+ "panther": [
+  "forest"
+ ],
+ "pegasus": [
+  "planar"
+ ],
+ "phase-spider": [
+  "underground"
+ ],
+ "pit-fiend": [
+  "planar",
+  "arctic"
+ ],
+ "planetar": [
+  "planar"
+ ],
+ "plesiosaurus": [
+  "coast",
+  "underwater"
+ ],
+ "poisonous-snake": [
+  "swamp",
+  "underwater"
+ ],
+ "polar-bear": [
+  "arctic",
+  "forest",
+  "underwater"
+ ],
+ "pony": [
+  "urban"
+ ],
+ "priest": [
+  "urban"
+ ],
+ "pseudodragon": [
+  "mountain"
+ ],
+ "purple-worm": [
+  "forest",
+  "underground"
+ ],
+ "quasit": [
+  "urban",
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "quipper": [
+  "coast",
+  "underwater"
+ ],
+ "rakshasa": [
+  "planar"
+ ],
+ "rat": [
+  "urban"
+ ],
+ "raven": [
+  "urban"
+ ],
+ "red-dragon-wyrmling": [
+  "mountain",
+  "desert",
+  "underground"
+ ],
+ "reef-shark": [
+  "coast",
+  "underwater"
+ ],
+ "remorhaz": [
+  "arctic",
+  "underground",
+  "desert"
+ ],
+ "rhinoceros": [
+  "urban"
+ ],
+ "riding-horse": [
+  "urban"
+ ],
+ "roc": [
+  "mountain"
+ ],
+ "roper": [
+  "underground"
+ ],
+ "rug-of-smothering": [
+  "ruins"
+ ],
+ "rust-monster": [
+  "underground"
+ ],
+ "saber-toothed-tiger": [
+  "forest"
+ ],
+ "sahuagin": [
+  "coast",
+  "underwater",
+  "underground"
+ ],
+ "salamander": [
+  "mountain",
+  "underground",
+  "planar",
+  "desert"
+ ],
+ "satyr": [
+  "forest"
+ ],
+ "scorpion": [
+  "desert"
+ ],
+ "scout": [
+  "urban"
+ ],
+ "sea-hag": [
+  "coast",
+  "underwater",
+  "forest"
+ ],
+ "sea-horse": [
+  "coast",
+  "underwater",
+  "urban"
+ ],
+ "shadow": [
+  "urban",
+  "ruins",
+  "arctic"
+ ],
+ "shambling-mound": [
+  "swamp",
+  "forest",
+  "underwater",
+  "arctic"
+ ],
+ "shield-guardian": [
+  "urban",
+  "ruins"
+ ],
+ "shrieker": [
+  "forest",
+  "swamp"
+ ],
+ "silver-dragon-wyrmling": [
+  "arctic",
+  "mountain"
+ ],
+ "skeleton": [
+  "urban",
+  "ruins"
+ ],
+ "solar": [
+  "planar"
+ ],
+ "specter": [
+  "urban",
+  "ruins",
+  "arctic"
+ ],
+ "spider": [
+  "underground"
+ ],
+ "spirit-naga": [
+  "forest",
+  "underground"
+ ],
+ "sprite": [
+  "forest",
+  "urban"
+ ],
+ "spy": [
+  "urban"
+ ],
+ "steam-mephit": [
+  "planar",
+  "desert"
+ ],
+ "stirge": [
+  "underground"
+ ],
+ "stone-giant": [
+  "mountain"
+ ],
+ "stone-golem": [
+  "ruins",
+  "underground"
+ ],
+ "storm-giant": [
+  "coast",
+  "underwater",
+  "arctic"
+ ],
+ "succubus-incubus": [
+  "planar",
+  "arctic"
+ ],
+ "swarm-of-bats": [
+  "underground",
+  "urban"
+ ],
+ "swarm-of-beetles": [
+  "underground"
+ ],
+ "swarm-of-centipedes": [
+  "forest"
+ ],
+ "swarm-of-insects": [
+  "forest"
+ ],
+ "swarm-of-poisonous-snakes": [
+  "swamp",
+  "underwater"
+ ],
+ "swarm-of-quippers": [
+  "coast",
+  "underwater"
+ ],
+ "swarm-of-rats": [
+  "urban"
+ ],
+ "swarm-of-ravens": [
+  "urban"
+ ],
+ "swarm-of-spiders": [
+  "underground"
+ ],
+ "swarm-of-wasps": [
+  "grassland"
+ ],
+ "tarrasque": [
+  "forest",
+  "underground",
+  "desert"
+ ],
+ "thug": [
+  "urban"
+ ],
+ "tiger": [
+  "forest"
+ ],
+ "treant": [
+  "forest",
+  "swamp"
+ ],
+ "tribal-warrior": [
+  "urban"
+ ],
+ "triceratops": [
+  "urban"
+ ],
+ "troll": [
+  "grassland",
+  "mountain"
+ ],
+ "tyrannosaurus-rex": [
+  "urban"
+ ],
+ "unicorn": [
+  "forest",
+  "planar"
+ ],
+ "vampire-bat": [
+  "underground",
+  "urban",
+  "ruins"
+ ],
+ "vampire-mist": [
+  "urban",
+  "ruins",
+  "underground"
+ ],
+ "vampire-spawn": [
+  "urban",
+  "ruins"
+ ],
+ "vampire-vampire": [
+  "urban",
+  "ruins",
+  "underground"
+ ],
+ "veteran": [
+  "urban"
+ ],
+ "violet-fungus": [
+  "forest",
+  "swamp"
+ ],
+ "vrock": [
+  "mountain",
+  "planar",
+  "underground",
+  "arctic"
+ ],
+ "vulture": [
+  "desert"
+ ],
+ "warhorse": [
+  "urban"
+ ],
+ "warhorse-skeleton": [
+  "urban",
+  "ruins"
+ ],
+ "water-elemental": [
+  "coast",
+  "underwater",
+  "forest",
+  "planar"
+ ],
+ "weasel": [
+  "grassland",
+  "forest"
+ ],
+ "werebear-bear": [
+  "forest"
+ ],
+ "werebear-human": [
+  "forest"
+ ],
+ "werebear-hybrid": [
+  "forest"
+ ],
+ "wereboar-boar": [
+  "forest"
+ ],
+ "wereboar-human": [
+  "forest"
+ ],
+ "wereboar-hybrid": [
+  "forest"
+ ],
+ "wererat-human": [
+  "forest",
+  "urban"
+ ],
+ "wererat-hybrid": [
+  "forest",
+  "urban"
+ ],
+ "wererat-rat": [
+  "forest",
+  "urban"
+ ],
+ "weretiger-human": [
+  "forest"
+ ],
+ "weretiger-hybrid": [
+  "forest"
+ ],
+ "weretiger-tiger": [
+  "forest"
+ ],
+ "werewolf-human": [
+  "forest"
+ ],
+ "werewolf-hybrid": [
+  "forest"
+ ],
+ "werewolf-wolf": [
+  "forest"
+ ],
+ "white-dragon-wyrmling": [
+  "arctic",
+  "mountain",
+  "underwater",
+  "underground"
+ ],
+ "wight": [
+  "urban",
+  "ruins"
+ ],
+ "will-o-wisp": [
+  "swamp",
+  "ruins",
+  "underground",
+  "arctic"
+ ],
+ "winter-wolf": [
+  "arctic",
+  "forest"
+ ],
+ "wolf": [
+  "forest"
+ ],
+ "worg": [
+  "forest"
+ ],
+ "wraith": [
+  "urban",
+  "ruins",
+  "arctic"
+ ],
+ "wyvern": [
+  "mountain"
+ ],
+ "xorn": [
+  "underground",
+  "planar"
+ ],
+ "young-black-dragon": [
+  "swamp",
+  "ruins",
+  "underwater",
+  "underground"
+ ],
+ "young-blue-dragon": [
+  "desert",
+  "coast",
+  "underground"
+ ],
+ "young-brass-dragon": [
+  "mountain",
+  "desert",
+  "underground"
+ ],
+ "young-bronze-dragon": [
+  "coast",
+  "underwater",
+  "underground"
+ ],
+ "young-copper-dragon": [
+  "mountain",
+  "desert",
+  "underground"
+ ],
+ "young-gold-dragon": [
+  "mountain",
+  "desert",
+  "underwater",
+  "underground"
+ ],
+ "young-green-dragon": [
+  "forest",
+  "underwater",
+  "underground"
+ ],
+ "young-red-dragon": [
+  "mountain",
+  "desert",
+  "underground"
+ ],
+ "young-silver-dragon": [
+  "arctic",
+  "mountain",
+  "underground"
+ ],
+ "young-white-dragon": [
+  "arctic",
+  "mountain",
+  "underwater",
+  "underground"
+ ],
+ "zombie": [
+  "urban",
+  "ruins"
+ ]
+}

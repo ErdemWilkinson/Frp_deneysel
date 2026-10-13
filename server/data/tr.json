@@ -1,0 +1,7747 @@
+{
+ "aboleth": {
+  "name": "Aboleth",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Sümük Bulutu"
+   },
+   {
+    "name": "Yoklayan Telepati"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Dokunaç"
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 10 ft., tek hedef. İsabet: 15 (3d6 + 5) ezici hasar."
+   },
+   {
+    "name": "Köleleştir"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme"
+   },
+   {
+    "name": "Kuyruk Savurma"
+   },
+   {
+    "name": "Psişik Emme (2 Eylem Harcar)"
+   }
+  ]
+ },
+ "acolyte": {
+  "name": "Rahip Çırağı",
+  "traits": [
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Sopa",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 2 (1d4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "adult-black-dragon": {
+  "name": "Yetişkin Siyah Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 10 ft., tek hedef. İsabet: 17 (2d10 + 6) delici hasar artı 4 (1d8) asit hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 15 ft., tek hedef. İsabet: 15 (2d8 + 6) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 16 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Asit Nefesi",
+    "text": "Ejderha 60 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca asit püskürtür. Hattaki her yaratık ZD 18 Çeviklik kurtarma zarı atar; başarısız olursa 54 (12d8) asit hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 19 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 13 (2d6 + 6) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-blue-dragon": {
+  "name": "Yetişkin Mavi Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 10 ft., tek hedef. İsabet: 18 (2d10 + 7) delici hasar artı 5 (1d10) yıldırım hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 5 ft., tek hedef. İsabet: 14 (2d6 + 7) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 15 ft., tek hedef. İsabet: 16 (2d8 + 7) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık"
+   },
+   {
+    "name": "Yıldırım Nefesi"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 20 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 14 (2d6 + 7) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-brass-dragon": {
+  "name": "Yetişkin Pirinç Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 10 ft., tek hedef. İsabet: 17 (2d10 + 6) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 15 ft., tek hedef. İsabet: 15 (2d8 + 6) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık"
+   },
+   {
+    "name": "Nefes Silahları"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 19 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 13 (2d6 + 6) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-bronze-dragon": {
+  "name": "Yetişkin Bronz Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 10 ft., tek hedef. İsabet: 18 (2d10 + 7) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 5 ft., tek hedef. İsabet: 14 (2d6 + 7) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 15 ft., tek hedef. İsabet: 16 (2d8 + 7) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 17 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nYıldırım Nefesi. Ejderha 90 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca yıldırım püskürtür. Hattaki her yaratık ZD 19 Çeviklik kurtarma zarı atar; başarısız olursa 66 (12d10) yıldırım hasar, başarılı olursa bunun yarısı kadar hasar alır.\nİtme Nefesi. Ejderha 30 ft.lik bir koni içine itici enerji püskürtür. Alandaki her yaratık ZD 19 Kuvvet kurtarma zarında başarılı olmalıdır. Başarısız olan yaratık ejderhadan 60 ft. uzağa itilir."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 20 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 14 (2d6 + 7) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-copper-dragon": {
+  "name": "Yetişkin Bakır Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 10 ft., tek hedef. İsabet: 17 (2d10 + 6) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 15 ft., tek hedef. İsabet: 15 (2d8 + 6) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 16 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nAsit Nefesi. Ejderha 60 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca asit püskürtür. Hattaki her yaratık ZD 18 Çeviklik kurtarma zarı atar; başarısız olursa 54 (12d8) asit hasar, başarılı olursa bunun yarısı kadar hasar alır.\nYavaşlatma Nefesi. Ejderha 60 ft.lik bir koni içine gaz püskürtür. Alandaki her yaratık ZD 18 Dayanıklılık kurtarma zarında başarılı olmalıdır. Başarısız olan yaratık tepki kullanamaz, hızı yarıya iner ve kendi turunda birden fazla saldırı yapamaz. Ayrıca kendi turunda ya bir eylem ya da bir bonus eylem kullanabilir, ikisini birden kullanamaz. Bu etkiler 1 dakika sürer. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 19 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 13 (2d6 + 6) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-gold-dragon": {
+  "name": "Yetişkin Altın Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 10 ft., tek hedef. İsabet: 19 (2d10 + 8) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 5 ft., tek hedef. İsabet: 15 (2d6 + 8) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 15 ft., tek hedef. İsabet: 17 (2d8 + 8) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 21 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nAteş Nefesi. Ejderha 60 ft.lik bir koni içine ateş püskürtür. Alandaki her yaratık ZD 21 Çeviklik kurtarma zarı atar; başarısız olursa 66 (12d10) ateş hasar, başarılı olursa bunun yarısı kadar hasar alır.\nZayıflatma Nefesi. Ejderha 60 ft.lik bir koni içine gaz püskürtür. Alandaki her yaratık ZD 21 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca Kuvvete dayalı isabet zarlarında, Kuvvet zarlarında ve Kuvvet kurtarma zarlarında dezavantajlı olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 22 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 15 (2d6 + 8) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-green-dragon": {
+  "name": "Yetişkin Yeşil Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 10 ft., tek hedef. İsabet: 17 (2d10 + 6) delici hasar artı 7 (2d6) zehir hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 15 ft., tek hedef. İsabet: 15 (2d8 + 6) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık"
+   },
+   {
+    "name": "Zehir Nefesi",
+    "text": "Ejderha 60 ft.lik bir koni içine zehirli gaz püskürtür. Alandaki her yaratık ZD 18 Dayanıklılık kurtarma zarı atar; başarısız olursa 56 (16d6) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 19 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 13 (2d6 + 6) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-red-dragon": {
+  "name": "Yetişkin Kırmızı Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 10 ft., tek hedef. İsabet: 19 (2d10 + 8) delici hasar artı 7 (2d6) ateş hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 5 ft., tek hedef. İsabet: 15 (2d6 + 8) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 15 ft., tek hedef. İsabet: 17 (2d8 + 8) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık"
+   },
+   {
+    "name": "Ateş Nefesi",
+    "text": "Ejderha 60 ft.lik bir koni içine ateş püskürtür. Alandaki her yaratık ZD 21 Çeviklik kurtarma zarı atar; başarısız olursa 63 (18d6) ateş hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 22 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 15 (2d6 + 8) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-silver-dragon": {
+  "name": "Yetişkin Gümüş Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +13, erişim 10 ft., tek hedef. İsabet: 19 (2d10 + 8) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +13, erişim 5 ft., tek hedef. İsabet: 15 (2d6 + 8) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +13, erişim 15 ft., tek hedef. İsabet: 17 (2d8 + 8) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 18 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nSoğuk Nefes. Ejderha 60 ft.lik bir koni içine buz gibi bir soluk püskürtür. Alandaki her yaratık ZD 20 Dayanıklılık kurtarma zarı atar; başarısız olursa 58 (13d8) soğuk hasar, başarılı olursa bunun yarısı kadar hasar alır.\nFelç Nefesi. Ejderha 60 ft.lik bir koni içine felç edici gaz püskürtür. Alandaki her yaratık ZD 20 Dayanıklılık kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca felçli olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 22 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 15 (2d6 + 8) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "adult-white-dragon": {
+  "name": "Yetişkin Beyaz Ejderha",
+  "traits": [
+   {
+    "name": "Buzda Yürüme"
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 10 ft., tek hedef. İsabet: 17 (2d10 + 6) delici hasar artı 4 (1d8) soğuk hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 15 ft., tek hedef. İsabet: 15 (2d8 + 6) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık"
+   },
+   {
+    "name": "Soğuk Nefes"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 10 ft. yakınındaki her yaratık ZD 19 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 13 (2d6 + 6) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "air-elemental": {
+  "name": "Hava Elementali",
+  "traits": [
+   {
+    "name": "Hava Biçimi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 14 (2d8 + 5) ezici hasar."
+   },
+   {
+    "name": "Hortum"
+   }
+  ],
+  "legendary": []
+ },
+ "ancient-black-dragon": {
+  "name": "Kadim Siyah Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 15 ft., tek hedef. İsabet: 19 (2d10 + 8) delici hasar artı 9 (2d8) asit hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 10 ft., tek hedef. İsabet: 15 (2d6 + 8) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 20 ft., tek hedef. İsabet: 17 (2d8 + 8) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 19 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Asit Nefesi",
+    "text": "Ejderha 90 ft. uzunluğunda ve 10 ft. genişliğinde bir hat boyunca asit püskürtür. Hattaki her yaratık ZD 22 Çeviklik kurtarma zarı atar; başarısız olursa 67 (15d8) asit hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 23 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 15 (2d6 + 8) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-blue-dragon": {
+  "name": "Kadim Mavi Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +16, erişim 15 ft., tek hedef. İsabet: 20 (2d10 + 9) delici hasar artı 11 (2d10) yıldırım hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +16, erişim 10 ft., tek hedef. İsabet: 16 (2d6 + 9) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +16, erişim 20 ft., tek hedef. İsabet: 18 (2d8 + 9) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 20 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Yıldırım Nefesi"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 24 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 16 (2d6 + 9) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-brass-dragon": {
+  "name": "Kadim Pirinç Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 15 ft., tek hedef. İsabet: 19 (2d10 + 8) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 10 ft., tek hedef. İsabet: 15 (2d6 + 8) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 20 ft., tek hedef. İsabet: 17 (2d8 + 8) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 18 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları"
+   },
+   {
+    "name": "Biçim Değiştir",
+    "text": "Ejderha büyüyle, CR değeri kendisininkinden yüksek olmayan bir insansıya ya da hayvana, ya da yeniden gerçek biçimine dönüşür. Ölürse gerçek biçimine döner. Giydiği ya da taşıdığı ekipman yeni biçim tarafından emilir ya da taşınır (ejderha seçer).\nYeni biçimde ejderha; hizasını, can puanını, can zarını, konuşma yetisini, yetkinliklerini, Efsanevi Direnç özelliğini, yuva eylemlerini, Zekâ, Bilgelik ve Karizma puanlarını ve bu eylemi korur. Diğer istatistikleri ve yetenekleri yeni biçiminkilerle değiştirilir; o biçimin sınıf özellikleri ve efsanevi eylemleri hariç."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 22 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 15 (2d6 + 8) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-bronze-dragon": {
+  "name": "Kadim Bronz Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +16, erişim 15 ft., tek hedef. İsabet: 20 (2d10 + 9) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +16, erişim 10 ft., tek hedef. İsabet: 16 (2d6 + 9) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +16, erişim 20 ft., tek hedef. İsabet: 18 (2d8 + 9) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 20 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nYıldırım Nefesi. Ejderha 120 ft. uzunluğunda ve 10 ft. genişliğinde bir hat boyunca yıldırım püskürtür. Hattaki her yaratık ZD 23 Çeviklik kurtarma zarı atar; başarısız olursa 88 (16d10) yıldırım hasar, başarılı olursa bunun yarısı kadar hasar alır.\nİtme Nefesi. Ejderha 30 ft.lik bir koni içine itici enerji püskürtür. Alandaki her yaratık ZD 23 Kuvvet kurtarma zarında başarılı olmalıdır. Başarısız olan yaratık ejderhadan 60 ft. uzağa itilir."
+   },
+   {
+    "name": "Biçim Değiştir",
+    "text": "Ejderha büyüyle, CR değeri kendisininkinden yüksek olmayan bir insansıya ya da hayvana, ya da yeniden gerçek biçimine dönüşür. Ölürse gerçek biçimine döner. Giydiği ya da taşıdığı ekipman yeni biçim tarafından emilir ya da taşınır (ejderha seçer).\nYeni biçimde ejderha; hizasını, can puanını, can zarını, konuşma yetisini, yetkinliklerini, Efsanevi Direnç özelliğini, yuva eylemlerini, Zekâ, Bilgelik ve Karizma puanlarını ve bu eylemi korur. Diğer istatistikleri ve yetenekleri yeni biçiminkilerle değiştirilir; o biçimin sınıf özellikleri ve efsanevi eylemleri hariç."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 24 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 16 (2d6 + 9) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-copper-dragon": {
+  "name": "Kadim Bakır Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 15 ft., tek hedef. İsabet: 19 (2d10 + 8) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 10 ft., tek hedef. İsabet: 15 (2d6 + 8) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 20 ft., tek hedef. İsabet: 17 (2d8 + 8) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 19 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nAsit Nefesi. Ejderha 90 ft. uzunluğunda ve 10 ft. genişliğinde bir hat boyunca asit püskürtür. Hattaki her yaratık ZD 22 Çeviklik kurtarma zarı atar; başarısız olursa 63 (14d8) asit hasar, başarılı olursa bunun yarısı kadar hasar alır.\nYavaşlatma Nefesi. Ejderha 90 ft.lik bir koni içine gaz püskürtür. Alandaki her yaratık ZD 22 Dayanıklılık kurtarma zarında başarılı olmalıdır. Başarısız olan yaratık tepki kullanamaz, hızı yarıya iner ve kendi turunda birden fazla saldırı yapamaz. Ayrıca kendi turunda ya bir eylem ya da bir bonus eylem kullanabilir, ikisini birden kullanamaz. Bu etkiler 1 dakika sürer. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   },
+   {
+    "name": "Biçim Değiştir",
+    "text": "Ejderha büyüyle, CR değeri kendisininkinden yüksek olmayan bir insansıya ya da hayvana, ya da yeniden gerçek biçimine dönüşür. Ölürse gerçek biçimine döner. Giydiği ya da taşıdığı ekipman yeni biçim tarafından emilir ya da taşınır (ejderha seçer).\nYeni biçimde ejderha; hizasını, can puanını, can zarını, konuşma yetisini, yetkinliklerini, Efsanevi Direnç özelliğini, yuva eylemlerini, Zekâ, Bilgelik ve Karizma puanlarını ve bu eylemi korur. Diğer istatistikleri ve yetenekleri yeni biçiminkilerle değiştirilir; o biçimin sınıf özellikleri ve efsanevi eylemleri hariç."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 23 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 15 (2d6 + 8) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-gold-dragon": {
+  "name": "Kadim Altın Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 15 ft., tek hedef. İsabet: 21 (2d10 + 10) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 10 ft., tek hedef. İsabet: 17 (2d6 + 10) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 20 ft., tek hedef. İsabet: 19 (2d8 + 10) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 24 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nAteş Nefesi. Ejderha 90 ft.lik bir koni içine ateş püskürtür. Alandaki her yaratık ZD 24 Çeviklik kurtarma zarı atar; başarısız olursa 71 (13d10) ateş hasar, başarılı olursa bunun yarısı kadar hasar alır.\nZayıflatma Nefesi. Ejderha 90 ft.lik bir koni içine gaz püskürtür. Alandaki her yaratık ZD 24 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca Kuvvete dayalı isabet zarlarında, Kuvvet zarlarında ve Kuvvet kurtarma zarlarında dezavantajlı olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   },
+   {
+    "name": "Biçim Değiştir",
+    "text": "Ejderha büyüyle, CR değeri kendisininkinden yüksek olmayan bir insansıya ya da hayvana, ya da yeniden gerçek biçimine dönüşür. Ölürse gerçek biçimine döner. Giydiği ya da taşıdığı ekipman yeni biçim tarafından emilir ya da taşınır (ejderha seçer).\nYeni biçimde ejderha; hizasını, can puanını, can zarını, konuşma yetisini, yetkinliklerini, Efsanevi Direnç özelliğini, yuva eylemlerini, Zekâ, Bilgelik ve Karizma puanlarını ve bu eylemi korur. Diğer istatistikleri ve yetenekleri yeni biçiminkilerle değiştirilir; o biçimin sınıf özellikleri ve efsanevi eylemleri hariç."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 25 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 17 (2d6 + 10) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-green-dragon": {
+  "name": "Kadim Yeşil Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 15 ft., tek hedef. İsabet: 19 (2d10 + 8) delici hasar artı 10 (3d6) zehir hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 10 ft., tek hedef. İsabet: 22 (4d6 + 8) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 20 ft., tek hedef. İsabet: 17 (2d8 + 8) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 19 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Zehir Nefesi",
+    "text": "Ejderha 90 ft.lik bir koni içine zehirli gaz püskürtür. Alandaki her yaratık ZD 22 Dayanıklılık kurtarma zarı atar; başarısız olursa 77 (22d6) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 23 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 15 (2d6 + 8) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-red-dragon": {
+  "name": "Kadim Kırmızı Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 15 ft., tek hedef. İsabet: 21 (2d10 + 10) delici hasar artı 14 (4d6) ateş hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 10 ft., tek hedef. İsabet: 17 (2d6 + 10) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 20 ft., tek hedef. İsabet: 19 (2d8 + 10) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 21 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Ateş Nefesi",
+    "text": "Ejderha 90 ft.lik bir koni içine ateş püskürtür. Alandaki her yaratık ZD 24 Çeviklik kurtarma zarı atar; başarısız olursa 91 (26d6) ateş hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 25 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 17 (2d6 + 10) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-silver-dragon": {
+  "name": "Kadim Gümüş Ejderha",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 15 ft., tek hedef. İsabet: 21 (2d10 + 10) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 10 ft., tek hedef. İsabet: 17 (2d6 + 10) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +17, erişim 20 ft., tek hedef. İsabet: 19 (2d8 + 10) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık",
+    "text": "Ejderhanın seçtiği, 120 ft. yakınında bulunan ve onun farkında olan her yaratık ZD 21 Bilgelik kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca korkmuş olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer. Bir yaratığın kurtarma zarı başarılı olursa ya da etki onun için sona ererse, o yaratık sonraki 24 saat boyunca ejderhanın Korkutucu Varlık yeteneğine bağışıktır."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nSoğuk Nefes. Ejderha 90 ft.lik bir koni içine buz gibi bir soluk püskürtür. Alandaki her yaratık ZD 24 Dayanıklılık kurtarma zarı atar; başarısız olursa 67 (15d8) soğuk hasar, başarılı olursa bunun yarısı kadar hasar alır.\nFelç Nefesi. Ejderha 90 ft.lik bir koni içine felç edici gaz püskürtür. Alandaki her yaratık ZD 24 Dayanıklılık kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca felçli olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   },
+   {
+    "name": "Biçim Değiştir",
+    "text": "Ejderha büyüyle, CR değeri kendisininkinden yüksek olmayan bir insansıya ya da hayvana, ya da yeniden gerçek biçimine dönüşür. Ölürse gerçek biçimine döner. Giydiği ya da taşıdığı ekipman yeni biçim tarafından emilir ya da taşınır (ejderha seçer).\nYeni biçimde ejderha; hizasını, can puanını, can zarını, konuşma yetisini, yetkinliklerini, Efsanevi Direnç özelliğini, yuva eylemlerini, Zekâ, Bilgelik ve Karizma puanlarını ve bu eylemi korur. Diğer istatistikleri ve yetenekleri yeni biçiminkilerle değiştirilir; o biçimin sınıf özellikleri ve efsanevi eylemleri hariç."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 25 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 17 (2d6 + 10) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "ancient-white-dragon": {
+  "name": "Kadim Beyaz Ejderha",
+  "traits": [
+   {
+    "name": "Buzda Yürüme"
+   },
+   {
+    "name": "Efsanevi Direnç",
+    "text": "Ejderha bir kurtarma zarında başarısız olursa, bunun yerine başarılı olmayı seçebilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha Korkutucu Varlık yeteneğini kullanabilir. Ardından üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 15 ft., tek hedef. İsabet: 19 (2d10 + 8) delici hasar artı 9 (2d8) soğuk hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 10 ft., tek hedef. İsabet: 15 (2d6 + 8) kesici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 20 ft., tek hedef. İsabet: 17 (2d8 + 8) ezici hasar."
+   },
+   {
+    "name": "Korkutucu Varlık"
+   },
+   {
+    "name": "Soğuk Nefes"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Sezme",
+    "text": "Ejderha bir Bilgelik (Algı) zarı atar."
+   },
+   {
+    "name": "Kuyruk Saldırısı",
+    "text": "Ejderha kuyruğuyla bir saldırı yapar."
+   },
+   {
+    "name": "Kanat Saldırısı (2 Eylem Harcar)",
+    "text": "Ejderha kanatlarını çırpar. Ejderhanın 15 ft. yakınındaki her yaratık ZD 22 Çeviklik kurtarma zarında başarılı olmalıdır; yoksa 15 (2d6 + 8) ezici hasar alır ve yere düşer. Ejderha ardından uçuş hızının yarısı kadar uçabilir."
+   }
+  ]
+ },
+ "androsphinx": {
+  "name": "Androsfenks",
+  "traits": [
+   {
+    "name": "Okunamaz"
+   },
+   {
+    "name": "Büyülü Silahlar"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 5 ft., tek hedef. İsabet: 17 (2d10 + 6) kesici hasar."
+   },
+   {
+    "name": "Kükreme"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Pençe Saldırısı"
+   },
+   {
+    "name": "Işınlanma (2 Eylem Harcar)"
+   },
+   {
+    "name": "Büyü Yap (3 Eylem Harcar)"
+   }
+  ]
+ },
+ "animated-armor": {
+  "name": "Canlı Zırh",
+  "traits": [
+   {
+    "name": "Büyü Karşıtlığına Duyarlılık"
+   },
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "ankheg": {
+  "name": "Ankheg",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Asit Püskürtme"
+   }
+  ],
+  "legendary": []
+ },
+ "ape": {
+  "name": "Maymun",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Yumruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) ezici hasar."
+   },
+   {
+    "name": "Kaya",
+    "text": "Menzilli Silah Saldırısı: isabet için +5, menzil 25/50 ft., tek hedef. İsabet: 6 (1d6 + 3) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "archmage": {
+  "name": "Başbüyücü",
+  "traits": [
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Hançer",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +6, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "assassin": {
+  "name": "Suikastçı",
+  "traits": [
+   {
+    "name": "Suikast"
+   },
+   {
+    "name": "Sıyrılma"
+   },
+   {
+    "name": "Sinsi Saldırı (Tur Başına 1)"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Kısa Kılıç"
+   },
+   {
+    "name": "Hafif Arbalet"
+   }
+  ],
+  "legendary": []
+ },
+ "awakened-shrub": {
+  "name": "Uyanmış Çalı",
+  "traits": [
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Tırmalama",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +1, erişim 5 ft., tek hedef. İsabet: 1 (1d4 - 1) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "awakened-tree": {
+  "name": "Uyanmış Ağaç",
+  "traits": [
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 10 ft., tek hedef. İsabet: 14 (3d6 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "axe-beak": {
+  "name": "Balta Gaga",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "azer": {
+  "name": "Azer",
+  "traits": [
+   {
+    "name": "Kızgın Beden"
+   },
+   {
+    "name": "Kızgın Silahlar"
+   },
+   {
+    "name": "Aydınlatma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Savaş Çekici"
+   }
+  ],
+  "legendary": []
+ },
+ "baboon": {
+  "name": "Babun",
+  "traits": [
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +1, erişim 5 ft., tek hedef. İsabet: 1 (1d4 - 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "badger": {
+  "name": "Porsuk",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 1 delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "balor": {
+  "name": "Balor",
+  "traits": [
+   {
+    "name": "Can Çekişme"
+   },
+   {
+    "name": "Ateş Aurası"
+   },
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Büyülü Silahlar"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Uzun Kılıç"
+   },
+   {
+    "name": "Kırbaç"
+   },
+   {
+    "name": "Işınlanma"
+   }
+  ],
+  "legendary": []
+ },
+ "bandit": {
+  "name": "Haydut",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Pala",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 4 (1d6 + 1) kesici hasar."
+   },
+   {
+    "name": "Hafif Arbalet",
+    "text": "Menzilli Silah Saldırısı: isabet için +3, menzil 80/320 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "bandit-captain": {
+  "name": "Haydut Kaptanı",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pala",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) kesici hasar."
+   },
+   {
+    "name": "Hançer",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +5, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 5 (1d4 + 3) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "barbed-devil": {
+  "name": "Dikenli Şeytan",
+  "traits": [
+   {
+    "name": "Dikenli Deri"
+   },
+   {
+    "name": "Şeytan Görüşü",
+    "text": "Büyülü karanlık, şeytanın karanlık görüşünü engellemez."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Şeytan, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) delici hasar."
+   },
+   {
+    "name": "Alev Fırlat"
+   }
+  ],
+  "legendary": []
+ },
+ "basilisk": {
+  "name": "Basilisk",
+  "traits": [
+   {
+    "name": "Taşlaştıran Bakış"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) delici hasar artı 7 (2d6) zehir hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "bat": {
+  "name": "Yarasa",
+  "traits": [
+   {
+    "name": "Yankıyla Yön Bulma"
+   },
+   {
+    "name": "Keskin İşitme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +0, erişim 5 ft., tek yaratık. İsabet: 1 delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "bearded-devil": {
+  "name": "Sakallı Şeytan",
+  "traits": [
+   {
+    "name": "Şeytan Görüşü",
+    "text": "Büyülü karanlık, şeytanın karanlık görüşünü engellemez."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Şeytan, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   },
+   {
+    "name": "Sarsılmaz"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Sakal"
+   },
+   {
+    "name": "Glaive"
+   }
+  ],
+  "legendary": []
+ },
+ "behir": {
+  "name": "Behir",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 22 (3d10 + 6) delici hasar."
+   },
+   {
+    "name": "Sıkma"
+   },
+   {
+    "name": "Yıldırım Nefesi"
+   },
+   {
+    "name": "Yutma"
+   }
+  ],
+  "legendary": []
+ },
+ "berserker": {
+  "name": "Berserker",
+  "traits": [
+   {
+    "name": "Pervasız"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Büyük Balta",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 9 (1d12 + 3) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "black-bear": {
+  "name": "Kara Ayı",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 7 (2d4 + 2) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "black-dragon-wyrmling": {
+  "name": "Siyah Ejderha Yavrusu",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (1d10 + 2) delici hasar artı 2 (1d4) asit hasar."
+   },
+   {
+    "name": "Asit Nefesi",
+    "text": "Ejderha 15 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca asit püskürtür. Hattaki her yaratık ZD 11 Çeviklik kurtarma zarı atar; başarısız olursa 22 (5d8) asit hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "black-pudding": {
+  "name": "Kara Puding",
+  "traits": [
+   {
+    "name": "Biçimsiz"
+   },
+   {
+    "name": "Aşındırıcı Biçim"
+   },
+   {
+    "name": "Örümcek Tırmanışı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yalancı Ayak"
+   }
+  ],
+  "legendary": []
+ },
+ "blink-dog": {
+  "name": "Işınlanan Köpek",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 4 (1d6 + 1) delici hasar."
+   },
+   {
+    "name": "Işınlanma"
+   }
+  ],
+  "legendary": []
+ },
+ "blood-hawk": {
+  "name": "Kan Şahini",
+  "traits": [
+   {
+    "name": "Keskin Görme"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "blue-dragon-wyrmling": {
+  "name": "Mavi Ejderha Yavrusu",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 8 (1d10 + 3) delici hasar artı 3 (1d6) yıldırım hasar."
+   },
+   {
+    "name": "Yıldırım Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "boar": {
+  "name": "Yaban Domuzu",
+  "traits": [
+   {
+    "name": "Hücum"
+   },
+   {
+    "name": "Amansız"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Azı Dişi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 4 (1d6 + 1) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "bone-devil": {
+  "name": "Kemik Şeytanı",
+  "traits": [
+   {
+    "name": "Şeytan Görüşü",
+    "text": "Büyülü karanlık, şeytanın karanlık görüşünü engellemez."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Şeytan, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 10 ft., tek hedef. İsabet: 8 (1d8 + 4) kesici hasar."
+   },
+   {
+    "name": "Sokma"
+   }
+  ],
+  "legendary": []
+ },
+ "brass-dragon-wyrmling": {
+  "name": "Pirinç Ejderha Yavrusu",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (1d10 + 2) delici hasar."
+   },
+   {
+    "name": "Nefes Silahları"
+   }
+  ],
+  "legendary": []
+ },
+ "bronze-dragon-wyrmling": {
+  "name": "Bronz Ejderha Yavrusu",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 8 (1d10 + 3) delici hasar."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nYıldırım Nefesi. Ejderha 40 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca yıldırım püskürtür. Hattaki her yaratık ZD 12 Çeviklik kurtarma zarı atar; başarısız olursa 16 (3d10) yıldırım hasar, başarılı olursa bunun yarısı kadar hasar alır.\nİtme Nefesi. Ejderha 30 ft.lik bir koni içine itici enerji püskürtür. Alandaki her yaratık ZD 12 Kuvvet kurtarma zarında başarılı olmalıdır. Başarısız olan yaratık ejderhadan 30 ft. uzağa itilir."
+   }
+  ],
+  "legendary": []
+ },
+ "brown-bear": {
+  "name": "Boz Ayı",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 8 (1d8 + 4) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "bugbear": {
+  "name": "Bugbear",
+  "traits": [
+   {
+    "name": "Kaba Kuvvet"
+   },
+   {
+    "name": "Baskın Saldırısı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Topuz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 11 (2d8 + 2) delici hasar."
+   },
+   {
+    "name": "Cirit"
+   }
+  ],
+  "legendary": []
+ },
+ "bulette": {
+  "name": "Bulette",
+  "traits": [
+   {
+    "name": "Durarak Sıçrama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 30 (4d12 + 4) delici hasar."
+   },
+   {
+    "name": "Ölümcül Sıçrayış"
+   }
+  ],
+  "legendary": []
+ },
+ "camel": {
+  "name": "Deve",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 2 (1d4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "cat": {
+  "name": "Kedi",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +0, erişim 5 ft., tek hedef. İsabet: 1 kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "centaur": {
+  "name": "Centaur",
+  "traits": [
+   {
+    "name": "Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Kargı",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 10 ft., tek hedef. İsabet: 9 (1d10 + 4) delici hasar."
+   },
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) ezici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 150/600 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "chain-devil": {
+  "name": "Zincir Şeytanı",
+  "traits": [
+   {
+    "name": "Şeytan Görüşü",
+    "text": "Büyülü karanlık, şeytanın karanlık görüşünü engellemez."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Şeytan, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Zincir"
+   },
+   {
+    "name": "Zincirleri Canlandır"
+   }
+  ],
+  "legendary": []
+ },
+ "chimera": {
+  "name": "Kimera",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) delici hasar."
+   },
+   {
+    "name": "Boynuzlar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 10 (1d12 + 4) ezici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   },
+   {
+    "name": "Ateş Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "chuul": {
+  "name": "Chuul",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Büyü Sezme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Kıskaç"
+   },
+   {
+    "name": "Dokunaçlar"
+   }
+  ],
+  "legendary": []
+ },
+ "clay-golem": {
+  "name": "Kil Golem",
+  "traits": [
+   {
+    "name": "Asit Emilimi"
+   },
+   {
+    "name": "Çılgına Dönme"
+   },
+   {
+    "name": "Değişmez Biçim",
+    "text": "Golem, biçimini değiştirecek her büyüye ve etkiye bağışıktır."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Golem, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   },
+   {
+    "name": "Büyülü Silahlar",
+    "text": "Golemin silah saldırıları büyülüdür."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma"
+   },
+   {
+    "name": "Çabukluk"
+   }
+  ],
+  "legendary": []
+ },
+ "cloaker": {
+  "name": "Cloaker",
+  "traits": [
+   {
+    "name": "Hasar Aktarımı"
+   },
+   {
+    "name": "Yanıltıcı Görünüm"
+   },
+   {
+    "name": "Işığa Duyarlılık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 10 ft., tek yaratık. İsabet: 7 (1d8 + 3) kesici hasar."
+   },
+   {
+    "name": "İnilti"
+   },
+   {
+    "name": "Hayaller"
+   }
+  ],
+  "legendary": []
+ },
+ "cloud-giant": {
+  "name": "Bulut Devi",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Topuz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 10 ft., tek hedef. İsabet: 21 (3d8 + 8) delici hasar."
+   },
+   {
+    "name": "Kaya",
+    "text": "Menzilli Silah Saldırısı: isabet için +12, menzil 60/240 ft., tek hedef. İsabet: 30 (4d10 + 8) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "cockatrice": {
+  "name": "Cockatrice",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "commoner": {
+  "name": "Halktan Biri",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Sopa",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 2 (1d4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "constrictor-snake": {
+  "name": "Boğucu Yılan",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Sıkma"
+   }
+  ],
+  "legendary": []
+ },
+ "copper-dragon-wyrmling": {
+  "name": "Bakır Ejderha Yavrusu",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (1d10 + 2) delici hasar."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nAsit Nefesi. Ejderha 20 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca asit püskürtür. Hattaki her yaratık ZD 11 Çeviklik kurtarma zarı atar; başarısız olursa 18 (4d8) asit hasar, başarılı olursa bunun yarısı kadar hasar alır.\nYavaşlatma Nefesi. Ejderha 15 ft.lik bir koni içine gaz püskürtür. Alandaki her yaratık ZD 11 Dayanıklılık kurtarma zarında başarılı olmalıdır. Başarısız olan yaratık tepki kullanamaz, hızı yarıya iner ve kendi turunda birden fazla saldırı yapamaz. Ayrıca kendi turunda ya bir eylem ya da bir bonus eylem kullanabilir, ikisini birden kullanamaz. Bu etkiler 1 dakika sürer. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": []
+ },
+ "couatl": {
+  "name": "Couatl",
+  "traits": [
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyülü Silahlar"
+   },
+   {
+    "name": "Korunaklı Zihin"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Sıkma"
+   },
+   {
+    "name": "Biçim Değiştir"
+   }
+  ],
+  "legendary": []
+ },
+ "crab": {
+  "name": "Yengeç",
+  "traits": [
+   {
+    "name": "Amfibi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +0, erişim 5 ft., tek hedef. İsabet: 1 ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "crocodile": {
+  "name": "Timsah",
+  "traits": [
+   {
+    "name": "Nefes Tutma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "cult-fanatic": {
+  "name": "Tarikat Fanatiği",
+  "traits": [
+   {
+    "name": "Karanlık Adanmışlık"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Hançer",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +4, erişim 5 ft. ya da menzil 20/60 ft., tek yaratık. İsabet: 4 (1d4 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "cultist": {
+  "name": "Tarikatçı",
+  "traits": [
+   {
+    "name": "Karanlık Adanmışlık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pala",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek yaratık. İsabet: 4 (1d6 + 1) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "darkmantle": {
+  "name": "Darkmantle",
+  "traits": [
+   {
+    "name": "Yankıyla Yön Bulma"
+   },
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Ezme"
+   },
+   {
+    "name": "Karanlık Aurası"
+   }
+  ],
+  "legendary": []
+ },
+ "death-dog": {
+  "name": "Ölüm Köpeği",
+  "traits": [
+   {
+    "name": "İki Başlı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "deep-gnome-svirfneblin": {
+  "name": "Derin Gnom (Svirfneblin)",
+  "traits": [
+   {
+    "name": "Taş Kamuflajı"
+   },
+   {
+    "name": "Gnom Kurnazlığı"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Savaş Kazması",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar."
+   },
+   {
+    "name": "Zehirli Dart"
+   }
+  ],
+  "legendary": []
+ },
+ "deer": {
+  "name": "Geyik",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 2 (1d4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "deva": {
+  "name": "Deva",
+  "traits": [
+   {
+    "name": "Melek Silahları"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gürz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 7 (1d6 + 4) ezici hasar artı 18 (4d8) ışıl hasar."
+   },
+   {
+    "name": "İyileştiren Dokunuş"
+   },
+   {
+    "name": "Biçim Değiştir"
+   }
+  ],
+  "legendary": []
+ },
+ "dire-wolf": {
+  "name": "Korkunç Kurt",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) delici hasar. Hedef bir yaratıksa ZD 13 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa yere düşer."
+   }
+  ],
+  "legendary": []
+ },
+ "djinni": {
+  "name": "Djinni",
+  "traits": [
+   {
+    "name": "Elemental Sonu"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pala"
+   },
+   {
+    "name": "Hortum Yarat"
+   }
+  ],
+  "legendary": []
+ },
+ "doppelganger": {
+  "name": "Doppelganger",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Pusucu"
+   },
+   {
+    "name": "Baskın Saldırısı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 7 (1d6 + 4) ezici hasar."
+   },
+   {
+    "name": "Düşünce Okuma"
+   }
+  ],
+  "legendary": []
+ },
+ "draft-horse": {
+  "name": "Yük Atı",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 9 (2d4 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "dragon-turtle": {
+  "name": "Ejderha Kaplumbağası",
+  "traits": [
+   {
+    "name": "Amfibi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +13, erişim 15 ft., tek hedef. İsabet: 26 (3d12 + 7) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +13, erişim 10 ft., tek hedef. İsabet: 16 (2d8 + 7) kesici hasar."
+   },
+   {
+    "name": "Kuyruk"
+   },
+   {
+    "name": "Buhar Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "dretch": {
+  "name": "Dretch",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 3 (1d6) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 5 (2d4) kesici hasar."
+   },
+   {
+    "name": "Pis Kokulu Bulut"
+   }
+  ],
+  "legendary": []
+ },
+ "drider": {
+  "name": "Drider",
+  "traits": [
+   {
+    "name": "Peri Soyu"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Örümcek Tırmanışı"
+   },
+   {
+    "name": "Güneş Işığına Duyarlılık"
+   },
+   {
+    "name": "Ağda Yürüyen"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek yaratık. İsabet: 2 (1d4) delici hasar artı 9 (2d8) zehir hasar."
+   },
+   {
+    "name": "Uzun Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar; iki elle kullanılırsa 8 (1d10 + 3) kesici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +6, menzil 150/600 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar artı 4 (1d8) zehir hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "drow": {
+  "name": "Drow",
+  "traits": [
+   {
+    "name": "Peri Soyu"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Güneş Işığına Duyarlılık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "El Arbaleti"
+   }
+  ],
+  "legendary": []
+ },
+ "druid": {
+  "name": "Druid",
+  "traits": [
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Asa"
+   }
+  ],
+  "legendary": []
+ },
+ "dryad": {
+  "name": "Dryad",
+  "traits": [
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Hayvanlar ve Bitkilerle Konuşma"
+   },
+   {
+    "name": "Ağaç Adımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Sopa"
+   },
+   {
+    "name": "Peri Büyüsü"
+   }
+  ],
+  "legendary": []
+ },
+ "duergar": {
+  "name": "Duergar",
+  "traits": [
+   {
+    "name": "Duergar Dayanıklılığı"
+   },
+   {
+    "name": "Güneş Işığına Duyarlılık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "İrileşme"
+   },
+   {
+    "name": "Savaş Kazması"
+   },
+   {
+    "name": "Cirit"
+   },
+   {
+    "name": "Görünmezlik"
+   }
+  ],
+  "legendary": []
+ },
+ "dust-mephit": {
+  "name": "Toz Mephiti",
+  "traits": [
+   {
+    "name": "Ölüm Patlaması"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 4 (1d4 + 2) kesici hasar."
+   },
+   {
+    "name": "Kör Edici Nefes"
+   }
+  ],
+  "legendary": []
+ },
+ "eagle": {
+  "name": "Kartal",
+  "traits": [
+   {
+    "name": "Keskin Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yırtıcı Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "earth-elemental": {
+  "name": "Toprak Elementali",
+  "traits": [
+   {
+    "name": "Toprakta Süzülme"
+   },
+   {
+    "name": "Kuşatma Canavarı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 10 ft., tek hedef. İsabet: 14 (2d8 + 5) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "efreeti": {
+  "name": "Efreeti",
+  "traits": [
+   {
+    "name": "Elemental Sonu"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pala",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar artı 7 (2d6) ateş hasar."
+   },
+   {
+    "name": "Alev Fırlat",
+    "text": "Menzilli Büyü Saldırısı: isabet için +7, menzil 120 ft., tek hedef. İsabet: 17 (5d6) ateş hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "elephant": {
+  "name": "Fil",
+  "traits": [
+   {
+    "name": "Çiğneyen Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Boynuz Darbesi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 19 (3d8 + 6) delici hasar."
+   },
+   {
+    "name": "Tepinme",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., yere düşmüş tek yaratık. İsabet: 22 (3d10 + 6) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "elk": {
+  "name": "Yaban Geyiği",
+  "traits": [
+   {
+    "name": "Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Tos",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) ezici hasar."
+   },
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., yere düşmüş tek yaratık. İsabet: 8 (2d4 + 3) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "erinyes": {
+  "name": "Erinyes",
+  "traits": [
+   {
+    "name": "Cehennemî Silahlar"
+   },
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Uzun Kılıç"
+   },
+   {
+    "name": "Uzun Yay"
+   }
+  ],
+  "legendary": []
+ },
+ "ettercap": {
+  "name": "Ettercap",
+  "traits": [
+   {
+    "name": "Örümcek Tırmanışı"
+   },
+   {
+    "name": "Ağ Sezgisi"
+   },
+   {
+    "name": "Ağda Yürüyen"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (2d4 + 2) kesici hasar."
+   },
+   {
+    "name": "Ağ"
+   }
+  ],
+  "legendary": []
+ },
+ "ettin": {
+  "name": "Ettin",
+  "traits": [
+   {
+    "name": "İki Baş"
+   },
+   {
+    "name": "Uyanık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Savaş Baltası",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 14 (2d8 + 5) kesici hasar."
+   },
+   {
+    "name": "Topuz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 14 (2d8 + 5) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "fire-elemental": {
+  "name": "Ateş Elementali",
+  "traits": [
+   {
+    "name": "Ateş Biçimi"
+   },
+   {
+    "name": "Aydınlatma"
+   },
+   {
+    "name": "Suya Duyarlılık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Dokunuş"
+   }
+  ],
+  "legendary": []
+ },
+ "fire-giant": {
+  "name": "Ateş Devi",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +11, erişim 10 ft., tek hedef. İsabet: 28 (6d6 + 7) kesici hasar."
+   },
+   {
+    "name": "Kaya",
+    "text": "Menzilli Silah Saldırısı: isabet için +11, menzil 60/240 ft., tek hedef. İsabet: 29 (4d10 + 7) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "flesh-golem": {
+  "name": "Et Golem",
+  "traits": [
+   {
+    "name": "Çılgına Dönme"
+   },
+   {
+    "name": "Ateşten Çekinme"
+   },
+   {
+    "name": "Değişmez Biçim",
+    "text": "Golem, biçimini değiştirecek her büyüye ve etkiye bağışıktır."
+   },
+   {
+    "name": "Yıldırım Emilimi"
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Golem, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   },
+   {
+    "name": "Büyülü Silahlar",
+    "text": "Golemin silah saldırıları büyülüdür."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "flying-snake": {
+  "name": "Uçan Yılan",
+  "traits": [
+   {
+    "name": "Uçarak Geçiş"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 1 delici hasar artı 7 (3d4) zehir hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "flying-sword": {
+  "name": "Uçan Kılıç",
+  "traits": [
+   {
+    "name": "Büyü Karşıtlığına Duyarlılık"
+   },
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Uzun Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 5 (1d8 + 1) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "frog": {
+  "name": "Kurbağa",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Durarak Sıçrama"
+   }
+  ],
+  "actions": [],
+  "legendary": []
+ },
+ "frost-giant": {
+  "name": "Ayaz Devi",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Balta",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 10 ft., tek hedef. İsabet: 25 (3d12 + 6) kesici hasar."
+   },
+   {
+    "name": "Kaya",
+    "text": "Menzilli Silah Saldırısı: isabet için +9, menzil 60/240 ft., tek hedef. İsabet: 28 (4d10 + 6) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "gargoyle": {
+  "name": "Gargoyle",
+  "traits": [
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "gelatinous-cube": {
+  "name": "Jelatinli Küp",
+  "traits": [
+   {
+    "name": "Çamur Küpü"
+   },
+   {
+    "name": "Saydam"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yalancı Ayak",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 10 (3d6) asit hasar."
+   },
+   {
+    "name": "İçine Alma"
+   }
+  ],
+  "legendary": []
+ },
+ "ghast": {
+  "name": "Ghast",
+  "traits": [
+   {
+    "name": "Leş Kokusu"
+   },
+   {
+    "name": "Kovulmaya Direniş"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek yaratık. İsabet: 12 (2d8 + 3) delici hasar."
+   },
+   {
+    "name": "Pençeler"
+   }
+  ],
+  "legendary": []
+ },
+ "ghost": {
+  "name": "Hayalet",
+  "traits": [
+   {
+    "name": "Eterik Görüş"
+   },
+   {
+    "name": "Cisimsiz Hareket"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Solduran Dokunuş",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 17 (4d6 + 3) nekrotik hasar."
+   },
+   {
+    "name": "Eteriklik"
+   },
+   {
+    "name": "Dehşet Verici Yüz"
+   },
+   {
+    "name": "Ele Geçirme"
+   }
+  ],
+  "legendary": []
+ },
+ "ghoul": {
+  "name": "Ghoul",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek yaratık. İsabet: 9 (2d6 + 2) delici hasar."
+   },
+   {
+    "name": "Pençeler"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-ape": {
+  "name": "Dev Maymun",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Yumruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 10 ft., tek hedef. İsabet: 22 (3d10 + 6) ezici hasar."
+   },
+   {
+    "name": "Kaya",
+    "text": "Menzilli Silah Saldırısı: isabet için +9, menzil 50/100 ft., tek hedef. İsabet: 30 (7d6 + 6) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-badger": {
+  "name": "Dev Porsuk",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 4 (1d6 + 1) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 6 (2d4 + 1) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-bat": {
+  "name": "Dev Yarasa",
+  "traits": [
+   {
+    "name": "Yankıyla Yön Bulma"
+   },
+   {
+    "name": "Keskin İşitme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 5 (1d6 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-boar": {
+  "name": "Dev Yaban Domuzu",
+  "traits": [
+   {
+    "name": "Hücum"
+   },
+   {
+    "name": "Amansız"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Azı Dişi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-centipede": {
+  "name": "Dev Çıyan",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-constrictor-snake": {
+  "name": "Dev Boğucu Yılan",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 10 ft., tek yaratık. İsabet: 11 (2d6 + 4) delici hasar."
+   },
+   {
+    "name": "Sıkma"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-crab": {
+  "name": "Dev Yengeç",
+  "traits": [
+   {
+    "name": "Amfibi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençe"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-crocodile": {
+  "name": "Dev Timsah",
+  "traits": [
+   {
+    "name": "Nefes Tutma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Kuyruk"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-eagle": {
+  "name": "Dev Kartal",
+  "traits": [
+   {
+    "name": "Keskin Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar."
+   },
+   {
+    "name": "Yırtıcı Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-elk": {
+  "name": "Dev Yaban Geyiği",
+  "traits": [
+   {
+    "name": "Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Tos",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 10 ft., tek hedef. İsabet: 11 (2d6 + 4) ezici hasar."
+   },
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., yere düşmüş tek yaratık. İsabet: 22 (4d8 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-fire-beetle": {
+  "name": "Dev Ateş Böceği",
+  "traits": [
+   {
+    "name": "Aydınlatma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +1, erişim 5 ft., tek hedef. İsabet: 2 (1d6 - 1) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-frog": {
+  "name": "Dev Kurbağa",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Durarak Sıçrama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Yutma"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-goat": {
+  "name": "Dev Keçi",
+  "traits": [
+   {
+    "name": "Hücum"
+   },
+   {
+    "name": "Sağlam Basan"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Tos",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 8 (2d4 + 3) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-hyena": {
+  "name": "Dev Sırtlan",
+  "traits": [
+   {
+    "name": "Kudurma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-lizard": {
+  "name": "Dev Kertenkele",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-octopus": {
+  "name": "Dev Ahtapot",
+  "traits": [
+   {
+    "name": "Nefes Tutma"
+   },
+   {
+    "name": "Su Altı Kamuflajı"
+   },
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Dokunaçlar"
+   },
+   {
+    "name": "Mürekkep Bulutu"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-owl": {
+  "name": "Dev Baykuş",
+  "traits": [
+   {
+    "name": "Uçarak Geçiş"
+   },
+   {
+    "name": "Keskin İşitme ve Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yırtıcı Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 8 (2d6 + 1) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-poisonous-snake": {
+  "name": "Dev Zehirli Yılan",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-rat": {
+  "name": "Dev Sıçan",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-rat-diseased": {
+  "name": "Dev Sıçan (Hastalıklı)",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-scorpion": {
+  "name": "Dev Akrep",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Pençe"
+   },
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Sokma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 7 (1d10 + 2) delici hasar; ayrıca hedef ZD 12 Dayanıklılık kurtarma zarı atar; başarısız olursa 22 (4d10) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-sea-horse": {
+  "name": "Dev Denizatı",
+  "traits": [
+   {
+    "name": "Hücum"
+   },
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Tos",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 4 (1d6 + 1) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-shark": {
+  "name": "Dev Köpekbalığı",
+  "traits": [
+   {
+    "name": "Kan Çılgınlığı"
+   },
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 5 ft., tek hedef. İsabet: 22 (3d10 + 6) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-spider": {
+  "name": "Dev Örümcek",
+  "traits": [
+   {
+    "name": "Örümcek Tırmanışı",
+    "text": "Örümcek, yetenek zarı atmasına gerek kalmadan zorlu yüzeylere, baş aşağı tavanlar dahil, tırmanabilir."
+   },
+   {
+    "name": "Ağ Sezgisi"
+   },
+   {
+    "name": "Ağda Yürüyen",
+    "text": "Örümcek, ağların yol açtığı hareket kısıtlamalarını yok sayar."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek yaratık. İsabet: 7 (1d8 + 3) delici hasar; ayrıca hedef ZD 11 Dayanıklılık kurtarma zarı atar; başarısız olursa 9 (2d8) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır. Zehir hasarı hedefin can puanını 0 değerine indirirse hedef dengede kalır ama can puanı kazansa bile 1 saat boyunca zehirlenmiş olur ve bu şekilde zehirliyken felçlidir."
+   },
+   {
+    "name": "Ağ"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-toad": {
+  "name": "Dev Karakurbağası",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Durarak Sıçrama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Yutma"
+   }
+  ],
+  "legendary": []
+ },
+ "giant-vulture": {
+  "name": "Dev Akbaba",
+  "traits": [
+   {
+    "name": "Keskin Görme ve Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (2d4 + 2) delici hasar."
+   },
+   {
+    "name": "Yırtıcı Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 9 (2d6 + 2) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-wasp": {
+  "name": "Dev Yaban Arısı",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Sokma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 5 (1d6 + 2) delici hasar; ayrıca hedef ZD 11 Dayanıklılık kurtarma zarı atar; başarısız olursa 10 (3d6) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır. Zehir hasarı hedefin can puanını 0 değerine indirirse hedef dengede kalır ama can puanı kazansa bile 1 saat boyunca zehirlenmiş olur ve bu şekilde zehirliyken felçlidir."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-weasel": {
+  "name": "Dev Gelincik",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 5 (1d4 + 3) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "giant-wolf-spider": {
+  "name": "Dev Kurt Örümceği",
+  "traits": [
+   {
+    "name": "Örümcek Tırmanışı",
+    "text": "Örümcek, yetenek zarı atmasına gerek kalmadan zorlu yüzeylere, baş aşağı tavanlar dahil, tırmanabilir."
+   },
+   {
+    "name": "Ağ Sezgisi"
+   },
+   {
+    "name": "Ağda Yürüyen",
+    "text": "Örümcek, ağların yol açtığı hareket kısıtlamalarını yok sayar."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek yaratık. İsabet: 4 (1d6 + 1) delici hasar; ayrıca hedef ZD 11 Dayanıklılık kurtarma zarı atar; başarısız olursa 7 (2d6) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır. Zehir hasarı hedefin can puanını 0 değerine indirirse hedef dengede kalır ama can puanı kazansa bile 1 saat boyunca zehirlenmiş olur ve bu şekilde zehirliyken felçlidir."
+   }
+  ],
+  "legendary": []
+ },
+ "gibbering-mouther": {
+  "name": "Gibbering Mouther",
+  "traits": [
+   {
+    "name": "Sapkın Zemin"
+   },
+   {
+    "name": "Saçmalama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırıklar"
+   },
+   {
+    "name": "Kör Edici Tükürük"
+   }
+  ],
+  "legendary": []
+ },
+ "glabrezu": {
+  "name": "Glabrezu",
+  "traits": [
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Kıskaç"
+   },
+   {
+    "name": "Yumruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 5 ft., tek hedef. İsabet: 7 (2d4 + 2) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "gladiator": {
+  "name": "Gladyatör",
+  "traits": [
+   {
+    "name": "Cesur"
+   },
+   {
+    "name": "Kaba Kuvvet"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Mızrak",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +7, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 11 (2d6 + 4) delici hasar; yakın dövüşte iki elle kullanılırsa 13 (2d8 + 4) delici hasar."
+   },
+   {
+    "name": "Kalkan Darbesi"
+   }
+  ],
+  "legendary": []
+ },
+ "gnoll": {
+  "name": "Gnoll",
+  "traits": [
+   {
+    "name": "Kudurma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 4 (1d4 + 2) delici hasar."
+   },
+   {
+    "name": "Mızrak",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +4, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar; yakın dövüşte iki elle kullanılırsa 6 (1d8 + 2) delici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +3, menzil 150/600 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "goat": {
+  "name": "Keçi",
+  "traits": [
+   {
+    "name": "Hücum"
+   },
+   {
+    "name": "Sağlam Basan"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Tos",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 3 (1d4 + 1) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "goblin": {
+  "name": "Goblin",
+  "traits": [
+   {
+    "name": "Çevik Kaçış"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pala",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) kesici hasar."
+   },
+   {
+    "name": "Kısa Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 80/320 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "gold-dragon-wyrmling": {
+  "name": "Altın Ejderha Yavrusu",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 9 (1d10 + 4) delici hasar."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nAteş Nefesi. Ejderha 15 ft.lik bir koni içine ateş püskürtür. Alandaki her yaratık ZD 13 Çeviklik kurtarma zarı atar; başarısız olursa 22 (4d10) ateş hasar, başarılı olursa bunun yarısı kadar hasar alır.\nZayıflatma Nefesi. Ejderha 15 ft.lik bir koni içine gaz püskürtür. Alandaki her yaratık ZD 13 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca Kuvvete dayalı isabet zarlarında, Kuvvet zarlarında ve Kuvvet kurtarma zarlarında dezavantajlı olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": []
+ },
+ "gorgon": {
+  "name": "Gorgon",
+  "traits": [
+   {
+    "name": "Çiğneyen Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Boynuz Darbesi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 18 (2d12 + 5) delici hasar."
+   },
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 16 (2d10 + 5) ezici hasar."
+   },
+   {
+    "name": "Taşlaştıran Nefes"
+   }
+  ],
+  "legendary": []
+ },
+ "gray-ooze": {
+  "name": "Gri Çamur",
+  "traits": [
+   {
+    "name": "Biçimsiz"
+   },
+   {
+    "name": "Metali Aşındır"
+   },
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yalancı Ayak"
+   }
+  ],
+  "legendary": []
+ },
+ "green-dragon-wyrmling": {
+  "name": "Yeşil Ejderha Yavrusu",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (1d10 + 2) delici hasar artı 3 (1d6) zehir hasar."
+   },
+   {
+    "name": "Zehir Nefesi",
+    "text": "Ejderha 15 ft.lik bir koni içine zehirli gaz püskürtür. Alandaki her yaratık ZD 11 Dayanıklılık kurtarma zarı atar; başarısız olursa 21 (6d6) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "green-hag": {
+  "name": "Yeşil Cadı",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Taklit"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) kesici hasar."
+   },
+   {
+    "name": "Yanılsama Görünüm"
+   },
+   {
+    "name": "Görünmez Geçiş"
+   }
+  ],
+  "legendary": []
+ },
+ "grick": {
+  "name": "Grick",
+  "traits": [
+   {
+    "name": "Taş Kamuflajı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Dokunaçlar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 9 (2d6 + 2) kesici hasar."
+   },
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "griffon": {
+  "name": "Griffon",
+  "traits": [
+   {
+    "name": "Keskin Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 8 (1d8 + 4) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "grimlock": {
+  "name": "Grimlock",
+  "traits": [
+   {
+    "name": "Kör Duyular"
+   },
+   {
+    "name": "Keskin İşitme ve Koku"
+   },
+   {
+    "name": "Taş Kamuflajı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Dikenli Kemik Sopa",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 5 (1d4 + 3) ezici hasar artı 2 (1d4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "guard": {
+  "name": "Muhafız",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Mızrak"
+   }
+  ],
+  "legendary": []
+ },
+ "guardian-naga": {
+  "name": "Koruyucu Naga",
+  "traits": [
+   {
+    "name": "Yeniden Doğuş"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 10 ft., tek yaratık. İsabet: 8 (1d8 + 4) delici hasar; ayrıca hedef ZD 15 Dayanıklılık kurtarma zarı atar; başarısız olursa 45 (10d8) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   },
+   {
+    "name": "Zehir Tükürme"
+   }
+  ],
+  "legendary": []
+ },
+ "gynosphinx": {
+  "name": "Ginosfenks",
+  "traits": [
+   {
+    "name": "Okunamaz"
+   },
+   {
+    "name": "Büyülü Silahlar"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) kesici hasar."
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Pençe Saldırısı"
+   },
+   {
+    "name": "Işınlanma (2 Eylem Harcar)"
+   },
+   {
+    "name": "Büyü Yap (3 Eylem Harcar)"
+   }
+  ]
+ },
+ "half-red-dragon-veteran": {
+  "name": "Yarı Kırmızı Ejderha Gazisi",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Uzun Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar; iki elle kullanılırsa 8 (1d10 + 3) kesici hasar."
+   },
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar."
+   },
+   {
+    "name": "Ağır Arbalet",
+    "text": "Menzilli Silah Saldırısı: isabet için +3, menzil 100/400 ft., tek hedef. İsabet: 6 (1d10 + 1) delici hasar."
+   },
+   {
+    "name": "Ateş Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "harpy": {
+  "name": "Harpi",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 6 (2d4 + 1) kesici hasar."
+   },
+   {
+    "name": "Sopa",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 3 (1d4 + 1) ezici hasar."
+   },
+   {
+    "name": "Ayartan Şarkı"
+   }
+  ],
+  "legendary": []
+ },
+ "hawk": {
+  "name": "Şahin",
+  "traits": [
+   {
+    "name": "Keskin Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yırtıcı Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 1 kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "hell-hound": {
+  "name": "Cehennem Köpeği",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar artı 7 (2d6) ateş hasar."
+   },
+   {
+    "name": "Ateş Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "hezrou": {
+  "name": "Hezrou",
+  "traits": [
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Leş Kokusu"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 15 (2d10 + 4) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "hill-giant": {
+  "name": "Tepe Devi",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Sopa",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 10 ft., tek hedef. İsabet: 18 (3d8 + 5) ezici hasar."
+   },
+   {
+    "name": "Kaya",
+    "text": "Menzilli Silah Saldırısı: isabet için +8, menzil 60/240 ft., tek hedef. İsabet: 21 (3d10 + 5) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "hippogriff": {
+  "name": "Hippogriff",
+  "traits": [
+   {
+    "name": "Keskin Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 8 (1d10 + 3) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "hobgoblin": {
+  "name": "Hobgoblin",
+  "traits": [
+   {
+    "name": "Savaş Üstünlüğü"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Uzun Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 5 (1d8 + 1) kesici hasar; iki elle kullanılırsa 6 (1d10 + 1) kesici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +3, menzil 150/600 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "homunculus": {
+  "name": "Homunculus",
+  "traits": [
+   {
+    "name": "Telepatik Bağ"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "horned-devil": {
+  "name": "Boynuzlu Şeytan",
+  "traits": [
+   {
+    "name": "Şeytan Görüşü",
+    "text": "Büyülü karanlık, şeytanın karanlık görüşünü engellemez."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Şeytan, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çatal",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 15 (2d8 + 6) delici hasar."
+   },
+   {
+    "name": "Kuyruk"
+   },
+   {
+    "name": "Alev Fırlat"
+   }
+  ],
+  "legendary": []
+ },
+ "hunter-shark": {
+  "name": "Avcı Köpekbalığı",
+  "traits": [
+   {
+    "name": "Kan Çılgınlığı"
+   },
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "hydra": {
+  "name": "Hidra",
+  "traits": [
+   {
+    "name": "Nefes Tutma"
+   },
+   {
+    "name": "Çok Başlı"
+   },
+   {
+    "name": "Tepkisel Başlar"
+   },
+   {
+    "name": "Uyanık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 10 ft., tek hedef. İsabet: 10 (1d10 + 5) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "hyena": {
+  "name": "Sırtlan",
+  "traits": [
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 3 (1d6) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "ice-devil": {
+  "name": "Buz Şeytanı",
+  "traits": [
+   {
+    "name": "Şeytan Görüşü",
+    "text": "Büyülü karanlık, şeytanın karanlık görüşünü engellemez."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Şeytan, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 12 (2d6 + 5) delici hasar artı 10 (3d6) soğuk hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 10 (2d4 + 5) kesici hasar artı 10 (3d6) soğuk hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 12 (2d6 + 5) ezici hasar artı 10 (3d6) soğuk hasar."
+   },
+   {
+    "name": "Buz Duvarı"
+   }
+  ],
+  "legendary": []
+ },
+ "ice-mephit": {
+  "name": "Buz Mephiti",
+  "traits": [
+   {
+    "name": "Ölüm Patlaması"
+   },
+   {
+    "name": "Yanıltıcı Görünüm"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek yaratık. İsabet: 3 (1d4 + 1) kesici hasar artı 2 (1d4) soğuk hasar."
+   },
+   {
+    "name": "Ayaz Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "imp": {
+  "name": "Imp",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Şeytan Görüşü"
+   },
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Sokma (Hayvan Biçiminde Isırık)"
+   },
+   {
+    "name": "Görünmezlik"
+   }
+  ],
+  "legendary": []
+ },
+ "invisible-stalker": {
+  "name": "Görünmez Takipçi",
+  "traits": [
+   {
+    "name": "Görünmezlik"
+   },
+   {
+    "name": "Kusursuz İz Sürücü"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "iron-golem": {
+  "name": "Demir Golem",
+  "traits": [
+   {
+    "name": "Ateş Emilimi"
+   },
+   {
+    "name": "Değişmez Biçim",
+    "text": "Golem, biçimini değiştirecek her büyüye ve etkiye bağışıktır."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Golem, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   },
+   {
+    "name": "Büyülü Silahlar",
+    "text": "Golemin silah saldırıları büyülüdür."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +13, erişim 5 ft., tek hedef. İsabet: 20 (3d8 + 7) ezici hasar."
+   },
+   {
+    "name": "Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +13, erişim 10 ft., tek hedef. İsabet: 23 (3d10 + 7) kesici hasar."
+   },
+   {
+    "name": "Zehir Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "jackal": {
+  "name": "Çakal",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +1, erişim 5 ft., tek hedef. İsabet: 1 (1d4 - 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "killer-whale": {
+  "name": "Katil Balina",
+  "traits": [
+   {
+    "name": "Yankıyla Yön Bulma"
+   },
+   {
+    "name": "Nefes Tutma"
+   },
+   {
+    "name": "Keskin İşitme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 21 (5d6 + 4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "knight": {
+  "name": "Şövalye",
+  "traits": [
+   {
+    "name": "Cesur"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) kesici hasar."
+   },
+   {
+    "name": "Ağır Arbalet",
+    "text": "Menzilli Silah Saldırısı: isabet için +2, menzil 100/400 ft., tek hedef. İsabet: 5 (1d10) delici hasar."
+   },
+   {
+    "name": "Liderlik"
+   }
+  ],
+  "legendary": []
+ },
+ "kobold": {
+  "name": "Kobold",
+  "traits": [
+   {
+    "name": "Güneş Işığına Duyarlılık"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Hançer",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar."
+   },
+   {
+    "name": "Sapan",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 30/120 ft., tek hedef. İsabet: 4 (1d4 + 2) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "kraken": {
+  "name": "Kraken",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Hareket Özgürlüğü"
+   },
+   {
+    "name": "Kuşatma Canavarı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Dokunaç"
+   },
+   {
+    "name": "Fırlatma"
+   },
+   {
+    "name": "Yıldırım Fırtınası"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Dokunaç Saldırısı ya da Fırlatma"
+   },
+   {
+    "name": "Yıldırım Fırtınası (2 Eylem Harcar)"
+   },
+   {
+    "name": "Mürekkep Bulutu (3 Eylem Harcar)"
+   }
+  ]
+ },
+ "lamia": {
+  "name": "Lamia",
+  "traits": [
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 14 (2d10 + 3) kesici hasar."
+   },
+   {
+    "name": "Hançer",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 5 (1d4 + 3) delici hasar."
+   },
+   {
+    "name": "Sarhoş Eden Dokunuş"
+   }
+  ],
+  "legendary": []
+ },
+ "lemure": {
+  "name": "Lemure",
+  "traits": [
+   {
+    "name": "Şeytan Görüşü"
+   },
+   {
+    "name": "Cehennemî Yenilenme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yumruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 2 (1d4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "lich": {
+  "name": "Lich",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç"
+   },
+   {
+    "name": "Yeniden Doğuş"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   },
+   {
+    "name": "Kovulma Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Felç Eden Dokunuş"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Hile Büyüsü"
+   },
+   {
+    "name": "Felç Eden Dokunuş (2 Eylem Harcar)"
+   },
+   {
+    "name": "Korkutucu Bakış (2 Eylem Harcar)"
+   },
+   {
+    "name": "Yaşamı Boz (3 Eylem Harcar)"
+   }
+  ]
+ },
+ "lion": {
+  "name": "Aslan",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   },
+   {
+    "name": "Üstüne Atlama"
+   },
+   {
+    "name": "Koşarak Sıçrama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "lizard": {
+  "name": "Kertenkele",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +0, erişim 5 ft., tek hedef. İsabet: 1 delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "lizardfolk": {
+  "name": "Kertenkele Halkı",
+  "traits": [
+   {
+    "name": "Nefes Tutma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Ağır Sopa",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) ezici hasar."
+   },
+   {
+    "name": "Cirit",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +4, erişim 5 ft. ya da menzil 30/120 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Dikenli Kalkan",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "mage": {
+  "name": "Büyücü",
+  "traits": [
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Hançer",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +5, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "magma-mephit": {
+  "name": "Magma Mephiti",
+  "traits": [
+   {
+    "name": "Ölüm Patlaması"
+   },
+   {
+    "name": "Yanıltıcı Görünüm"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek yaratık. İsabet: 3 (1d4 + 1) kesici hasar artı 2 (1d4) ateş hasar."
+   },
+   {
+    "name": "Ateş Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "magmin": {
+  "name": "Magmin",
+  "traits": [
+   {
+    "name": "Ölüm Patlaması"
+   },
+   {
+    "name": "Tutuşmuş Aydınlatma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Dokunuş"
+   }
+  ],
+  "legendary": []
+ },
+ "mammoth": {
+  "name": "Mamut",
+  "traits": [
+   {
+    "name": "Çiğneyen Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Boynuz Darbesi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 25 (4d8 + 7) delici hasar."
+   },
+   {
+    "name": "Tepinme",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., yere düşmüş tek yaratık. İsabet: 29 (4d10 + 7) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "manticore": {
+  "name": "Manticore",
+  "traits": [
+   {
+    "name": "Kuyruk Dikeni Yenilenmesi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) kesici hasar."
+   },
+   {
+    "name": "Kuyruk Dikeni",
+    "text": "Menzilli Silah Saldırısı: isabet için +5, menzil 100/200 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "marilith": {
+  "name": "Marilith",
+  "traits": [
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Büyülü Silahlar"
+   },
+   {
+    "name": "Tepkisel"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Uzun Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) kesici hasar."
+   },
+   {
+    "name": "Kuyruk"
+   },
+   {
+    "name": "Işınlanma"
+   }
+  ],
+  "legendary": []
+ },
+ "mastiff": {
+  "name": "Mastif",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 4 (1d6 + 1) delici hasar. Hedef bir yaratıksa ZD 11 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa yere düşer."
+   }
+  ],
+  "legendary": []
+ },
+ "medusa": {
+  "name": "Medusa",
+  "traits": [
+   {
+    "name": "Taşlaştıran Bakış"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Yılan Saç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek yaratık. İsabet: 4 (1d4 + 2) delici hasar artı 14 (4d6) zehir hasar."
+   },
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +5, menzil 150/600 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar artı 7 (2d6) zehir hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "merfolk": {
+  "name": "Deniz Halkı",
+  "traits": [
+   {
+    "name": "Amfibi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Mızrak"
+   }
+  ],
+  "legendary": []
+ },
+ "merrow": {
+  "name": "Merrow",
+  "traits": [
+   {
+    "name": "Amfibi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 8 (1d8 + 4) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 9 (2d4 + 4) kesici hasar."
+   },
+   {
+    "name": "Zıpkın"
+   }
+  ],
+  "legendary": []
+ },
+ "mimic": {
+  "name": "Mimik",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Yapışkan (Yalnızca Nesne Biçiminde)"
+   },
+   {
+    "name": "Yanıltıcı Görünüm (Yalnızca Nesne Biçiminde)"
+   },
+   {
+    "name": "Yakalayıcı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yalancı Ayak"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar artı 4 (1d8) asit hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "minotaur": {
+  "name": "Minotaur",
+  "traits": [
+   {
+    "name": "Hücum"
+   },
+   {
+    "name": "Labirent Hafızası"
+   },
+   {
+    "name": "Pervasız"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Büyük Balta",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 17 (2d12 + 4) kesici hasar."
+   },
+   {
+    "name": "Boynuz Darbesi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "minotaur-skeleton": {
+  "name": "Minotaur İskeleti",
+  "traits": [
+   {
+    "name": "Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Büyük Balta",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 17 (2d12 + 4) kesici hasar."
+   },
+   {
+    "name": "Boynuz Darbesi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "mule": {
+  "name": "Katır",
+  "traits": [
+   {
+    "name": "Yük Hayvanı"
+   },
+   {
+    "name": "Sağlam Basan"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "mummy": {
+  "name": "Mumya",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çürüten Yumruk"
+   },
+   {
+    "name": "Dehşet Bakışı"
+   }
+  ],
+  "legendary": []
+ },
+ "mummy-lord": {
+  "name": "Mumya Lordu",
+  "traits": [
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Yeniden Doğuş"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çürüten Yumruk"
+   },
+   {
+    "name": "Dehşet Bakışı"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Saldırı"
+   },
+   {
+    "name": "Kör Edici Toz"
+   },
+   {
+    "name": "Küfür Sözü (2 Eylem Harcar)"
+   },
+   {
+    "name": "Negatif Enerji Yönlendir (2 Eylem Harcar)"
+   },
+   {
+    "name": "Kum Hortumu (2 Eylem Harcar)"
+   }
+  ]
+ },
+ "nalfeshnee": {
+  "name": "Nalfeshnee",
+  "traits": [
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 32 (5d10 + 5) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 15 (3d6 + 5) kesici hasar."
+   },
+   {
+    "name": "Dehşet Halesi"
+   },
+   {
+    "name": "Işınlanma"
+   }
+  ],
+  "legendary": []
+ },
+ "night-hag": {
+  "name": "Gece Cadısı",
+  "traits": [
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Gece Cadısı Eşyaları"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençeler (Yalnızca Cadı Biçiminde)",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) kesici hasar."
+   },
+   {
+    "name": "Biçim Değiştir"
+   },
+   {
+    "name": "Eteriklik"
+   },
+   {
+    "name": "Kabus Musallatı"
+   }
+  ],
+  "legendary": []
+ },
+ "nightmare": {
+  "name": "Kabus Atı",
+  "traits": [
+   {
+    "name": "Ateş Direnci Bahşet"
+   },
+   {
+    "name": "Aydınlatma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) ezici hasar artı 7 (2d6) ateş hasar."
+   },
+   {
+    "name": "Eterik Adım"
+   }
+  ],
+  "legendary": []
+ },
+ "noble": {
+  "name": "Asil",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Meç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "ochre-jelly": {
+  "name": "Aşı Jölesi",
+  "traits": [
+   {
+    "name": "Biçimsiz"
+   },
+   {
+    "name": "Örümcek Tırmanışı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yalancı Ayak",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 9 (2d6 + 2) ezici hasar artı 3 (1d6) asit hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "octopus": {
+  "name": "Ahtapot",
+  "traits": [
+   {
+    "name": "Nefes Tutma"
+   },
+   {
+    "name": "Su Altı Kamuflajı"
+   },
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Dokunaçlar"
+   },
+   {
+    "name": "Mürekkep Bulutu"
+   }
+  ],
+  "legendary": []
+ },
+ "ogre": {
+  "name": "Ogre",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Büyük Sopa",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) ezici hasar."
+   },
+   {
+    "name": "Cirit",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +6, erişim 5 ft. ya da menzil 30/120 ft., tek hedef. İsabet: 11 (2d6 + 4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "ogre-zombie": {
+  "name": "Ogre Zombisi",
+  "traits": [
+   {
+    "name": "Hortlak Metaneti"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Topuz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "oni": {
+  "name": "Oni",
+  "traits": [
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyülü Silahlar"
+   },
+   {
+    "name": "Yenilenme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pençe (Yalnızca Oni Biçiminde)",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 8 (1d8 + 4) kesici hasar."
+   },
+   {
+    "name": "Glaive"
+   },
+   {
+    "name": "Biçim Değiştir"
+   }
+  ],
+  "legendary": []
+ },
+ "orc": {
+  "name": "Ork",
+  "traits": [
+   {
+    "name": "Saldırgan"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Büyük Balta",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 9 (1d12 + 3) kesici hasar."
+   },
+   {
+    "name": "Cirit",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +5, erişim 5 ft. ya da menzil 30/120 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "otyugh": {
+  "name": "Otyugh",
+  "traits": [
+   {
+    "name": "Sınırlı Telepati"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Dokunaç"
+   },
+   {
+    "name": "Dokunaç Çarpması"
+   }
+  ],
+  "legendary": []
+ },
+ "owl": {
+  "name": "Baykuş",
+  "traits": [
+   {
+    "name": "Uçarak Geçiş"
+   },
+   {
+    "name": "Keskin İşitme ve Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yırtıcı Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 1 kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "owlbear": {
+  "name": "Baykuşayı",
+  "traits": [
+   {
+    "name": "Keskin Görme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek yaratık. İsabet: 10 (1d10 + 5) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 14 (2d8 + 5) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "panther": {
+  "name": "Panter",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Üstüne Atlama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "pegasus": {
+  "name": "Pegasus",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "phase-spider": {
+  "name": "Faz Örümceği",
+  "traits": [
+   {
+    "name": "Eterik Gezinti"
+   },
+   {
+    "name": "Örümcek Tırmanışı",
+    "text": "Örümcek, yetenek zarı atmasına gerek kalmadan zorlu yüzeylere, baş aşağı tavanlar dahil, tırmanabilir."
+   },
+   {
+    "name": "Ağda Yürüyen",
+    "text": "Örümcek, ağların yol açtığı hareket kısıtlamalarını yok sayar."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 7 (1d10 + 2) delici hasar; ayrıca hedef ZD 11 Dayanıklılık kurtarma zarı atar; başarısız olursa 18 (4d8) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır. Zehir hasarı hedefin can puanını 0 değerine indirirse hedef dengede kalır ama can puanı kazansa bile 1 saat boyunca zehirlenmiş olur ve bu şekilde zehirliyken felçlidir."
+   }
+  ],
+  "legendary": []
+ },
+ "pit-fiend": {
+  "name": "Pit Fiend",
+  "traits": [
+   {
+    "name": "Korku Aurası"
+   },
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Büyülü Silahlar"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 10 ft., tek hedef. İsabet: 17 (2d8 + 8) kesici hasar."
+   },
+   {
+    "name": "Gürz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 10 ft., tek hedef. İsabet: 15 (2d6 + 8) ezici hasar artı 21 (6d6) ateş hasar."
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 10 ft., tek hedef. İsabet: 24 (3d10 + 8) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "planetar": {
+  "name": "Planetar",
+  "traits": [
+   {
+    "name": "Melek Silahları"
+   },
+   {
+    "name": "İlahi Farkındalık"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +12, erişim 5 ft., tek hedef. İsabet: 21 (4d6 + 7) kesici hasar artı 22 (5d8) ışıl hasar."
+   },
+   {
+    "name": "İyileştiren Dokunuş"
+   }
+  ],
+  "legendary": []
+ },
+ "plesiosaurus": {
+  "name": "Plesiosaurus",
+  "traits": [
+   {
+    "name": "Nefes Tutma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 10 ft., tek hedef. İsabet: 14 (3d6 + 4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "poisonous-snake": {
+  "name": "Zehirli Yılan",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "polar-bear": {
+  "name": "Kutup Ayısı",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 9 (1d8 + 5) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 12 (2d6 + 5) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "pony": {
+  "name": "Midilli",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (2d4 + 2) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "priest": {
+  "name": "Rahip",
+  "traits": [
+   {
+    "name": "İlahi Yücelik"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Gürz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 3 (1d6) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "pseudodragon": {
+  "name": "Sahte Ejderha",
+  "traits": [
+   {
+    "name": "Keskin Duyular"
+   },
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Sınırlı Telepati"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar."
+   },
+   {
+    "name": "Sokma"
+   }
+  ],
+  "legendary": []
+ },
+ "purple-worm": {
+  "name": "Mor Solucan",
+  "traits": [
+   {
+    "name": "Tünel Kazıcı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Kuyruk İğnesi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 10 ft., tek yaratık. İsabet: 19 (3d6 + 9) delici hasar; ayrıca hedef ZD 19 Dayanıklılık kurtarma zarı atar; başarısız olursa 42 (12d6) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "quasit": {
+  "name": "Quasit",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençe (Hayvan Biçiminde Isırık)"
+   },
+   {
+    "name": "Korkutma"
+   },
+   {
+    "name": "Görünmezlik"
+   }
+  ],
+  "legendary": []
+ },
+ "quipper": {
+  "name": "Quipper",
+  "traits": [
+   {
+    "name": "Kan Çılgınlığı"
+   },
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 1 delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "rakshasa": {
+  "name": "Rakshasa",
+  "traits": [
+   {
+    "name": "Sınırlı Büyü Bağışıklığı"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pençe"
+   }
+  ],
+  "legendary": []
+ },
+ "rat": {
+  "name": "Sıçan",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +0, erişim 5 ft., tek hedef. İsabet: 1 delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "raven": {
+  "name": "Kuzgun",
+  "traits": [
+   {
+    "name": "Taklit"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 1 delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "red-dragon-wyrmling": {
+  "name": "Kırmızı Ejderha Yavrusu",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 9 (1d10 + 4) delici hasar artı 3 (1d6) ateş hasar."
+   },
+   {
+    "name": "Ateş Nefesi",
+    "text": "Ejderha 15 ft.lik bir koni içine ateş püskürtür. Alandaki her yaratık ZD 13 Çeviklik kurtarma zarı atar; başarısız olursa 24 (7d6) ateş hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "reef-shark": {
+  "name": "Resif Köpekbalığı",
+  "traits": [
+   {
+    "name": "Sürü Taktiği"
+   },
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "remorhaz": {
+  "name": "Remorhaz",
+  "traits": [
+   {
+    "name": "Kızgın Beden"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Yutma"
+   }
+  ],
+  "legendary": []
+ },
+ "rhinoceros": {
+  "name": "Gergedan",
+  "traits": [
+   {
+    "name": "Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Boynuz Darbesi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 14 (2d8 + 5) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "riding-horse": {
+  "name": "Binek Atı",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 8 (2d4 + 3) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "roc": {
+  "name": "Roc",
+  "traits": [
+   {
+    "name": "Keskin Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +13, erişim 10 ft., tek hedef. İsabet: 27 (4d8 + 9) delici hasar."
+   },
+   {
+    "name": "Yırtıcı Pençeler"
+   }
+  ],
+  "legendary": []
+ },
+ "roper": {
+  "name": "Roper",
+  "traits": [
+   {
+    "name": "Yanıltıcı Görünüm"
+   },
+   {
+    "name": "Kavrayan Filizler"
+   },
+   {
+    "name": "Örümcek Tırmanışı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 22 (4d8 + 4) delici hasar."
+   },
+   {
+    "name": "Filiz"
+   },
+   {
+    "name": "Çekme"
+   }
+  ],
+  "legendary": []
+ },
+ "rug-of-smothering": {
+  "name": "Boğucu Halı",
+  "traits": [
+   {
+    "name": "Büyü Karşıtlığına Duyarlılık"
+   },
+   {
+    "name": "Hasar Aktarımı"
+   },
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Boğma"
+   }
+  ],
+  "legendary": []
+ },
+ "rust-monster": {
+  "name": "Pas Canavarı",
+  "traits": [
+   {
+    "name": "Demir Kokusu"
+   },
+   {
+    "name": "Metali Paslandır"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar."
+   },
+   {
+    "name": "Antenler"
+   }
+  ],
+  "legendary": []
+ },
+ "saber-toothed-tiger": {
+  "name": "Kılıç Dişli Kaplan",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Üstüne Atlama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 10 (1d10 + 5) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 12 (2d6 + 5) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "sahuagin": {
+  "name": "Sahuagin",
+  "traits": [
+   {
+    "name": "Kan Çılgınlığı"
+   },
+   {
+    "name": "Sınırlı Amfibilik"
+   },
+   {
+    "name": "Köpekbalığı Telepatisi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 3 (1d4 + 1) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 3 (1d4 + 1) kesici hasar."
+   },
+   {
+    "name": "Mızrak",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +3, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d6 + 1) delici hasar; yakın dövüşte iki elle kullanılırsa 5 (1d8 + 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "salamander": {
+  "name": "Salamander",
+  "traits": [
+   {
+    "name": "Kızgın Beden"
+   },
+   {
+    "name": "Kızgın Silahlar"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Mızrak"
+   },
+   {
+    "name": "Kuyruk"
+   }
+  ],
+  "legendary": []
+ },
+ "satyr": {
+  "name": "Satir",
+  "traits": [
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Tos",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 6 (2d4 + 1) ezici hasar."
+   },
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar."
+   },
+   {
+    "name": "Kısa Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +5, menzil 80/320 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "scorpion": {
+  "name": "Akrep",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Sokma"
+   }
+  ],
+  "legendary": []
+ },
+ "scout": {
+  "name": "Gözcü",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Görme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 150/600 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "sea-hag": {
+  "name": "Deniz Cadısı",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Dehşet Verici Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) kesici hasar."
+   },
+   {
+    "name": "Ölüm Bakışı"
+   },
+   {
+    "name": "Yanılsama Görünüm"
+   }
+  ],
+  "legendary": []
+ },
+ "sea-horse": {
+  "name": "Denizatı",
+  "traits": [
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [],
+  "legendary": []
+ },
+ "shadow": {
+  "name": "Gölge",
+  "traits": [
+   {
+    "name": "Biçimsiz"
+   },
+   {
+    "name": "Gölgede Gizlenme"
+   },
+   {
+    "name": "Güneş Işığı Zaafı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Kuvvet Emme"
+   }
+  ],
+  "legendary": []
+ },
+ "shambling-mound": {
+  "name": "Sürünen Yığın",
+  "traits": [
+   {
+    "name": "Yıldırım Emilimi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) ezici hasar."
+   },
+   {
+    "name": "İçine Alma"
+   }
+  ],
+  "legendary": []
+ },
+ "shield-guardian": {
+  "name": "Kalkan Muhafızı",
+  "traits": [
+   {
+    "name": "Bağlı"
+   },
+   {
+    "name": "Yenilenme"
+   },
+   {
+    "name": "Büyü Saklama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Yumruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "shrieker": {
+  "name": "Çığlıkçı Mantar",
+  "traits": [
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [],
+  "legendary": []
+ },
+ "silver-dragon-wyrmling": {
+  "name": "Gümüş Ejderha Yavrusu",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 9 (1d10 + 4) delici hasar."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nSoğuk Nefes. Ejderha 15 ft.lik bir koni içine buz gibi bir soluk püskürtür. Alandaki her yaratık ZD 13 Dayanıklılık kurtarma zarı atar; başarısız olursa 18 (4d8) soğuk hasar, başarılı olursa bunun yarısı kadar hasar alır.\nFelç Nefesi. Ejderha 15 ft.lik bir koni içine felç edici gaz püskürtür. Alandaki her yaratık ZD 13 Dayanıklılık kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca felçli olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": []
+ },
+ "skeleton": {
+  "name": "İskelet",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "Kısa Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 80/320 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "solar": {
+  "name": "Solar",
+  "traits": [
+   {
+    "name": "Melek Silahları"
+   },
+   {
+    "name": "İlahi Farkındalık"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +15, erişim 5 ft., tek hedef. İsabet: 22 (4d6 + 8) kesici hasar artı 27 (6d8) ışıl hasar."
+   },
+   {
+    "name": "Katleden Uzun Yay"
+   },
+   {
+    "name": "Uçan Kılıç"
+   },
+   {
+    "name": "İyileştiren Dokunuş"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Işınlanma"
+   },
+   {
+    "name": "Kavurucu Patlama (2 Eylem Harcar)"
+   },
+   {
+    "name": "Kör Edici Bakış (3 Eylem Harcar)"
+   }
+  ]
+ },
+ "specter": {
+  "name": "Specter",
+  "traits": [
+   {
+    "name": "Cisimsiz Hareket"
+   },
+   {
+    "name": "Güneş Işığına Duyarlılık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yaşam Emme"
+   }
+  ],
+  "legendary": []
+ },
+ "spider": {
+  "name": "Örümcek",
+  "traits": [
+   {
+    "name": "Örümcek Tırmanışı",
+    "text": "Örümcek, yetenek zarı atmasına gerek kalmadan zorlu yüzeylere, baş aşağı tavanlar dahil, tırmanabilir."
+   },
+   {
+    "name": "Ağ Sezgisi"
+   },
+   {
+    "name": "Ağda Yürüyen",
+    "text": "Örümcek, ağların yol açtığı hareket kısıtlamalarını yok sayar."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "spirit-naga": {
+  "name": "Ruh Nagası",
+  "traits": [
+   {
+    "name": "Yeniden Doğuş"
+   },
+   {
+    "name": "Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 10 ft., tek yaratık. İsabet: 7 (1d6 + 4) delici hasar; ayrıca hedef ZD 13 Dayanıklılık kurtarma zarı atar; başarısız olursa 31 (7d8) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "sprite": {
+  "name": "Sprite",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Uzun Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 1 kesici hasar."
+   },
+   {
+    "name": "Kısa Yay"
+   },
+   {
+    "name": "Kalp Görüşü"
+   },
+   {
+    "name": "Görünmezlik"
+   }
+  ],
+  "legendary": []
+ },
+ "spy": {
+  "name": "Casus",
+  "traits": [
+   {
+    "name": "Kurnaz Eylem"
+   },
+   {
+    "name": "Sinsi Saldırı (Tur Başına 1)"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "El Arbaleti",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 30/120 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "steam-mephit": {
+  "name": "Buhar Mephiti",
+  "traits": [
+   {
+    "name": "Ölüm Patlaması"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek yaratık. İsabet: 2 (1d4) kesici hasar artı 2 (1d4) ateş hasar."
+   },
+   {
+    "name": "Buhar Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "stirge": {
+  "name": "Stirge",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Kan Emme"
+   }
+  ],
+  "legendary": []
+ },
+ "stone-giant": {
+  "name": "Taş Devi",
+  "traits": [
+   {
+    "name": "Taş Kamuflajı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Sopa",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 15 ft., tek hedef. İsabet: 19 (3d8 + 6) ezici hasar."
+   },
+   {
+    "name": "Kaya"
+   }
+  ],
+  "legendary": []
+ },
+ "stone-golem": {
+  "name": "Taş Golem",
+  "traits": [
+   {
+    "name": "Değişmez Biçim",
+    "text": "Golem, biçimini değiştirecek her büyüye ve etkiye bağışıktır."
+   },
+   {
+    "name": "Büyü Direnci",
+    "text": "Golem, büyülere ve diğer büyülü etkilere karşı kurtarma zarlarında avantajlıdır."
+   },
+   {
+    "name": "Büyülü Silahlar",
+    "text": "Golemin silah saldırıları büyülüdür."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 19 (3d8 + 6) ezici hasar."
+   },
+   {
+    "name": "Yavaşlatma"
+   }
+  ],
+  "legendary": []
+ },
+ "storm-giant": {
+  "name": "Fırtına Devi",
+  "traits": [
+   {
+    "name": "Amfibi"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +14, erişim 10 ft., tek hedef. İsabet: 30 (6d6 + 9) kesici hasar."
+   },
+   {
+    "name": "Kaya",
+    "text": "Menzilli Silah Saldırısı: isabet için +14, menzil 60/240 ft., tek hedef. İsabet: 35 (4d12 + 9) ezici hasar."
+   },
+   {
+    "name": "Yıldırım Çarpması"
+   }
+  ],
+  "legendary": []
+ },
+ "succubus-incubus": {
+  "name": "Succubus/Incubus",
+  "traits": [
+   {
+    "name": "Telepatik Bağ"
+   },
+   {
+    "name": "Biçim Değiştiren"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Pençe (Yalnızca İblis Biçiminde)",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) kesici hasar."
+   },
+   {
+    "name": "Büyüle"
+   },
+   {
+    "name": "Tüketen Öpücük"
+   },
+   {
+    "name": "Eteriklik"
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-bats": {
+  "name": "Yarasa Sürüsü",
+  "traits": [
+   {
+    "name": "Yankıyla Yön Bulma"
+   },
+   {
+    "name": "Keskin İşitme"
+   },
+   {
+    "name": "Sürü"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar"
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-beetles": {
+  "name": "Böcek Sürüsü",
+  "traits": [
+   {
+    "name": "Sürü",
+    "text": "Sürü başka bir yaratığın alanında bulunabilir, başka yaratıklar da sürünün alanında bulunabilir; sürü, Minik bir böceğin geçebileceği her açıklıktan geçebilir. Sürü can puanı ya da geçici can puanı kazanamaz."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 0 ft., sürünün alanındaki tek hedef. İsabet: 10 (4d4) delici hasar; sürünün can puanı yarıya ya da altına inmişse 5 (2d4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-centipedes": {
+  "name": "Çıyan Sürüsü",
+  "traits": [
+   {
+    "name": "Sürü",
+    "text": "Sürü başka bir yaratığın alanında bulunabilir, başka yaratıklar da sürünün alanında bulunabilir; sürü, Minik bir böceğin geçebileceği her açıklıktan geçebilir. Sürü can puanı ya da geçici can puanı kazanamaz."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar"
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-insects": {
+  "name": "Böcek Sürüsü",
+  "traits": [
+   {
+    "name": "Sürü",
+    "text": "Sürü başka bir yaratığın alanında bulunabilir, başka yaratıklar da sürünün alanında bulunabilir; sürü, Minik bir böceğin geçebileceği her açıklıktan geçebilir. Sürü can puanı ya da geçici can puanı kazanamaz."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 0 ft., sürünün alanındaki tek hedef. İsabet: 10 (4d4) delici hasar; sürünün can puanı yarıya ya da altına inmişse 5 (2d4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-poisonous-snakes": {
+  "name": "Zehirli Yılan Sürüsü",
+  "traits": [
+   {
+    "name": "Sürü"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar"
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-quippers": {
+  "name": "Quipper Sürüsü",
+  "traits": [
+   {
+    "name": "Kan Çılgınlığı"
+   },
+   {
+    "name": "Sürü"
+   },
+   {
+    "name": "Suda Nefes Alma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar"
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-rats": {
+  "name": "Sıçan Sürüsü",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Sürü"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 0 ft., sürünün alanındaki tek hedef. İsabet: 7 (2d6) delici hasar; sürünün can puanı yarıya ya da altına inmişse 3 (1d6) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-ravens": {
+  "name": "Kuzgun Sürüsü",
+  "traits": [
+   {
+    "name": "Sürü"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Gagalar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., sürünün alanındaki tek hedef. İsabet: 7 (2d6) delici hasar; sürünün can puanı yarıya ya da altına inmişse 3 (1d6) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-spiders": {
+  "name": "Örümcek Sürüsü",
+  "traits": [
+   {
+    "name": "Sürü",
+    "text": "Sürü başka bir yaratığın alanında bulunabilir, başka yaratıklar da sürünün alanında bulunabilir; sürü, Minik bir böceğin geçebileceği her açıklıktan geçebilir. Sürü can puanı ya da geçici can puanı kazanamaz."
+   },
+   {
+    "name": "Örümcek Tırmanışı"
+   },
+   {
+    "name": "Ağ Sezgisi"
+   },
+   {
+    "name": "Ağda Yürüyen"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 0 ft., sürünün alanındaki tek hedef. İsabet: 10 (4d4) delici hasar; sürünün can puanı yarıya ya da altına inmişse 5 (2d4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "swarm-of-wasps": {
+  "name": "Yaban Arısı Sürüsü",
+  "traits": [
+   {
+    "name": "Sürü",
+    "text": "Sürü başka bir yaratığın alanında bulunabilir, başka yaratıklar da sürünün alanında bulunabilir; sürü, Minik bir böceğin geçebileceği her açıklıktan geçebilir. Sürü can puanı ya da geçici can puanı kazanamaz."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırıklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 0 ft., sürünün alanındaki tek hedef. İsabet: 10 (4d4) delici hasar; sürünün can puanı yarıya ya da altına inmişse 5 (2d4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "tarrasque": {
+  "name": "Tarrasque",
+  "traits": [
+   {
+    "name": "Efsanevi Direnç"
+   },
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Yansıtıcı Kabuk"
+   },
+   {
+    "name": "Kuşatma Canavarı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +19, erişim 15 ft., tek hedef. İsabet: 28 (4d8 + 10) kesici hasar."
+   },
+   {
+    "name": "Boynuzlar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +19, erişim 10 ft., tek hedef. İsabet: 32 (4d10 + 10) delici hasar."
+   },
+   {
+    "name": "Kuyruk"
+   },
+   {
+    "name": "Korkutucu Varlık"
+   },
+   {
+    "name": "Yutma"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Saldırı"
+   },
+   {
+    "name": "Hareket"
+   },
+   {
+    "name": "Çiğne (2 Eylem Harcar)"
+   }
+  ]
+ },
+ "thug": {
+  "name": "Külhanbeyi",
+  "traits": [
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gürz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 5 (1d6 + 2) ezici hasar."
+   },
+   {
+    "name": "Ağır Arbalet",
+    "text": "Menzilli Silah Saldırısı: isabet için +2, menzil 100/400 ft., tek hedef. İsabet: 5 (1d10) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "tiger": {
+  "name": "Kaplan",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Üstüne Atlama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 8 (1d10 + 3) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "treant": {
+  "name": "Treant",
+  "traits": [
+   {
+    "name": "Yanıltıcı Görünüm"
+   },
+   {
+    "name": "Kuşatma Canavarı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 16 (3d6 + 6) ezici hasar."
+   },
+   {
+    "name": "Kaya",
+    "text": "Menzilli Silah Saldırısı: isabet için +10, menzil 60/180 ft., tek hedef. İsabet: 28 (4d10 + 6) ezici hasar."
+   },
+   {
+    "name": "Ağaçları Canlandır"
+   }
+  ],
+  "legendary": []
+ },
+ "tribal-warrior": {
+  "name": "Kabile Savaşçısı",
+  "traits": [
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Mızrak",
+    "text": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +3, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d6 + 1) delici hasar; yakın dövüşte iki elle kullanılırsa 5 (1d8 + 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "triceratops": {
+  "name": "Triceratops",
+  "traits": [
+   {
+    "name": "Çiğneyen Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Boynuz Darbesi",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 5 ft., tek hedef. İsabet: 24 (4d8 + 6) delici hasar."
+   },
+   {
+    "name": "Tepinme"
+   }
+  ],
+  "legendary": []
+ },
+ "troll": {
+  "name": "Troll",
+  "traits": [
+   {
+    "name": "Keskin Koku"
+   },
+   {
+    "name": "Yenilenme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 7 (1d6 + 4) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "tyrannosaurus-rex": {
+  "name": "Tyrannosaurus Rex",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Kuyruk",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 20 (3d8 + 7) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "unicorn": {
+  "name": "Tek Boynuzlu At",
+  "traits": [
+   {
+    "name": "Hücum"
+   },
+   {
+    "name": "Doğuştan Büyü Kullanımı"
+   },
+   {
+    "name": "Büyü Direnci"
+   },
+   {
+    "name": "Büyülü Silahlar"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) ezici hasar."
+   },
+   {
+    "name": "Boynuz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 8 (1d8 + 4) delici hasar."
+   },
+   {
+    "name": "İyileştiren Dokunuş"
+   },
+   {
+    "name": "Işınlanma"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Toynaklar"
+   },
+   {
+    "name": "Parıldayan Kalkan (2 Eylem Harcar)"
+   },
+   {
+    "name": "Kendini İyileştir (3 Eylem Harcar)"
+   }
+  ]
+ },
+ "vampire-bat": {
+  "name": "Vampir (Yarasa Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Efsanevi Direnç"
+   },
+   {
+    "name": "Sisli Kaçış"
+   },
+   {
+    "name": "Yenilenme",
+    "text": "Vampir, en az 1 can puanı varsa ve güneş ışığında ya da akan suda değilse turunun başında 20 can puanı kazanır. Vampir ışıl hasar ya da kutsal sudan hasar alırsa bu özellik vampirin sonraki turunun başında çalışmaz."
+   },
+   {
+    "name": "Örümcek Tırmanışı",
+    "text": "Vampir, yetenek zarı atmasına gerek kalmadan zorlu yüzeylere, baş aşağı tavanlar dahil, tırmanabilir."
+   },
+   {
+    "name": "Vampir Zaafları"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Büyüle"
+   },
+   {
+    "name": "Gecenin Çocukları"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Hareket"
+   },
+   {
+    "name": "Silahsız Vuruş"
+   },
+   {
+    "name": "Isırık (2 Eylem Harcar)"
+   }
+  ]
+ },
+ "vampire-mist": {
+  "name": "Vampir (Sis Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Efsanevi Direnç"
+   },
+   {
+    "name": "Sisli Kaçış"
+   },
+   {
+    "name": "Yenilenme",
+    "text": "Vampir, en az 1 can puanı varsa ve güneş ışığında ya da akan suda değilse turunun başında 20 can puanı kazanır. Vampir ışıl hasar ya da kutsal sudan hasar alırsa bu özellik vampirin sonraki turunun başında çalışmaz."
+   },
+   {
+    "name": "Örümcek Tırmanışı",
+    "text": "Vampir, yetenek zarı atmasına gerek kalmadan zorlu yüzeylere, baş aşağı tavanlar dahil, tırmanabilir."
+   },
+   {
+    "name": "Vampir Zaafları"
+   }
+  ],
+  "actions": [],
+  "legendary": [
+   {
+    "name": "Hareket"
+   },
+   {
+    "name": "Silahsız Vuruş"
+   },
+   {
+    "name": "Isırık (2 Eylem Harcar)"
+   }
+  ]
+ },
+ "vampire-spawn": {
+  "name": "Vampir Yavrusu",
+  "traits": [
+   {
+    "name": "Yenilenme",
+    "text": "Vampir, en az 1 can puanı varsa ve güneş ışığında ya da akan suda değilse turunun başında 10 can puanı kazanır. Vampir ışıl hasar ya da kutsal sudan hasar alırsa bu özellik vampirin sonraki turunun başında çalışmaz."
+   },
+   {
+    "name": "Örümcek Tırmanışı",
+    "text": "Vampir, yetenek zarı atmasına gerek kalmadan zorlu yüzeylere, baş aşağı tavanlar dahil, tırmanabilir."
+   },
+   {
+    "name": "Vampir Zaafları"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençeler"
+   }
+  ],
+  "legendary": []
+ },
+ "vampire-vampire": {
+  "name": "Vampir (Vampir Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Efsanevi Direnç"
+   },
+   {
+    "name": "Sisli Kaçış"
+   },
+   {
+    "name": "Yenilenme",
+    "text": "Vampir, en az 1 can puanı varsa ve güneş ışığında ya da akan suda değilse turunun başında 20 can puanı kazanır. Vampir ışıl hasar ya da kutsal sudan hasar alırsa bu özellik vampirin sonraki turunun başında çalışmaz."
+   },
+   {
+    "name": "Örümcek Tırmanışı",
+    "text": "Vampir, yetenek zarı atmasına gerek kalmadan zorlu yüzeylere, baş aşağı tavanlar dahil, tırmanabilir."
+   },
+   {
+    "name": "Vampir Zaafları"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Silahsız Vuruş"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Büyüle"
+   },
+   {
+    "name": "Gecenin Çocukları"
+   }
+  ],
+  "legendary": [
+   {
+    "name": "Hareket"
+   },
+   {
+    "name": "Silahsız Vuruş"
+   },
+   {
+    "name": "Isırık (2 Eylem Harcar)"
+   }
+  ]
+ },
+ "veteran": {
+  "name": "Gazi",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Uzun Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar; iki elle kullanılırsa 8 (1d10 + 3) kesici hasar."
+   },
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar."
+   },
+   {
+    "name": "Ağır Arbalet",
+    "text": "Menzilli Silah Saldırısı: isabet için +3, menzil 100/400 ft., tek hedef. İsabet: 6 (1d10 + 1) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "violet-fungus": {
+  "name": "Mor Mantar",
+  "traits": [
+   {
+    "name": "Yanıltıcı Görünüm"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çürüten Dokunuş",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 10 ft., tek yaratık. İsabet: 4 (1d8) nekrotik hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "vrock": {
+  "name": "Vrock",
+  "traits": [
+   {
+    "name": "Büyü Direnci"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) delici hasar."
+   },
+   {
+    "name": "Yırtıcı Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 14 (2d10 + 3) kesici hasar."
+   },
+   {
+    "name": "Sporlar"
+   },
+   {
+    "name": "Sersemleten Çığlık"
+   }
+  ],
+  "legendary": []
+ },
+ "vulture": {
+  "name": "Akbaba",
+  "traits": [
+   {
+    "name": "Keskin Görme ve Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Gaga",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +2, erişim 5 ft., tek hedef. İsabet: 2 (1d4) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "warhorse": {
+  "name": "Savaş Atı",
+  "traits": [
+   {
+    "name": "Çiğneyen Hücum"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "warhorse-skeleton": {
+  "name": "Savaş Atı İskeleti",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Toynaklar",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "water-elemental": {
+  "name": "Su Elementali",
+  "traits": [
+   {
+    "name": "Su Biçimi"
+   },
+   {
+    "name": "Dondurma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) ezici hasar."
+   },
+   {
+    "name": "Sulara Gömme"
+   }
+  ],
+  "legendary": []
+ },
+ "weasel": {
+  "name": "Gelincik",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek yaratık. İsabet: 1 delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "werebear-bear": {
+  "name": "Ayı Adam (Ayı Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "werebear-human": {
+  "name": "Ayı Adam (İnsan Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Büyük Balta",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 10 (1d12 + 4) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "werebear-hybrid": {
+  "name": "Ayı Adam (Melez Biçim)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) kesici hasar."
+   },
+   {
+    "name": "Büyük Balta",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 10 (1d12 + 4) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "wereboar-boar": {
+  "name": "Domuz Adam (Domuz Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Hücum (Yalnızca Domuz ya da Melez Biçimde)"
+   },
+   {
+    "name": "Amansız"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Azı Dişleri"
+   }
+  ],
+  "legendary": []
+ },
+ "wereboar-human": {
+  "name": "Domuz Adam (İnsan Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Amansız"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Balyoz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) ezici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "wereboar-hybrid": {
+  "name": "Domuz Adam (Melez Biçim)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Hücum (Yalnızca Domuz ya da Melez Biçimde)"
+   },
+   {
+    "name": "Amansız"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Balyoz",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) ezici hasar."
+   },
+   {
+    "name": "Azı Dişleri"
+   }
+  ],
+  "legendary": []
+ },
+ "wererat-human": {
+  "name": "Sıçan Adam (İnsan Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "El Arbaleti",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 30/120 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "wererat-hybrid": {
+  "name": "Sıçan Adam (Melez Biçim)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Kısa Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   },
+   {
+    "name": "El Arbaleti",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 30/120 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "wererat-rat": {
+  "name": "Sıçan Adam (Sıçan Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "weretiger-human": {
+  "name": "Kaplan Adam (İnsan Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Pala",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) kesici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 150/600 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "weretiger-hybrid": {
+  "name": "Kaplan Adam (Melez Biçim)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin İşitme ve Koku"
+   },
+   {
+    "name": "Üstüne Atlama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar."
+   },
+   {
+    "name": "Pala",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) kesici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 150/600 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "weretiger-tiger": {
+  "name": "Kaplan Adam (Kaplan Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin İşitme ve Koku"
+   },
+   {
+    "name": "Üstüne Atlama"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "werewolf-human": {
+  "name": "Kurt Adam (İnsan Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Mızrak"
+   }
+  ],
+  "legendary": []
+ },
+ "werewolf-hybrid": {
+  "name": "Kurt Adam (Melez Biçim)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık"
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 7 (2d4 + 2) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "werewolf-wolf": {
+  "name": "Kurt Adam (Kurt Biçimi)",
+  "traits": [
+   {
+    "name": "Biçim Değiştiren"
+   },
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık"
+   }
+  ],
+  "legendary": []
+ },
+ "white-dragon-wyrmling": {
+  "name": "Beyaz Ejderha Yavrusu",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (1d10 + 2) delici hasar artı 2 (1d4) soğuk hasar."
+   },
+   {
+    "name": "Soğuk Nefes"
+   }
+  ],
+  "legendary": []
+ },
+ "wight": {
+  "name": "Wight",
+  "traits": [
+   {
+    "name": "Güneş Işığına Duyarlılık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Yaşam Emme"
+   },
+   {
+    "name": "Uzun Kılıç",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) kesici hasar; iki elle kullanılırsa 7 (1d10 + 2) kesici hasar."
+   },
+   {
+    "name": "Uzun Yay",
+    "text": "Menzilli Silah Saldırısı: isabet için +4, menzil 150/600 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "will-o-wisp": {
+  "name": "Will-o'-Wisp",
+  "traits": [
+   {
+    "name": "Yaşam Tüket"
+   },
+   {
+    "name": "Geçici"
+   },
+   {
+    "name": "Cisimsiz Hareket"
+   },
+   {
+    "name": "Değişken Aydınlatma"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Şok",
+    "text": "Yakın Dövüş Büyü Saldırısı: isabet için +4, erişim 5 ft., tek yaratık. İsabet: 9 (2d8) yıldırım hasar."
+   },
+   {
+    "name": "Görünmezlik"
+   }
+  ],
+  "legendary": []
+ },
+ "winter-wolf": {
+  "name": "Kış Kurdu",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   },
+   {
+    "name": "Kar Kamuflajı"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) delici hasar. Hedef bir yaratıksa ZD 14 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa yere düşer."
+   },
+   {
+    "name": "Soğuk Nefes"
+   }
+  ],
+  "legendary": []
+ },
+ "wolf": {
+  "name": "Kurt",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   },
+   {
+    "name": "Sürü Taktiği"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 7 (2d4 + 2) delici hasar. Hedef bir yaratıksa ZD 11 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa yere düşer."
+   }
+  ],
+  "legendary": []
+ },
+ "worg": {
+  "name": "Worg",
+  "traits": [
+   {
+    "name": "Keskin İşitme ve Koku"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 10 (2d6 + 3) delici hasar. Hedef bir yaratıksa ZD 13 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa yere düşer."
+   }
+  ],
+  "legendary": []
+ },
+ "wraith": {
+  "name": "Wraith",
+  "traits": [
+   {
+    "name": "Cisimsiz Hareket"
+   },
+   {
+    "name": "Güneş Işığına Duyarlılık"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Yaşam Emme"
+   },
+   {
+    "name": "Specter Yarat"
+   }
+  ],
+  "legendary": []
+ },
+ "wyvern": {
+  "name": "Wyvern",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 10 ft., tek yaratık. İsabet: 11 (2d6 + 4) delici hasar."
+   },
+   {
+    "name": "Pençeler",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 13 (2d8 + 4) kesici hasar."
+   },
+   {
+    "name": "İğne"
+   }
+  ],
+  "legendary": []
+ },
+ "xorn": {
+  "name": "Xorn",
+  "traits": [
+   {
+    "name": "Toprakta Süzülme"
+   },
+   {
+    "name": "Taş Kamuflajı"
+   },
+   {
+    "name": "Hazine Sezgisi"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı"
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 13 (3d6 + 3) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) kesici hasar."
+   }
+  ],
+  "legendary": []
+ },
+ "young-black-dragon": {
+  "name": "Genç Siyah Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 10 ft., tek hedef. İsabet: 15 (2d10 + 4) delici hasar artı 4 (1d8) asit hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   },
+   {
+    "name": "Asit Nefesi",
+    "text": "Ejderha 30 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca asit püskürtür. Hattaki her yaratık ZD 14 Çeviklik kurtarma zarı atar; başarısız olursa 49 (11d8) asit hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "young-blue-dragon": {
+  "name": "Genç Mavi Ejderha",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 10 ft., tek hedef. İsabet: 16 (2d10 + 5) delici hasar artı 5 (1d10) yıldırım hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +9, erişim 5 ft., tek hedef. İsabet: 12 (2d6 + 5) kesici hasar."
+   },
+   {
+    "name": "Yıldırım Nefesi"
+   }
+  ],
+  "legendary": []
+ },
+ "young-brass-dragon": {
+  "name": "Genç Pirinç Ejderha",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 10 ft., tek hedef. İsabet: 15 (2d10 + 4) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   },
+   {
+    "name": "Nefes Silahları"
+   }
+  ],
+  "legendary": []
+ },
+ "young-bronze-dragon": {
+  "name": "Genç Bronz Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 10 ft., tek hedef. İsabet: 16 (2d10 + 5) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 12 (2d6 + 5) kesici hasar."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nYıldırım Nefesi. Ejderha 60 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca yıldırım püskürtür. Hattaki her yaratık ZD 15 Çeviklik kurtarma zarı atar; başarısız olursa 55 (10d10) yıldırım hasar, başarılı olursa bunun yarısı kadar hasar alır.\nİtme Nefesi. Ejderha 30 ft.lik bir koni içine itici enerji püskürtür. Alandaki her yaratık ZD 15 Kuvvet kurtarma zarında başarılı olmalıdır. Başarısız olan yaratık ejderhadan 40 ft. uzağa itilir."
+   }
+  ],
+  "legendary": []
+ },
+ "young-copper-dragon": {
+  "name": "Genç Bakır Ejderha",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 10 ft., tek hedef. İsabet: 15 (2d10 + 4) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nAsit Nefesi. Ejderha 40 ft. uzunluğunda ve 5 ft. genişliğinde bir hat boyunca asit püskürtür. Hattaki her yaratık ZD 14 Çeviklik kurtarma zarı atar; başarısız olursa 40 (9d8) asit hasar, başarılı olursa bunun yarısı kadar hasar alır.\nYavaşlatma Nefesi. Ejderha 30 ft.lik bir koni içine gaz püskürtür. Alandaki her yaratık ZD 14 Dayanıklılık kurtarma zarında başarılı olmalıdır. Başarısız olan yaratık tepki kullanamaz, hızı yarıya iner ve kendi turunda birden fazla saldırı yapamaz. Ayrıca kendi turunda ya bir eylem ya da bir bonus eylem kullanabilir, ikisini birden kullanamaz. Bu etkiler 1 dakika sürer. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": []
+ },
+ "young-gold-dragon": {
+  "name": "Genç Altın Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 17 (2d10 + 6) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nAteş Nefesi. Ejderha 30 ft.lik bir koni içine ateş püskürtür. Alandaki her yaratık ZD 17 Çeviklik kurtarma zarı atar; başarısız olursa 55 (10d10) ateş hasar, başarılı olursa bunun yarısı kadar hasar alır.\nZayıflatma Nefesi. Ejderha 30 ft.lik bir koni içine gaz püskürtür. Alandaki her yaratık ZD 17 Kuvvet kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca Kuvvete dayalı isabet zarlarında, Kuvvet zarlarında ve Kuvvet kurtarma zarlarında dezavantajlı olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": []
+ },
+ "young-green-dragon": {
+  "name": "Genç Yeşil Ejderha",
+  "traits": [
+   {
+    "name": "Amfibi",
+    "text": "Ejderha hem havada hem suda nefes alabilir."
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 10 ft., tek hedef. İsabet: 15 (2d10 + 4) delici hasar artı 7 (2d6) zehir hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   },
+   {
+    "name": "Zehir Nefesi",
+    "text": "Ejderha 30 ft.lik bir koni içine zehirli gaz püskürtür. Alandaki her yaratık ZD 14 Dayanıklılık kurtarma zarı atar; başarısız olursa 42 (12d6) zehir hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "young-red-dragon": {
+  "name": "Genç Kırmızı Ejderha",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 17 (2d10 + 6) delici hasar artı 3 (1d6) ateş hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar."
+   },
+   {
+    "name": "Ateş Nefesi",
+    "text": "Ejderha 30 ft.lik bir koni içine ateş püskürtür. Alandaki her yaratık ZD 17 Çeviklik kurtarma zarı atar; başarısız olursa 56 (16d6) ateş hasar, başarılı olursa bunun yarısı kadar hasar alır."
+   }
+  ],
+  "legendary": []
+ },
+ "young-silver-dragon": {
+  "name": "Genç Gümüş Ejderha",
+  "traits": [],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 10 ft., tek hedef. İsabet: 17 (2d10 + 6) delici hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +10, erişim 5 ft., tek hedef. İsabet: 13 (2d6 + 6) kesici hasar."
+   },
+   {
+    "name": "Nefes Silahları",
+    "text": "Ejderha aşağıdaki nefes silahlarından birini kullanır.\nSoğuk Nefes. Ejderha 30 ft.lik bir koni içine buz gibi bir soluk püskürtür. Alandaki her yaratık ZD 17 Dayanıklılık kurtarma zarı atar; başarısız olursa 54 (12d8) soğuk hasar, başarılı olursa bunun yarısı kadar hasar alır.\nFelç Nefesi. Ejderha 30 ft.lik bir koni içine felç edici gaz püskürtür. Alandaki her yaratık ZD 17 Dayanıklılık kurtarma zarında başarılı olmalıdır; yoksa 1 dakika boyunca felçli olur. Yaratık her turunun sonunda kurtarma zarını yineleyebilir; başarılı olursa etki onun için sona erer."
+   }
+  ],
+  "legendary": []
+ },
+ "young-white-dragon": {
+  "name": "Genç Beyaz Ejderha",
+  "traits": [
+   {
+    "name": "Buzda Yürüme"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çoklu Saldırı",
+    "text": "Ejderha üç saldırı yapar: biri ısırığıyla, ikisi pençeleriyle."
+   },
+   {
+    "name": "Isırık",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 10 ft., tek hedef. İsabet: 15 (2d10 + 4) delici hasar artı 4 (1d8) soğuk hasar."
+   },
+   {
+    "name": "Pençe",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 11 (2d6 + 4) kesici hasar."
+   },
+   {
+    "name": "Soğuk Nefes"
+   }
+  ],
+  "legendary": []
+ },
+ "zombie": {
+  "name": "Zombi",
+  "traits": [
+   {
+    "name": "Hortlak Metaneti"
+   }
+  ],
+  "actions": [
+   {
+    "name": "Çarpma",
+    "text": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 4 (1d6 + 1) ezici hasar."
+   }
+  ],
+  "legendary": []
+ }
+}

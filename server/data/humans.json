@@ -1,0 +1,2992 @@
+[
+ {
+  "id": "street-urchin",
+  "human": true,
+  "name": {
+   "tr": "Sokak Çocuğu",
+   "en": "Street Urchin"
+  },
+  "size": "Small",
+  "type": "humanoid",
+  "ac": 11,
+  "hp": 7,
+  "hitDice": "2d6",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 8,
+   "dex": 13,
+   "con": 10,
+   "int": 9,
+   "wis": 11,
+   "cha": 9
+  },
+  "saves": {},
+  "skills": {
+   "stealth": 3,
+   "perception": 2
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 12",
+  "languages": "Common",
+  "cr": 0,
+  "xp": 10,
+  "traits": [
+   {
+    "name": {
+     "tr": "Kaygan",
+     "en": "Slippery"
+    },
+    "text": {
+     "tr": "Çocuk, Orta ya da daha büyük boydaki herhangi bir yaratığın bulunduğu alandan sıkışmadan geçebilir.",
+     "en": "The urchin can move through the space of any Medium or larger creature without squeezing."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Hançer",
+     "en": "Dagger"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +3, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 3 (1d4 + 1) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4 + 1) piercing damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d4+1",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "pickpocket",
+  "human": true,
+  "name": {
+   "tr": "Yankesici",
+   "en": "Pickpocket"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 12,
+  "hp": 9,
+  "hitDice": "2d8",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 9,
+   "dex": 14,
+   "con": 10,
+   "int": 11,
+   "wis": 12,
+   "cha": 11
+  },
+  "saves": {},
+  "skills": {
+   "stealth": 4,
+   "sleight-of-hand": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 0.125,
+  "xp": 25,
+  "traits": [
+   {
+    "name": {
+     "tr": "Çevik Kaçış",
+     "en": "Nimble Escape"
+    },
+    "text": {
+     "tr": "Yankesici, her turunda bir bonus eylemle Ayrılma ya da Saklanma eylemini yapabilir.",
+     "en": "The pickpocket can take the Disengage or Hide action as a bonus action on each of its turns."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Hançer",
+     "en": "Dagger"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +4, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d4+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "innkeeper",
+  "human": true,
+  "name": {
+   "tr": "Hancı",
+   "en": "Innkeeper"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 10,
+  "hp": 11,
+  "hitDice": "2d8+2",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 12,
+   "dex": 10,
+   "con": 12,
+   "int": 11,
+   "wis": 12,
+   "cha": 13
+  },
+  "saves": {},
+  "skills": {
+   "insight": 3,
+   "persuasion": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 0.125,
+  "xp": 25,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Sopa",
+     "en": "Club"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +3, erişim 5 ft., tek hedef. İsabet: 3 (1d4 + 1) ezici hasar.",
+     "en": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d4+1",
+       "type": "bludgeoning"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "merchant",
+  "human": true,
+  "name": {
+   "tr": "Tüccar",
+   "en": "Merchant"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 10,
+  "hp": 9,
+  "hitDice": "2d8",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 10,
+   "dex": 10,
+   "con": 10,
+   "int": 13,
+   "wis": 12,
+   "cha": 14
+  },
+  "saves": {},
+  "skills": {
+   "persuasion": 4,
+   "insight": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 0.125,
+  "xp": 25,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Hançer",
+     "en": "Dagger"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +2, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 2 (1d4) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 2 (1d4) piercing damage."
+    },
+    "attack": {
+     "bonus": 2,
+     "damage": [
+      {
+       "dice": "1d4",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "militia",
+  "human": true,
+  "name": {
+   "tr": "Köylü Milis",
+   "en": "Militia Farmhand"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 11,
+  "hp": 9,
+  "hitDice": "2d8",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 12,
+   "dex": 11,
+   "con": 11,
+   "int": 9,
+   "wis": 10,
+   "cha": 9
+  },
+  "saves": {},
+  "skills": {},
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 0.125,
+  "xp": 25,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Mızrak",
+     "en": "Spear"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +3, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d6 + 1) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d6+1",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "grassland",
+   "urban"
+  ]
+ },
+ {
+  "id": "tavern-brawler",
+  "human": true,
+  "name": {
+   "tr": "Meyhane Kavgacısı",
+   "en": "Tavern Brawler"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 11,
+  "hp": 19,
+  "hitDice": "3d8+6",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 15,
+   "dex": 11,
+   "con": 14,
+   "int": 8,
+   "wis": 9,
+   "cha": 9
+  },
+  "saves": {},
+  "skills": {},
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 9",
+  "languages": "Common",
+  "cr": 0.25,
+  "xp": 50,
+  "traits": [
+   {
+    "name": {
+     "tr": "Sarhoş Dayanıklılığı",
+     "en": "Drunken Resilience"
+    },
+    "text": {
+     "tr": "Hasar kavgacıyı 0 can puanına düşürürse, hasar ışıl türünden ya da kritik isabetten değilse, ZD 5 + aldığı hasar olan bir Dayanıklılık kurtarma zarı atar. Başarırsa bunun yerine 1 can puanıyla ayakta kalır.",
+     "en": "If damage reduces the brawler to 0 hit points, it makes a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, it drops to 1 hit point instead."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Yumruk",
+     "en": "Fist"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) ezici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d4+2",
+       "type": "bludgeoning"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Kırık Şişe",
+     "en": "Broken Bottle"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d4+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "watch-archer",
+  "human": true,
+  "name": {
+   "tr": "Gözcü Okçu",
+   "en": "Watch Archer"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 14,
+  "hp": 16,
+  "hitDice": "3d8+3",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 11,
+   "dex": 14,
+   "con": 12,
+   "int": 10,
+   "wis": 13,
+   "cha": 10
+  },
+  "saves": {},
+  "skills": {
+   "perception": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 13",
+  "languages": "Common",
+  "cr": 0.5,
+  "xp": 100,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Kısa Kılıç",
+     "en": "Shortsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d6+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Hafif Arbalet",
+     "en": "Light Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +4, menzil 80/320 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar.",
+     "en": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d8+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "blacksmith",
+  "human": true,
+  "name": {
+   "tr": "Demirci",
+   "en": "Blacksmith"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 12,
+  "hp": 26,
+  "hitDice": "4d8+8",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 16,
+   "dex": 10,
+   "con": 14,
+   "int": 10,
+   "wis": 11,
+   "cha": 10
+  },
+  "saves": {},
+  "skills": {
+   "athletics": 5
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 0.5,
+  "xp": 100,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Demirci Çekici",
+     "en": "Smith Hammer"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) ezici hasar.",
+     "en": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d8+3",
+       "type": "bludgeoning"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "caravan-guard",
+  "human": true,
+  "name": {
+   "tr": "Kervan Muhafızı",
+   "en": "Caravan Guard"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 15,
+  "hp": 16,
+  "hitDice": "3d8+3",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 16,
+   "dex": 12,
+   "con": 13,
+   "int": 9,
+   "wis": 11,
+   "cha": 10
+  },
+  "saves": {},
+  "skills": {
+   "perception": 2
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 12",
+  "languages": "Common",
+  "cr": 0.5,
+  "xp": 100,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Mızrak",
+     "en": "Spear"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +5, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d6+3",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Hafif Arbalet",
+     "en": "Light Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +3, menzil 80/320 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar.",
+     "en": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d8+1",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "grassland",
+   "desert",
+   "mountain",
+   "urban"
+  ]
+ },
+ {
+  "id": "smuggler",
+  "human": true,
+  "name": {
+   "tr": "Kaçakçı",
+   "en": "Smuggler"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 14,
+  "hp": 22,
+  "hitDice": "4d8+4",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 11,
+   "dex": 14,
+   "con": 12,
+   "int": 12,
+   "wis": 11,
+   "cha": 13
+  },
+  "saves": {},
+  "skills": {
+   "deception": 3,
+   "stealth": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 1,
+  "xp": 200,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Kısa Kılıç",
+     "en": "Shortsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d6+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "El Arbaleti",
+     "en": "Hand Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +4, menzil 30/120 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar.",
+     "en": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d6+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban",
+   "coast"
+  ]
+ },
+ {
+  "id": "guild-enforcer",
+  "human": true,
+  "name": {
+   "tr": "Lonca Zorbası",
+   "en": "Guild Enforcer"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 14,
+  "hp": 39,
+  "hitDice": "6d8+12",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 16,
+   "dex": 12,
+   "con": 14,
+   "int": 10,
+   "wis": 11,
+   "cha": 12
+  },
+  "saves": {},
+  "skills": {
+   "intimidation": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 2,
+  "xp": 450,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Zorba iki sopa saldırısı yapar.",
+     "en": "The enforcer makes two club attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Sopa",
+     "en": "Club"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) ezici hasar.",
+     "en": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d6+3",
+       "type": "bludgeoning"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Gözdağı",
+     "en": "Menace"
+    },
+    "text": {
+     "tr": "Zorbanın 30 ft. içinde görebildiği bir yaratık ZD 12 Bilgelik kurtarma zarını başaramazsa zorbanın bir sonraki turunun sonuna kadar korkmuş olur.",
+     "en": "One creature the enforcer can see within 30 ft. must succeed on a DC 12 Wisdom saving throw or be frightened until the end of the enforcer's next turn."
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "cutthroat",
+  "human": true,
+  "name": {
+   "tr": "Boğazkesen",
+   "en": "Cutthroat"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 14,
+  "hp": 33,
+  "hitDice": "6d8+6",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 10,
+   "dex": 16,
+   "con": 12,
+   "int": 11,
+   "wis": 12,
+   "cha": 10
+  },
+  "saves": {},
+  "skills": {
+   "stealth": 5,
+   "perception": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 13",
+  "languages": "Common",
+  "cr": 2,
+  "xp": 450,
+  "traits": [
+   {
+    "name": {
+     "tr": "Sinsi Saldırı",
+     "en": "Sneak Attack"
+    },
+    "text": {
+     "tr": "Boğazkesen, her turda bir kez, silah saldırısı isabet ettiğinde ve saldırı zarında avantajı varsa ya da hedef etkisiz olmayan bir dostunun 5 ft. yakınındaysa fazladan 7 (2d6) hasar verir.",
+     "en": "Once per turn, the cutthroat deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the cutthroat that isn't incapacitated."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Boğazkesen iki kısa kılıç saldırısı yapar.",
+     "en": "The cutthroat makes two shortsword attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Kısa Kılıç",
+     "en": "Shortsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar.",
+     "en": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d6+3",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "watch-sergeant",
+  "human": true,
+  "name": {
+   "tr": "Muhafız Çavuşu",
+   "en": "Watch Sergeant"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 16,
+  "hp": 32,
+  "hitDice": "5d8+10",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 15,
+   "dex": 12,
+   "con": 14,
+   "int": 10,
+   "wis": 12,
+   "cha": 11
+  },
+  "saves": {},
+  "skills": {
+   "perception": 3,
+   "athletics": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 13",
+  "languages": "Common",
+  "cr": 2,
+  "xp": 450,
+  "traits": [
+   {
+    "name": {
+     "tr": "Alarm Ver",
+     "en": "Sound the Alarm"
+    },
+    "text": {
+     "tr": "Çavuş can puanı ilk kez yarıya ya da altına düştüğünde bir bonus eylemle boru çalabilir. 600 ft. içindeki muhafızlar sesi duyar ve yardıma gelir.",
+     "en": "When first reduced to half its hit points or fewer, the sergeant can use a bonus action to blow a horn. Guards within 600 ft. hear it and come to help."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Çavuş iki uzun kılıç saldırısı yapar.",
+     "en": "The sergeant makes two longsword attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Uzun Kılıç",
+     "en": "Longsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) kesici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d8+2",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Hafif Arbalet",
+     "en": "Light Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +3, menzil 80/320 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar.",
+     "en": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d8+1",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "noble-duelist",
+  "human": true,
+  "name": {
+   "tr": "Soylu Düellocu",
+   "en": "Noble Duelist"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 16,
+  "hp": 44,
+  "hitDice": "8d8+8",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 11,
+   "dex": 18,
+   "con": 12,
+   "int": 12,
+   "wis": 12,
+   "cha": 15
+  },
+  "saves": {
+   "dex": 6
+  },
+  "skills": {
+   "acrobatics": 6,
+   "persuasion": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 3,
+  "xp": 700,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Düellocu iki meç saldırısı yapar.",
+     "en": "The duelist makes two rapier attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Meç",
+     "en": "Rapier"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 8 (1d8 + 4) delici hasar.",
+     "en": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+    },
+    "attack": {
+     "bonus": 6,
+     "damage": [
+      {
+       "dice": "1d8+4",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Savuşturma (Tepki)",
+     "en": "Parry (Reaction)"
+    },
+    "text": {
+     "tr": "Düellocu, kendisine isabet edecek bir yakın dövüş saldırısına karşı zırh sınıfına 3 ekler. Bunun için saldırganı görmeli ve elinde yakın dövüş silahı tutmalıdır.",
+     "en": "The duelist adds 3 to its AC against one melee attack that would hit it. To do so, it must see the attacker and be wielding a melee weapon."
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "watch-captain",
+  "human": true,
+  "name": {
+   "tr": "Muhafız Yüzbaşısı",
+   "en": "Watch Captain"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 18,
+  "hp": 58,
+  "hitDice": "9d8+18",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 17,
+   "dex": 12,
+   "con": 14,
+   "int": 11,
+   "wis": 13,
+   "cha": 14
+  },
+  "saves": {
+   "str": 5,
+   "con": 4
+  },
+  "skills": {
+   "athletics": 5,
+   "perception": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 13",
+  "languages": "Common",
+  "cr": 4,
+  "xp": 1100,
+  "traits": [
+   {
+    "name": {
+     "tr": "Komuta",
+     "en": "Leadership"
+    },
+    "text": {
+     "tr": "Yüzbaşı, bir bonus eylemle 30 ft. içinde onu duyabilen en çok üç dostunu seçer. Bir sonraki turunun sonuna kadar seçilenler saldırı zarlarına ve kurtarma zarlarına 1d4 ekler.",
+     "en": "As a bonus action, the captain chooses up to three allies within 30 ft. that can hear it. Until the end of its next turn, each of them adds 1d4 to attack rolls and saving throws."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Yüzbaşı iki uzun kılıç saldırısı yapar.",
+     "en": "The captain makes two longsword attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Uzun Kılıç",
+     "en": "Longsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar.",
+     "en": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d8+3",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Ağır Arbalet",
+     "en": "Heavy Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +3, menzil 100/400 ft., tek hedef. İsabet: 6 (1d10 + 1) delici hasar.",
+     "en": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d10+1",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Savuşturma (Tepki)",
+     "en": "Parry (Reaction)"
+    },
+    "text": {
+     "tr": "Yüzbaşı, kendisine isabet edecek bir yakın dövüş saldırısına karşı zırh sınıfına 2 ekler. Bunun için saldırganı görmeli ve elinde yakın dövüş silahı tutmalıdır.",
+     "en": "The captain adds 2 to its AC against one melee attack that would hit it. To do so, it must see the attacker and be wielding a melee weapon."
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "mercenary",
+  "human": true,
+  "name": {
+   "tr": "Paralı Asker",
+   "en": "Mercenary"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 16,
+  "hp": 32,
+  "hitDice": "5d8+10",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 15,
+   "dex": 12,
+   "con": 14,
+   "int": 10,
+   "wis": 11,
+   "cha": 10
+  },
+  "saves": {},
+  "skills": {
+   "athletics": 4,
+   "intimidation": 2
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 2,
+  "xp": 450,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Asker iki yakın dövüş saldırısı yapar.",
+     "en": "The mercenary makes two melee attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Uzun Kılıç",
+     "en": "Longsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) kesici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d8+2",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Uzun Yay",
+     "en": "Longbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +3, menzil 150/600 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar.",
+     "en": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d8+1",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban",
+   "grassland",
+   "mountain"
+  ]
+ },
+ {
+  "id": "thief-lord",
+  "human": true,
+  "name": {
+   "tr": "Hırsızlar Loncası Lideri",
+   "en": "Thief Lord"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 16,
+  "hp": 71,
+  "hitDice": "11d8+22",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 11,
+   "dex": 18,
+   "con": 14,
+   "int": 14,
+   "wis": 13,
+   "cha": 16
+  },
+  "saves": {
+   "dex": 7,
+   "int": 5
+  },
+  "skills": {
+   "stealth": 10,
+   "sleight-of-hand": 10,
+   "deception": 6
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common, Thieves' cant",
+  "cr": 5,
+  "xp": 1800,
+  "traits": [
+   {
+    "name": {
+     "tr": "Kurnaz Eylem",
+     "en": "Cunning Action"
+    },
+    "text": {
+     "tr": "Hırsızlar Loncası Lideri her turunda bir bonus eylemle Koşu, Ayrılma ya da Saklanma eylemini yapabilir.",
+     "en": "On each of its turns, the thief lord can use a bonus action to take the Dash, Disengage, or Hide action."
+    }
+   },
+   {
+    "name": {
+     "tr": "Sıyrılma",
+     "en": "Evasion"
+    },
+    "text": {
+     "tr": "Lider, Çeviklik kurtarma zarıyla yarı hasar alınabilen bir etkiye maruz kalırsa başarıda hasar almaz, başarısızlıkta yarı hasar alır.",
+     "en": "If the thief lord is subjected to an effect that allows a Dexterity saving throw for half damage, it takes no damage on a success and half damage on a failure."
+    }
+   },
+   {
+    "name": {
+     "tr": "Sinsi Saldırı",
+     "en": "Sneak Attack"
+    },
+    "text": {
+     "tr": "Lider, her turda bir kez, silah saldırısı isabet ettiğinde ve zarda avantajı varsa ya da hedef etkisiz olmayan bir dostunun 5 ft. yakınındaysa fazladan 10 (3d6) hasar verir.",
+     "en": "Once per turn, the thief lord deals an extra 10 (3d6) damage when it hits with a weapon attack and has advantage on the roll, or when the target is within 5 ft. of an ally of the thief lord that isn't incapacitated."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Lider iki meç saldırısı yapar.",
+     "en": "The thief lord makes two rapier attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Meç",
+     "en": "Rapier"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 8 (1d8 + 4) delici hasar.",
+     "en": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage."
+    },
+    "attack": {
+     "bonus": 7,
+     "damage": [
+      {
+       "dice": "1d8+4",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "El Arbaleti",
+     "en": "Hand Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +7, menzil 30/120 ft., tek hedef. İsabet: 7 (1d6 + 4) delici hasar.",
+     "en": "Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+    },
+    "attack": {
+     "bonus": 7,
+     "damage": [
+      {
+       "dice": "1d6+4",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "mercenary-captain",
+  "human": true,
+  "name": {
+   "tr": "Paralı Asker Komutanı",
+   "en": "Mercenary Captain"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 18,
+  "hp": 71,
+  "hitDice": "11d8+22",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 17,
+   "dex": 13,
+   "con": 15,
+   "int": 12,
+   "wis": 13,
+   "cha": 14
+  },
+  "saves": {
+   "str": 6,
+   "con": 5
+  },
+  "skills": {
+   "athletics": 6,
+   "intimidation": 5
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 5,
+  "xp": 1800,
+  "traits": [
+   {
+    "name": {
+     "tr": "Savaş Emri",
+     "en": "Battle Orders"
+    },
+    "text": {
+     "tr": "Komutan, bir bonus eylemle 30 ft. içinde onu duyabilen bir dostuna tepkisini kullanarak bir yakın dövüş silah saldırısı yapma hakkı verir.",
+     "en": "As a bonus action, the captain lets one ally within 30 ft. that can hear it use its reaction to make one melee weapon attack."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Komutan üç yakın dövüş saldırısı yapar.",
+     "en": "The captain makes three melee attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Uzun Kılıç",
+     "en": "Longsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar.",
+     "en": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+    },
+    "attack": {
+     "bonus": 6,
+     "damage": [
+      {
+       "dice": "1d8+3",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Ağır Arbalet",
+     "en": "Heavy Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +4, menzil 100/400 ft., tek hedef. İsabet: 6 (1d10 + 1) delici hasar.",
+     "en": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d10+1",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban",
+   "grassland",
+   "mountain"
+  ]
+ },
+ {
+  "id": "crime-boss",
+  "human": true,
+  "name": {
+   "tr": "Suç Patronu",
+   "en": "Crime Boss"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 16,
+  "hp": 84,
+  "hitDice": "13d8+26",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 14,
+   "dex": 16,
+   "con": 14,
+   "int": 13,
+   "wis": 13,
+   "cha": 18
+  },
+  "saves": {
+   "dex": 6,
+   "wis": 4
+  },
+  "skills": {
+   "deception": 10,
+   "intimidation": 7,
+   "insight": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common, Thieves' cant",
+  "cr": 6,
+  "xp": 2300,
+  "traits": [
+   {
+    "name": {
+     "tr": "Komuta",
+     "en": "Leadership"
+    },
+    "text": {
+     "tr": "Patron, bir bonus eylemle 30 ft. içinde onu duyabilen en çok üç dostunu seçer. Bir sonraki turunun sonuna kadar seçilenler saldırı zarlarına ve kurtarma zarlarına 1d6 ekler.",
+     "en": "As a bonus action, the boss chooses up to three allies within 30 ft. that can hear it. Until the end of its next turn, each of them adds 1d6 to attack rolls and saving throws."
+    }
+   },
+   {
+    "name": {
+     "tr": "Yeraltı Bağlantıları",
+     "en": "Underworld Contacts"
+    },
+    "text": {
+     "tr": "Patron can puanı ilk kez yarıya ya da altına düştüğünde en çok dört boğazkesen 3 raunt içinde olay yerine gelir.",
+     "en": "Whenever the boss is reduced to half its hit points or fewer for the first time, up to four cutthroats arrive within 3 rounds."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Patron iki meç saldırısı yapar ve yapabiliyorsa Gözdağı kullanır.",
+     "en": "The boss makes two rapier attacks and uses Menace if it can."
+    }
+   },
+   {
+    "name": {
+     "tr": "Meç",
+     "en": "Rapier"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar.",
+     "en": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    },
+    "attack": {
+     "bonus": 6,
+     "damage": [
+      {
+       "dice": "1d8+3",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Gözdağı",
+     "en": "Menace"
+    },
+    "text": {
+     "tr": "Patronun 30 ft. içinde görebildiği bir yaratık ZD 14 Bilgelik kurtarma zarını başaramazsa 1 dakika korkmuş olur. Her turunun sonunda kurtarma zarını yineleyebilir.",
+     "en": "One creature the boss can see within 30 ft. must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. It can repeat the saving throw at the end of each of its turns."
+    }
+   },
+   {
+    "name": {
+     "tr": "Savuşturma (Tepki)",
+     "en": "Parry (Reaction)"
+    },
+    "text": {
+     "tr": "Patron, kendisine isabet edecek bir yakın dövüş saldırısına karşı zırh sınıfına 2 ekler. Bunun için saldırganı görmeli ve elinde yakın dövüş silahı tutmalıdır.",
+     "en": "The boss adds 2 to its AC against one melee attack that would hit it. To do so, it must see the attacker and be wielding a melee weapon."
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban"
+  ]
+ },
+ {
+  "id": "swordmaster",
+  "human": true,
+  "name": {
+   "tr": "Kılıç Ustası",
+   "en": "Swordmaster"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 17,
+  "hp": 78,
+  "hitDice": "12d8+24",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 12,
+   "dex": 20,
+   "con": 14,
+   "int": 12,
+   "wis": 13,
+   "cha": 12
+  },
+  "saves": {
+   "dex": 8,
+   "wis": 4
+  },
+  "skills": {
+   "acrobatics": 11,
+   "perception": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 14",
+  "languages": "Common",
+  "cr": 6,
+  "xp": 2300,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Usta üç meç saldırısı yapar.",
+     "en": "The swordmaster makes three rapier attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Meç",
+     "en": "Rapier"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 9 (1d8 + 5) delici hasar.",
+     "en": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage."
+    },
+    "attack": {
+     "bonus": 8,
+     "damage": [
+      {
+       "dice": "1d8+5",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Karşılık (Tepki)",
+     "en": "Riposte (Reaction)"
+    },
+    "text": {
+     "tr": "Bir yaratık ustaya yakın dövüş saldırısıyla ıskaladığında usta ona karşı bir meç saldırısı yapabilir.",
+     "en": "When a creature misses the swordmaster with a melee attack, the swordmaster can make one rapier attack against it."
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban",
+   "ruins"
+  ]
+ },
+ {
+  "id": "arena-legend",
+  "human": true,
+  "name": {
+   "tr": "Arena Efsanesi",
+   "en": "Arena Legend"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 18,
+  "hp": 112,
+  "hitDice": "15d8+45",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 20,
+   "dex": 16,
+   "con": 16,
+   "int": 10,
+   "wis": 12,
+   "cha": 15
+  },
+  "saves": {
+   "str": 8,
+   "con": 6
+  },
+  "skills": {
+   "athletics": 11,
+   "intimidation": 5
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 8,
+  "xp": 3900,
+  "traits": [
+   {
+    "name": {
+     "tr": "Cesur",
+     "en": "Brave"
+    },
+    "text": {
+     "tr": "Efsane, korkmaya karşı kurtarma zarlarında avantaj kazanır.",
+     "en": "The legend has advantage on saving throws against being frightened."
+    }
+   },
+   {
+    "name": {
+     "tr": "Kaba Kuvvet",
+     "en": "Brute"
+    },
+    "text": {
+     "tr": "Efsanenin yakın dövüş silahı isabet ettiğinde silahın zarından bir fazla zar hasar verir (saldırıya dahildir).",
+     "en": "A melee weapon deals one extra die of its damage when the legend hits with it (included in the attack)."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Efsane üç yakın dövüş saldırısı yapar.",
+     "en": "The legend makes three melee attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Büyük Kılıç",
+     "en": "Greatsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 15 (3d6 + 5) kesici hasar.",
+     "en": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) slashing damage."
+    },
+    "attack": {
+     "bonus": 8,
+     "damage": [
+      {
+       "dice": "3d6+5",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Mızrak",
+     "en": "Spear"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +8, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 8 (1d6 + 5) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +8 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 8 (1d6 + 5) piercing damage."
+    },
+    "attack": {
+     "bonus": 8,
+     "damage": [
+      {
+       "dice": "1d6+5",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Savuşturma (Tepki)",
+     "en": "Parry (Reaction)"
+    },
+    "text": {
+     "tr": "Efsane, kendisine isabet edecek bir yakın dövüş saldırısına karşı zırh sınıfına 3 ekler. Bunun için saldırganı görmeli ve elinde yakın dövüş silahı tutmalıdır.",
+     "en": "The legend adds 3 to its AC against one melee attack that would hit it. To do so, it must see the attacker and be wielding a melee weapon."
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban",
+   "ruins"
+  ]
+ },
+ {
+  "id": "bandit-archer",
+  "human": true,
+  "name": {
+   "tr": "Haydut Okçusu",
+   "en": "Bandit Archer"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 14,
+  "hp": 16,
+  "hitDice": "3d8+3",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 11,
+   "dex": 15,
+   "con": 12,
+   "int": 10,
+   "wis": 12,
+   "cha": 10
+  },
+  "saves": {},
+  "skills": {
+   "stealth": 4,
+   "perception": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 13",
+  "languages": "Common",
+  "cr": 0.5,
+  "xp": 100,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Kısa Yay",
+     "en": "Shortbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +4, menzil 80/320 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar.",
+     "en": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d6+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Hançer",
+     "en": "Dagger"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +4, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d4+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "forest",
+   "grassland",
+   "mountain",
+   "desert"
+  ]
+ },
+ {
+  "id": "raider",
+  "human": true,
+  "name": {
+   "tr": "Yağmacı",
+   "en": "Raider"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 13,
+  "hp": 16,
+  "hitDice": "3d8+3",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 14,
+   "dex": 12,
+   "con": 13,
+   "int": 9,
+   "wis": 10,
+   "cha": 9
+  },
+  "saves": {},
+  "skills": {},
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 0.5,
+  "xp": 100,
+  "traits": [
+   {
+    "name": {
+     "tr": "Sürü Taktiği",
+     "en": "Pack Tactics"
+    },
+    "text": {
+     "tr": "Yağmacı, hedefin 5 ft. yakınında etkisiz olmayan en az bir dostu varsa o yaratığa karşı attığı saldırı zarında avantaj kazanır.",
+     "en": "The raider has advantage on an attack roll against a creature if at least one of the raider's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Savaş Baltası",
+     "en": "Battleaxe"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) kesici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d8+2",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Cirit",
+     "en": "Javelin"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +4, erişim 5 ft. ya da menzil 30/120 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d6+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "coast",
+   "forest",
+   "grassland",
+   "mountain"
+  ]
+ },
+ {
+  "id": "highwayman",
+  "human": true,
+  "name": {
+   "tr": "Yol Kesen",
+   "en": "Highwayman"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 14,
+  "hp": 22,
+  "hitDice": "4d8+4",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 11,
+   "dex": 15,
+   "con": 12,
+   "int": 11,
+   "wis": 12,
+   "cha": 13
+  },
+  "saves": {},
+  "skills": {
+   "stealth": 4,
+   "intimidation": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 1,
+  "xp": 200,
+  "traits": [
+   {
+    "name": {
+     "tr": "Pusu",
+     "en": "Ambush"
+    },
+    "text": {
+     "tr": "Yol kesen, savaşın ilk raundunda henüz eylem yapmamış yaratıklara karşı attığı saldırı zarlarında avantaj kazanır.",
+     "en": "The highwayman has advantage on attack rolls against any creature that hasn't acted yet in the first round of combat."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Yol kesen kısa kılıcıyla ya da uzun yayıyla iki saldırı yapar.",
+     "en": "The highwayman makes two attacks, either with its shortsword or its longbow."
+    }
+   },
+   {
+    "name": {
+     "tr": "Kısa Kılıç",
+     "en": "Shortsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 5 (1d6 + 2) delici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d6+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Uzun Yay",
+     "en": "Longbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +4, menzil 150/600 ft., tek hedef. İsabet: 6 (1d8 + 2) delici hasar.",
+     "en": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d8+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "grassland",
+   "forest",
+   "mountain"
+  ]
+ },
+ {
+  "id": "raider-archer",
+  "human": true,
+  "name": {
+   "tr": "Yağmacı Okçusu",
+   "en": "Raider Archer"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 14,
+  "hp": 22,
+  "hitDice": "4d8+4",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 12,
+   "dex": 16,
+   "con": 12,
+   "int": 10,
+   "wis": 12,
+   "cha": 10
+  },
+  "saves": {},
+  "skills": {
+   "perception": 3
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 13",
+  "languages": "Common",
+  "cr": 1,
+  "xp": 200,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Okçu iki uzun yay saldırısı yapar.",
+     "en": "The archer makes two longbow attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Uzun Yay",
+     "en": "Longbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +5, menzil 150/600 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar.",
+     "en": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d8+3",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "El Baltası",
+     "en": "Handaxe"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +3, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d6 + 1) kesici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d6+1",
+       "type": "slashing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "coast",
+   "forest",
+   "grassland",
+   "mountain"
+  ]
+ },
+ {
+  "id": "deserter",
+  "human": true,
+  "name": {
+   "tr": "Asker Kaçağı",
+   "en": "Deserter"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 15,
+  "hp": 22,
+  "hitDice": "4d8+4",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 14,
+   "dex": 13,
+   "con": 13,
+   "int": 10,
+   "wis": 11,
+   "cha": 10
+  },
+  "saves": {},
+  "skills": {
+   "athletics": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 1,
+  "xp": 200,
+  "traits": [
+   {
+    "name": {
+     "tr": "Eğitimli Savaşçı",
+     "en": "Trained Fighter"
+    },
+    "text": {
+     "tr": "Kaçak, korkmaya karşı kurtarma zarlarında avantaj kazanır.",
+     "en": "The deserter has advantage on saving throws against being frightened."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Uzun Kılıç",
+     "en": "Longsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +4, erişim 5 ft., tek hedef. İsabet: 6 (1d8 + 2) kesici hasar.",
+     "en": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d8+2",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Hafif Arbalet",
+     "en": "Light Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +3, menzil 80/320 ft., tek hedef. İsabet: 5 (1d8 + 1) delici hasar.",
+     "en": "Ranged Weapon Attack: +3 to hit, range 80/320 ft., one target. Hit: 5 (1d8 + 1) piercing damage."
+    },
+    "attack": {
+     "bonus": 3,
+     "damage": [
+      {
+       "dice": "1d8+1",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "urban",
+   "forest",
+   "grassland",
+   "mountain"
+  ]
+ },
+ {
+  "id": "bandit-brute",
+  "human": true,
+  "name": {
+   "tr": "Haydut Pehlivanı",
+   "en": "Bandit Brute"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 13,
+  "hp": 39,
+  "hitDice": "6d8+12",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 18,
+   "dex": 11,
+   "con": 15,
+   "int": 8,
+   "wis": 10,
+   "cha": 9
+  },
+  "saves": {},
+  "skills": {
+   "athletics": 6,
+   "intimidation": 1
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 2,
+  "xp": 450,
+  "traits": [
+   {
+    "name": {
+     "tr": "Pervasız",
+     "en": "Reckless"
+    },
+    "text": {
+     "tr": "Pehlivan, turunun başında o tur boyunca tüm yakın dövüş silah saldırı zarlarında avantaj kazanmayı seçebilir; ama bir sonraki turunun başına kadar ona yapılan saldırı zarları da avantajlı olur.",
+     "en": "At the start of its turn, the brute can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Büyük Balta",
+     "en": "Greataxe"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +6, erişim 5 ft., tek hedef. İsabet: 10 (1d12 + 4) kesici hasar.",
+     "en": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
+    },
+    "attack": {
+     "bonus": 6,
+     "damage": [
+      {
+       "dice": "1d12+4",
+       "type": "slashing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "forest",
+   "mountain",
+   "desert",
+   "coast"
+  ]
+ },
+ {
+  "id": "raider-veteran",
+  "human": true,
+  "name": {
+   "tr": "Kıdemli Yağmacı",
+   "en": "Raider Veteran"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 15,
+  "hp": 45,
+  "hitDice": "7d8+14",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 17,
+   "dex": 13,
+   "con": 14,
+   "int": 10,
+   "wis": 11,
+   "cha": 10
+  },
+  "saves": {
+   "str": 5,
+   "con": 4
+  },
+  "skills": {
+   "athletics": 5,
+   "intimidation": 2
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 10",
+  "languages": "Common",
+  "cr": 3,
+  "xp": 700,
+  "traits": [
+   {
+    "name": {
+     "tr": "Sürü Taktiği",
+     "en": "Pack Tactics"
+    },
+    "text": {
+     "tr": "Yağmacı, hedefin 5 ft. yakınında etkisiz olmayan en az bir dostu varsa o yaratığa karşı attığı saldırı zarında avantaj kazanır.",
+     "en": "The raider has advantage on an attack roll against a creature if at least one of the raider's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Kıdemli iki savaş baltası saldırısı yapar.",
+     "en": "The veteran makes two battleaxe attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Savaş Baltası",
+     "en": "Battleaxe"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 7 (1d8 + 3) kesici hasar.",
+     "en": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d8+3",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Cirit",
+     "en": "Javelin"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +5, erişim 5 ft. ya da menzil 30/120 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d6+3",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "coast",
+   "forest",
+   "grassland",
+   "mountain"
+  ]
+ },
+ {
+  "id": "bandit-chief",
+  "human": true,
+  "name": {
+   "tr": "Haydut Reisi",
+   "en": "Bandit Chief"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 16,
+  "hp": 75,
+  "hitDice": "10d8+30",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 16,
+   "dex": 15,
+   "con": 16,
+   "int": 12,
+   "wis": 12,
+   "cha": 15
+  },
+  "saves": {
+   "str": 5,
+   "dex": 4,
+   "wis": 3
+  },
+  "skills": {
+   "athletics": 5,
+   "deception": 4,
+   "intimidation": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 4,
+  "xp": 1100,
+  "traits": [
+   {
+    "name": {
+     "tr": "Komuta",
+     "en": "Leadership"
+    },
+    "text": {
+     "tr": "Reis, bir bonus eylemle 30 ft. içinde onu duyabilen en çok üç dostunu seçer. Bir sonraki turunun sonuna kadar seçilenler saldırı zarlarına ve kurtarma zarlarına 1d4 ekler.",
+     "en": "As a bonus action, the chief chooses up to three allies within 30 ft. that can hear it. Until the end of its next turn, each of them adds 1d4 to attack rolls and saving throws."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Reis üç saldırı yapar: ikisi pala, biri hançerle. Ya da ağır arbaletle iki menzilli saldırı yapar.",
+     "en": "The chief makes three attacks: two with its scimitar and one with its dagger. Or the chief makes two ranged attacks with its heavy crossbow."
+    }
+   },
+   {
+    "name": {
+     "tr": "Pala",
+     "en": "Scimitar"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) kesici hasar.",
+     "en": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d6+3",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Hançer",
+     "en": "Dagger"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +4, erişim 5 ft. ya da menzil 20/60 ft., tek hedef. İsabet: 4 (1d4 + 2) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d4+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Ağır Arbalet",
+     "en": "Heavy Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +4, menzil 100/400 ft., tek hedef. İsabet: 7 (1d10 + 2) delici hasar.",
+     "en": "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 7 (1d10 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 4,
+     "damage": [
+      {
+       "dice": "1d10+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Savuşturma (Tepki)",
+     "en": "Parry (Reaction)"
+    },
+    "text": {
+     "tr": "Reis, kendisine isabet edecek bir yakın dövüş saldırısına karşı zırh sınıfına 2 ekler. Bunun için saldırganı görmeli ve elinde yakın dövüş silahı tutmalıdır.",
+     "en": "The chief adds 2 to its AC against one melee attack that would hit it. To do so, it must see the attacker and be wielding a melee weapon."
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "forest",
+   "mountain",
+   "desert",
+   "coast"
+  ]
+ },
+ {
+  "id": "raider-chieftain",
+  "human": true,
+  "name": {
+   "tr": "Yağmacı Reisi",
+   "en": "Raider Chieftain"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 16,
+  "hp": 90,
+  "hitDice": "12d8+36",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 18,
+   "dex": 14,
+   "con": 16,
+   "int": 11,
+   "wis": 12,
+   "cha": 16
+  },
+  "saves": {
+   "str": 7,
+   "con": 6
+  },
+  "skills": {
+   "athletics": 7,
+   "intimidation": 9
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 11",
+  "languages": "Common",
+  "cr": 5,
+  "xp": 1800,
+  "traits": [
+   {
+    "name": {
+     "tr": "Sürü Taktiği",
+     "en": "Pack Tactics"
+    },
+    "text": {
+     "tr": "Yağmacı, hedefin 5 ft. yakınında etkisiz olmayan en az bir dostu varsa o yaratığa karşı attığı saldırı zarında avantaj kazanır.",
+     "en": "The raider has advantage on an attack roll against a creature if at least one of the raider's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+    }
+   },
+   {
+    "name": {
+     "tr": "Savaş Çığlığı (Kısa ya da Uzun Dinlenmeden Sonra Yenilenir)",
+     "en": "War Cry (Recharges after a Short or Long Rest)"
+    },
+    "text": {
+     "tr": "Reis bir bonus eylemle kükrer. 30 ft. içinde onu duyabilen dostları, kendi bir sonraki turlarının sonuna kadar yapacakları ilk saldırı zarında avantaj kazanır.",
+     "en": "As a bonus action, the chieftain roars. Allies within 30 ft. that can hear it have advantage on their next attack roll before the end of their next turn."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Reis iki büyük balta saldırısı yapar.",
+     "en": "The chieftain makes two greataxe attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Büyük Balta",
+     "en": "Greataxe"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +7, erişim 5 ft., tek hedef. İsabet: 10 (1d12 + 4) kesici hasar.",
+     "en": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
+    },
+    "attack": {
+     "bonus": 7,
+     "damage": [
+      {
+       "dice": "1d12+4",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Cirit",
+     "en": "Javelin"
+    },
+    "text": {
+     "tr": "Yakın Dövüş ya da Menzilli Silah Saldırısı: isabet için +7, erişim 5 ft. ya da menzil 30/120 ft., tek hedef. İsabet: 7 (1d6 + 4) delici hasar.",
+     "en": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+    },
+    "attack": {
+     "bonus": 7,
+     "damage": [
+      {
+       "dice": "1d6+4",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "coast",
+   "forest",
+   "grassland",
+   "mountain"
+  ]
+ },
+ {
+  "id": "warlord",
+  "human": true,
+  "name": {
+   "tr": "Savaş Lordu",
+   "en": "Warlord"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 18,
+  "hp": 135,
+  "hitDice": "18d8+54",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 20,
+   "dex": 14,
+   "con": 16,
+   "int": 14,
+   "wis": 13,
+   "cha": 18
+  },
+  "saves": {
+   "str": 8,
+   "con": 6,
+   "wis": 4
+  },
+  "skills": {
+   "athletics": 8,
+   "intimidation": 10,
+   "perception": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 14",
+  "languages": "Common",
+  "cr": 8,
+  "xp": 3900,
+  "traits": [
+   {
+    "name": {
+     "tr": "Komuta",
+     "en": "Leadership"
+    },
+    "text": {
+     "tr": "Savaş Lordu, bir bonus eylemle 30 ft. içinde onu duyabilen en çok üç dostunu seçer. Bir sonraki turunun sonuna kadar seçilenler saldırı zarlarına ve kurtarma zarlarına 1d6 ekler.",
+     "en": "As a bonus action, the warlord chooses up to three allies within 30 ft. that can hear it. Until the end of its next turn, each of them adds 1d6 to attack rolls and saving throws."
+    }
+   },
+   {
+    "name": {
+     "tr": "Yılmaz (Kısa ya da Uzun Dinlenmeden Sonra Yenilenir)",
+     "en": "Indomitable (Recharges after a Short or Long Rest)"
+    },
+    "text": {
+     "tr": "Savaş Lordu bir kurtarma zarını başaramazsa bunun yerine başarmayı seçebilir.",
+     "en": "When the warlord fails a saving throw, it can choose to succeed instead."
+    }
+   }
+  ],
+  "actions": [
+   {
+    "name": {
+     "tr": "Çoklu Saldırı",
+     "en": "Multiattack"
+    },
+    "text": {
+     "tr": "Savaş Lordu üç büyük kılıç saldırısı yapar.",
+     "en": "The warlord makes three greatsword attacks."
+    }
+   },
+   {
+    "name": {
+     "tr": "Büyük Kılıç",
+     "en": "Greatsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +8, erişim 5 ft., tek hedef. İsabet: 12 (2d6 + 5) kesici hasar.",
+     "en": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+    },
+    "attack": {
+     "bonus": 8,
+     "damage": [
+      {
+       "dice": "2d6+5",
+       "type": "slashing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Ağır Arbalet",
+     "en": "Heavy Crossbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +5, menzil 100/400 ft., tek hedef. İsabet: 7 (1d10 + 2) delici hasar.",
+     "en": "Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 7 (1d10 + 2) piercing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d10+2",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "forest",
+   "grassland",
+   "mountain",
+   "desert"
+  ]
+ },
+ {
+  "id": "hunter",
+  "human": true,
+  "name": {
+   "tr": "Avcı",
+   "en": "Hunter"
+  },
+  "size": "Medium",
+  "type": "humanoid",
+  "ac": 14,
+  "hp": 16,
+  "hitDice": "3d8+3",
+  "speed": "30 ft.",
+  "abilities": {
+   "str": 12,
+   "dex": 16,
+   "con": 12,
+   "int": 10,
+   "wis": 14,
+   "cha": 9
+  },
+  "saves": {},
+  "skills": {
+   "survival": 4,
+   "stealth": 5,
+   "perception": 4
+  },
+  "resistances": [],
+  "immunities": [],
+  "vulnerabilities": [],
+  "defenseNotes": [],
+  "conditionImmunities": [],
+  "senses": "passive perception 14",
+  "languages": "Common",
+  "cr": 0.5,
+  "xp": 100,
+  "traits": [],
+  "actions": [
+   {
+    "name": {
+     "tr": "Uzun Yay",
+     "en": "Longbow"
+    },
+    "text": {
+     "tr": "Menzilli Silah Saldırısı: isabet için +5, menzil 150/600 ft., tek hedef. İsabet: 7 (1d8 + 3) delici hasar.",
+     "en": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d8+3",
+       "type": "piercing"
+      }
+     ]
+    }
+   },
+   {
+    "name": {
+     "tr": "Kısa Kılıç",
+     "en": "Shortsword"
+    },
+    "text": {
+     "tr": "Yakın Dövüş Silah Saldırısı: isabet için +5, erişim 5 ft., tek hedef. İsabet: 6 (1d6 + 3) delici hasar.",
+     "en": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    "attack": {
+     "bonus": 5,
+     "damage": [
+      {
+       "dice": "1d6+3",
+       "type": "piercing"
+      }
+     ]
+    }
+   }
+  ],
+  "legendaryActions": [],
+  "legendaryCount": 0,
+  "regions": [
+   "forest",
+   "grassland",
+   "mountain",
+   "arctic"
+  ]
+ }
+]

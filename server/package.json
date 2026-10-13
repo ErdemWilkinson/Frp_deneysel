@@ -1,0 +1,30 @@
+{
+  "name": "@masa/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "test": "vitest run",
+    "import:monsters": "tsx scripts/importMonsters.ts",
+    "content:status": "tsx scripts/contentStatus.ts",
+    "tr:build": "tsx scripts/buildTr.ts",
+    "regions:tag": "tsx scripts/tagRegions.ts"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@masa/shared": "*",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "@types/supertest": "^7.2.1",
+    "@types/ws": "^8.18.2",
+    "supertest": "^7.3.1"
+  }
+}
