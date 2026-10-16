@@ -64,9 +64,12 @@ interface Props {
   saveLabel?: string;
   /** Kart gönderildikten sonra çağrılır. */
   onSaved?: () => void;
+  /** Masa dışında (atölyede) kullanılır: zar atma ve sayfa okuma düğmeleri gizlenir. */
+  offline?: boolean;
 }
 
-export function CharacterCard({ character, send, title = 'Karakter', saveLabel = 'Kartı kaydet', onSaved }: Props) {
+export function CharacterCard({ character, send, title = 'Karakter', saveLabel = 'Kartı kaydet', onSaved, offline = false }: Props) {
+  const live = !!character && !offline;
   const [draft, setDraft] = useState<Draft>(character ?? BLANK);
   // Sunucudaki kart gerçekten değiştiğinde (ör. hasar alındığında) formu güncelle; ilgisiz yayınlarda yazılanı silme.
   const snapshot = JSON.stringify(character);
@@ -160,8 +163,8 @@ export function CharacterCard({ character, send, title = 'Karakter', saveLabel =
   return (
     <section aria-label="Karakter kartı" className="card paper-card">
       <h2>{title}</h2>
-      {character?.dead && <p role="status">Karakter öldü.</p>}
-      {character && character.hp === 0 && !character.dead && (
+      {live && character.dead && <p role="status">Karakter öldü.</p>}
+      {live && character.hp === 0 && !character.dead && (
         <p>
           Ölüm zarları: {character.deathSaves.successes} başarı, {character.deathSaves.failures} başarısızlık{' '}
           <button type="button" onClick={() => send({ type: 'character.deathSave' })}>Ölüm kurtarma zarı at</button>
@@ -235,7 +238,7 @@ export function CharacterCard({ character, send, title = 'Karakter', saveLabel =
                     <input type="checkbox" aria-label={`${ABILITY_TR[a]} kurtulma yetkinliği`} checked={on} onChange={() => toggleSave(a)} />
                     <span className="mod">{signed(abilityMod(draft.abilities[a]) + (on ? draft.proficiency : 0))}</span>
                     <span className="name">{ABILITY_TR[a]}</span>
-                    {character && (
+                    {live && (
                       <button type="button" aria-label={`${ABILITY_TR[a]} kurtarma zarı`}
                         onClick={() => send({ type: 'character.save', ability: a, mode: 'normal' })}>Zar at</button>
                     )}
@@ -254,7 +257,7 @@ export function CharacterCard({ character, send, title = 'Karakter', saveLabel =
                   </select>
                   <span className="mod">{bonusOf(k.key)}</span>
                   <span className="name">{k.tr} <em>({ABILITY_TR[k.ability]})</em></span>
-                  {character && (
+                  {live && (
                     <button type="button" aria-label={`${k.tr} zarı`}
                       onClick={() => send({ type: 'character.check', skill: k.key, mode: 'normal' })}>Zar at</button>
                   )}
@@ -276,7 +279,7 @@ export function CharacterCard({ character, send, title = 'Karakter', saveLabel =
             {field('Can puanı', 'hp')}
             {field('Geçici can puanı', 'tempHp')}
             {word('Can zarı', 'hitDice')}
-            {character && (
+            {live && (
               <p className="box derived">Ölümden kurtulma
                 <span>{character.deathSaves.successes} başarılı · {character.deathSaves.failures} başarısız</span>
               </p>
@@ -319,9 +322,11 @@ export function CharacterCard({ character, send, title = 'Karakter', saveLabel =
       {notice && <p role="status" className="hint">{notice}</p>}
       <div className="board-tools">
         <button type="button" onClick={exportFile}>Kartı dosyaya aktar</button>
-        <label className="file-btn">{reading ? 'Okunuyor…' : 'Sayfa resminden doldur'}
-          <input type="file" accept="image/png,image/jpeg,image/webp" disabled={reading} onChange={fromImage} />
-        </label>
+        {!offline && (
+          <label className="file-btn">{reading ? 'Okunuyor…' : 'Sayfa resminden doldur'}
+            <input type="file" accept="image/png,image/jpeg,image/webp" disabled={reading} onChange={fromImage} />
+          </label>
+        )}
         <label className="file-btn">Dosyadan içe aktar
           <input type="file" accept="application/json,.json" onChange={importFile} />
         </label>

@@ -99,6 +99,11 @@ export function createApp(d: AppDeps) {
     res.json(d.monsters());
   });
 
+  // Giriş yapmadan gezilen kitaplık: yalnızca SRD canavarları; DM'in kendi yarattıkları gizli kalır.
+  app.get('/api/book/monsters', (_req, res) => {
+    res.json(d.monsters().filter((m) => !m.id.startsWith('custom-')));
+  });
+
   app.get('/api/characters', async (req, res) => {
     if (!roleOf(req.headers.cookie)) { res.status(401).json({ error: 'Giriş gerekli' }); return; }
     res.json(d.characters ? await d.characters() : []);

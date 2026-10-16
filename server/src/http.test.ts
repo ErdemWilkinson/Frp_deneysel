@@ -46,6 +46,16 @@ describe('http', () => {
     expect(book.body[0].id).toBe('goblin');
   });
 
+  it('kitaplık girişsiz okunur ve DM’in kendi yarattığı canavarları göstermez', async () => {
+    const app = createApp({
+      dmPassword: 'gizli', secret: 'sır', secure: false, code: () => 'ABC123',
+      monsters: () => [goblin, { ...goblin, id: 'custom-1' }],
+    }).app;
+    const res = await request(app).get('/api/book/monsters');
+    expect(res.status).toBe(200);
+    expect(res.body.map((m: { id: string }) => m.id)).toEqual(['goblin']);
+  });
+
   it('çerez başka rolün olsa da sekmenin kendi girişi (başlık) geçerlidir', async () => {
     const app = make();
     const dm = await request(app).post('/api/login/dm').send({ password: 'gizli' });

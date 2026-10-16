@@ -14,9 +14,11 @@ interface Props {
   onDeleted?: () => void;
   /** Kitabın başlığı: canavar kitabı ya da insan kitabı. */
   title?: string;
+  /** Yalnızca gezinti: bölge düzenleme ve karşılaşmaya ekleme gizlenir. */
+  readOnly?: boolean;
 }
 
-export function Bestiary({ monsters, send, onRegions, onEdit, onDeleted, title = 'Canavar kitabı' }: Props) {
+export function Bestiary({ monsters, send, onRegions, onEdit, onDeleted, title = 'Canavar kitabı', readOnly = false }: Props) {
   const [filter, setFilter] = useState<MonsterFilter>({});
   const [onlyCustom, setOnlyCustom] = useState(false);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -72,7 +74,7 @@ export function Bestiary({ monsters, send, onRegions, onEdit, onDeleted, title =
         </label>
         <label>En az meydan okuma derecesi <input type="number" min={0} step="any" value={filter.crMin ?? ''} onChange={(e) => patch({ crMin: optionalNumber(e.target.value) })} /></label>
         <label>En çok meydan okuma derecesi <input type="number" min={0} step="any" value={filter.crMax ?? ''} onChange={(e) => patch({ crMax: optionalNumber(e.target.value) })} /></label>
-        <label><input type="checkbox" checked={onlyCustom} onChange={(e) => setOnlyCustom(e.target.checked)} /> Yalnızca kendi yarattıklarım</label>
+        {!readOnly && <label><input type="checkbox" checked={onlyCustom} onChange={(e) => setOnlyCustom(e.target.checked)} /> Yalnızca kendi yarattıklarım</label>}
         </details>
       </div>
 
@@ -89,22 +91,26 @@ export function Bestiary({ monsters, send, onRegions, onEdit, onDeleted, title =
 
       {selected && (
         <StatBlock monster={selected}>
-          {isCustom(selected) && (
+          {!readOnly && isCustom(selected) && (
             <div className="add">
               {onEdit && <button onClick={() => onEdit(selected)}>Düzenle</button>}
               <button onClick={() => remove(selected)}>Kitaptan sil</button>
             </div>
           )}
-          <fieldset>
-            <legend>Bölgeler</legend>
-            {REGIONS.map((r) => (
-              <label key={r}>
-                <input type="checkbox" checked={selected.regions.includes(r)} onChange={() => toggleRegion(selected, r)} /> {REGION_TR[r]}
-              </label>
-            ))}
-          </fieldset>
+          {readOnly ? (
+            <p>Bölgeler: {selected.regions.map((r) => REGION_TR[r]).join(', ') || 'yok'}</p>
+          ) : (
+            <fieldset>
+              <legend>Bölgeler</legend>
+              {REGIONS.map((r) => (
+                <label key={r}>
+                  <input type="checkbox" checked={selected.regions.includes(r)} onChange={() => toggleRegion(selected, r)} /> {REGION_TR[r]}
+                </label>
+              ))}
+            </fieldset>
+          )}
 
-          <div className="add">
+          {!readOnly && <div className="add">
             <label>Adet <input type="number" min={1} max={10} value={count} onChange={(e) => setCount(num(e))} /></label>
             <label>Can puanı{' '}
               <select value={hpMode} onChange={(e) => setHpMode(e.target.value as 'average' | 'rolled')}>
@@ -115,7 +121,7 @@ export function Bestiary({ monsters, send, onRegions, onEdit, onDeleted, title =
             <button onClick={() => send({ type: 'encounter.addMonster', monsterId: selected.id, count, hpMode })}>
               Karşılaşmaya ekle
             </button>
-          </div>
+          </div>}
         </StatBlock>
       )}
     </section>

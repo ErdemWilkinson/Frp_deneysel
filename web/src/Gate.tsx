@@ -35,6 +35,12 @@ export function Gate({ onEnter }: { onEnter: (session: Session) => void }) {
         <button className="btn-primary" disabled={busy}>DM olarak gir</button>
       </form>
       {error && <p role="alert">{error}</p>}
+      <nav className="gate-explore" aria-label="Masa olmadan">
+        <h2>Masa açık değil mi?</h2>
+        <p>Giriş yapmadan karakterini hazırla ya da kitaplara göz at.</p>
+        <a className="btn-primary" href="#atolye">Karakter atölyesi</a>
+        <a className="btn-primary" href="#kitap">Kitaplığa göz at</a>
+      </nav>
       <footer className="attribution">
         <p>
           This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of

@@ -37,6 +37,8 @@ export const logout = () => call<{ ok: true }>('/api/logout', {}).finally(() => 
 });
 export const MAX_UPLOAD_BYTES = 8 * 1024 * 1024;
 export const fetchMonsters = () => call<Monster[]>('/api/monsters');
+/** Giriş gerektirmeyen, yalnızca SRD canavarlarını içeren kitaplık (gezinti kipi). */
+export const fetchBookMonsters = () => call<Monster[]>('/api/book/monsters');
 /** Bu masada daha önce kaydedilmiş karakter kartları, en yenisi önce. */
 export const fetchCharacters = () => call<Character[]>('/api/characters');
 

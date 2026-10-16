@@ -708,3 +708,11 @@ fieldset { min-width: 0; }
 .attack-picker { display: grid; gap: 0.5rem; margin: 0.6rem 0; padding: 0.6rem 0.7rem; border: 1px dashed var(--line); border-radius: var(--radius); }
 .picker-row { display: flex; flex-wrap: wrap; gap: 0.5rem 0.8rem; align-items: end; }
 .picker-row .hint { flex-basis: 100%; margin: 0; }
+
+.gate-explore { background: var(--panel); border: 1px dashed var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; display: grid; gap: 0.6rem; }
+.gate-explore p { color: var(--muted); }
+.gate-explore a { display: block; text-align: center; text-decoration: none; padding: 0.55rem; }
+.workshop .roster-actions { display: flex; gap: 0.5rem; margin-top: 0.35rem; }
+.workshop .file-choice { overflow: hidden; }
+.workshop .file-choice input { margin-top: 0.4rem; max-width: 100%; font-size: 0.8rem; }
+a.back { text-decoration: none; }
