@@ -56,4 +56,5 @@ Kaynak: SRD 5.1 (CC-BY 4.0). Çeviri bu projeye aittir.
 
 ## Gözden geçirilecekler
 
-(Emin olunamayan kayıtların kimlikleri buraya eklenir.)
+Yok. SRD 5.1'deki 366 canavarın çevirisi tamamlandı (`npm run content:status -w server` → 366/366).
+Proje tamamlandığı için bu liste artık güncellenmiyor.

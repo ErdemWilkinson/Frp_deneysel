@@ -1,8 +1,27 @@
 # Açık Masa
 
+> **Durum: Tamamlandı.** Proje bitti; yeni özellik geliştirilmesi planlanmıyor.
+> Kod olduğu gibi bırakılmıştır, aşağıdaki adımlarla yerelde çalıştırılabilir ya da kendi sunucuna kurulabilir.
+
 Bir DM ile bir oyuncunun farklı yerlerden bağlanıp D&D 5e oynadığı web masası.
 DM karşılaşmaları kurar ya da bölgeye göre rastgele ürettirir; canavarlar ve
 saldırıları SRD 5.1 kurallarıyla çalışır.
+
+## Neler var
+
+- **Paylaşılan masa:** DM parolayla, oyuncu masa koduyla girer; iki ekran WebSocket üzerinden canlı eşitlenir.
+- **Karakter:** paylaşılan karakter sayfası, çanta (ışık veren eşyalar dahil), büyüler, XP.
+  Karakter sayfası resmi isteğe bağlı olarak okutulup sayfaya aktarılabilir.
+- **Savaş:** üstten görünen, karesiz savaş alanı; jetonlar serbest yürür, yol ve menzil ft ile ölçülür.
+  İnisiyatif sırası, saldırı ve zar kayıtları, durum etkileri.
+- **Karşılaşmalar:** DM elle kurar ya da bölgeye göre rastgele ürettirir; canavar düzenleyici ve stat blokları.
+- **Dünya:** ana harita, arazi, kasaba ve zindan üretimi.
+- **Kayıt:** oyunlar adlandırılarak kaydedilir, yüklenir, silinir.
+- **Giriş gerektirmeyen sayfalar:** ana menüden karakter atölyesi (`#atolye`) ve salt okunur kitaplık (`#kitap`).
+- **İçerik:** SRD 5.1'deki 366 canavarın tamamı Türkçeye çevrilmiş ve bölge etiketleriyle sınıflandırılmıştır.
+
+Yapı: `shared/` (kurallar, zar, üreticiler), `server/` (Express + WebSocket, otoriter oyun durumu,
+Postgres/PGlite kayıt) ve `web/` (React + Vite arayüz).
 
 ## Çalıştırma
 
@@ -11,11 +30,14 @@ saldırıları SRD 5.1 kurallarıyla çalışır.
     npm run dev:web      # http://localhost:5173
 
 DM parolası yerelde `masa`. Oyuncu, DM ekranının üstünde yazan masa koduyla girer.
+Yerelde ortam değişkeni gerekmez; boş bırakılırsa gömülü veritabanı kullanılır (`.env.example`).
 
 ## Test
 
     npm test
     npm run typecheck
+
+Son durumda 535 testin tamamı geçiyor (shared 78, server 325, web 132) ve tip kontrolü temiz.
 
 ## Yayına alma (Render + Supabase)
 
@@ -36,6 +58,7 @@ DM parolası yerelde `masa`. Oyuncu, DM ekranının üstünde yazan masa koduyla
 Canavar verisi `server/data/` altındadır: `monsters.json` (SRD'den içe aktarılır,
 `npm run import:monsters -w server`), `regions.json` (bölge etiketleri) ve
 `tr.json` (Türkçe çeviri). Çeviri kuralları `server/data/CEVIRI.md` içindedir.
+Çeviri ve etiket durumu `npm run content:status -w server` ile görülür (şu an 366/366).
 
 ## Lisans ve atıf
 
